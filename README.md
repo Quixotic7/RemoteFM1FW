@@ -31,6 +31,7 @@ shows them under About), and the exact source it was built from.
 | `minitone-1.0.1.rfm1` | Mini-Tone 1.0.1 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/5e5d09c52f8aed2cf6688c8d23a25dd91532a261) |
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
+| `s1vave-1.0.rfm1` | S1Vave 1.0 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/97303378678c247ca1d005ae641114f4544acf65) |
 | `skiff-1.4.rfm1` | Skiff 1.4 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/c01fa1ed619266d770ea6552b153612e1b77d0a9) |
 | `speak37-1.0.rfm1` | Speak37 1.0 | genkigenki | GPL-3.0-only | [genkigenki/Speak37](https://github.com/genkigenki/Speak37/tree/a617d60fca316bd8c72ac9041579367f6633c0ab) |
 
@@ -39,6 +40,10 @@ commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fd
 build glue for each firmware (`core-glue/`), the `.rfm1` shim and the tools; its `docs/RFM1.md` says how to rebuild a
 file and how firmware authors can make `.rfm1` files in their own releases. Together with each firmware's source above,
 that is the complete source of every file here.
+
+`s1vave-1.0.rfm1` was built later, from FM1VST's branch `s1vave`
+(commit [`13a66e2`](https://github.com/Quixotic7/FM1VST/tree/13a66e2e0a06cff40b732b5c4094cf4cb7187b6e), Emscripten 6.0.13). That branch adds S1Vave's glue and
+the in-module coroutine that firmwares on zvenson's Dinghy platform need as `.rfm1` files.
 
 **Firmware authors:** if you'd rather your firmware weren't listed here, or want to publish `.rfm1` files yourself,
 open an issue and it will be changed or removed.
