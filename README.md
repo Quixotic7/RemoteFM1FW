@@ -30,6 +30,7 @@ shows them under About), and the exact source it was built from.
 | `ghoulbox-2.3.2.rfm1` | GHOULBOX 2.3.2 | jasonpersinger | GPL-3.0-only | [jasonpersinger/ghoulbox-fm1-dungeon-synth](https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth/tree/71ac3f87e0a33b08831f11a89fbd6012de8024ce) |
 | `jiant-0.9.9.rfm1` | JIANT FM 0.9.9 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/0912abb2f0c71cd26252d441dc74f3cdf825e6fb) |
 | `karma-3.0.2.rfm1` | KARMA 3.0.2 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/81d45b7d026316f5d8b6340cd6568822c81885ca) |
+| `melodee-1.5.1.rfm1` | Melodee 1.5.1 | Kerem Kilic (Ellic Studio) | GPL-3.0-only (+ Apache-2.0, BSD-3-Clause, MIT, MPL-2.0, OFL-1.1 parts: its LICENSING.md) | [keremimo/melodee](https://github.com/keremimo/melodee/tree/6a608ba122ac42293908d394e26713e31ec52fb0) |
 | `minitone-1.0.1.rfm1` | Mini-Tone 1.0.1 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/5e5d09c52f8aed2cf6688c8d23a25dd91532a261) |
 | `obervave-3.3.rfm1` | OberVave 3.3 | zvenson | GPL-3.0-only | [zvenson/obervave](https://github.com/zvenson/obervave/tree/25d463be127716af3f378c5302d2d84c3c89febd) |
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
@@ -64,6 +65,12 @@ builds them as hosted files.
 `karma-3.0.2.rfm1` was added later, from FM1VST's branch `rfm1-karma`
 (commit [`b415fc4`](https://github.com/Quixotic7/FM1VST/tree/b415fc4da5130d17d80983cc5e41197b89dd1c4b), Emscripten 6.0.13).
 That branch adds KARMA's build glue (a SLOOP-family firmware, with Plaits' and Elements' models in C++).
+
+`melodee-1.5.1.rfm1` was added later, from FM1VST's branch `rfm1-melodee`
+(commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13): Melodee's latest stable
+release with its release build's options and everything its firmware has (FM6, CZ-1, Prophet, SID and x0x 909, eight
+tracks, the shared FX rack), the CZ-1 and Prophet-5 factory sounds compiled in as Melodee's own build does; USB audio
+and the USB MIDI host are left out (they need the FM-1's USB hardware).
 
 † **Hosted here, not part of the app.** SLOOP, Clipper and KARMA are built as their authors intended, with the Hügelton icon
 atlas that Felucca's licensing keeps under all rights reserved; X0X as its author ships it, with its 909 cymbal
