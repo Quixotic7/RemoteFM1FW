@@ -21,7 +21,7 @@ shows them under About), and the exact source it was built from.
 | `amb-1.3.rfm1` | AMB-1 1.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/188b0a42f20a547864e732ae5ea1339d0fbcf395) |
 | `choralroot-0.26.1.rfm1` | ChoralRoot 0.26.1 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/7d97982a7db3dad2da456a3e4d4478548b6571d9) |
 | `coralflower-0.5.rfm1` | CoralFlower 0.5 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/b5ceb997be330c8a420958eb8f4e0f4b3ca084c2) |
-| `duell-1.0.rfm1` | DUELL (unofficial build) 1.0 | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/33e2e2ed36a9d1a33a39ac1d1f06282c9045aab0) |
+| `duell-1.0.rfm1` | DUELL (unofficial build) 1.0, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/33e2e2ed36a9d1a33a39ac1d1f06282c9045aab0) |
 | `felucca-1.6.1.rfm1` | Felucca 1.6.1 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/a53ecf428c29c780108fd70a31b71a32a6b5c313) |
 | `fimba-0.6.1.rfm1` | FiMba-1 0.6.1 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/0485ed0d387ce78216428c7b19f97d77bbe10b4d) |
 | `fmini-1.8.0.rfm1` | FMini-1 1.8.0 | ruppert | GPL-3.0-only | [ruppert/fmini-1](https://github.com/ruppert/fmini-1/tree/ab0f5c83d9c3b8cf10fd2f9ef3dc760a06c3abb3) |
@@ -44,6 +44,12 @@ that is the complete source of every file here.
 `s1vave-1.0.rfm1` was built later, from FM1VST's branch `s1vave`
 (commit [`13a66e2`](https://github.com/Quixotic7/FM1VST/tree/13a66e2e0a06cff40b732b5c4094cf4cb7187b6e), Emscripten 6.0.13). That branch adds S1Vave's glue and
 the in-module coroutine that firmwares on zvenson's Dinghy platform need as `.rfm1` files.
+
+`duell-1.0.rfm1` was rebuilt later, from FM1VST's branch `duell-velocity`
+(commit [`850368e`](https://github.com/Quixotic7/FM1VST/tree/850368ef0546ec8fe955b25f80e953a3d2ff1eaa), Emscripten 6.0.13), from the same DUELL source.
+That build has DUELL's own KEY SENSE (key velocity and aftertouch) and plays the velocity and pressure of
+RemoteFM1's keys: turn on MENU › CONTROL › KEY VELOCITY for the velocity (off by default, as on the FM-1); AFTERTOUCH
+is on by default.
 
 **Firmware authors:** if you'd rather your firmware weren't listed here, or want to publish `.rfm1` files yourself,
 open an issue and it will be changed or removed.
