@@ -26,7 +26,8 @@
    "category": "Synth",
    "author": "isod89",
    "site": "https://isod89.github.io/clipper-fm1/webapp/installer/",
-   "beta": false
+   "beta": false,
+   "image": "images/clipper.png"
   },
   "coralflower": {
    "tag": "Chords, a flower grows",
@@ -97,7 +98,7 @@
    "category": "Groovebox",
    "author": "juanjiant",
    "site": "https://juanjiant-bit.github.io/JIANT/",
-   "beta": false,
+   "beta": true,
    "image": "images/jiant.png"
   },
   "karma": {
@@ -106,7 +107,8 @@
    "category": "Groovebox",
    "author": "Ariel Muchnik",
    "site": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1",
-   "beta": false
+   "beta": false,
+   "image": "images/karma.png"
   },
   "melodee": {
    "tag": "Multi-engine synth",
@@ -141,7 +143,8 @@
    "category": "Synth",
    "author": "zvenson",
    "site": "https://github.com/zvenson/obervave",
-   "beta": false
+   "beta": false,
+   "image": "images/obervave.png"
   },
   "pigeon": {
    "tag": "Performance sampler",
@@ -185,7 +188,8 @@
    "category": "Groovebox",
    "author": "isod89",
    "site": "https://github.com/isod89/sloop-fm1",
-   "beta": false
+   "beta": false,
+   "image": "images/sloop.png"
   },
   "speak37": {
    "tag": "Talking synth",
@@ -201,7 +205,8 @@
    "category": "Drums",
    "author": "C. Vestal",
    "site": "https://github.com/charlesvestal/fm1-x0x",
-   "beta": false
+   "beta": false,
+   "image": "images/x0x.png"
   }
  }
 }
