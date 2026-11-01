@@ -1,0 +1,207 @@
+{
+ "schema": 1,
+ "about": "Card text and thumbnails for the .rfm1 files of Quixotic7/RemoteFM1FW, by manifest id (catalog/SCHEMA.md).",
+ "firmwares": {
+  "amb": {
+   "tag": "Generative ambient",
+   "what": "A generative ambient machine after Music for Airports: it plays itself from the start, breathing voices, bells on tape loops of unequal length, a gliding bass. You do not perform it, you tend it.",
+   "category": "Other",
+   "author": "C. Vestal",
+   "site": "https://charlesvestal.github.io/fm1-amb/",
+   "beta": false,
+   "image": "images/amb.png"
+  },
+  "choralroot": {
+   "tag": "Chord instrument",
+   "what": "A Telepathic Orchid-style chord instrument: one hand plays roots, the other shapes chords; voicings, performance modes, bass and a looper.",
+   "category": "Chords",
+   "author": "Quixotic7",
+   "site": "https://github.com/Quixotic7/ChoralRootFM1",
+   "beta": true,
+   "image": "images/choralroot.png"
+  },
+  "clipper": {
+   "tag": "Deep synth grown out of SLOOP",
+   "what": "A deep synth grown out of SLOOP: 23 engines and 407 sounds, from HYBRID (three oscillators, two filters, a mod matrix) to six-operator FM, wavetables, wave sequencing, a Juno and physical models; arp, step sequencer, MPE and a web editor for every parameter.",
+   "category": "Synth",
+   "author": "isod89",
+   "site": "https://isod89.github.io/clipper-fm1/webapp/installer/",
+   "beta": false
+  },
+  "coralflower": {
+   "tag": "Chords, a flower grows",
+   "what": "Chords after the Orchid, with controls made for the FM-1: one key plays a chord with a bass note. Also 27 scales, an arpeggiator, a sequencer with drums and a song mode, and a pixel flower that grows as you play.",
+   "category": "Chords",
+   "author": "FicusFicusov",
+   "site": "https://ficusficusov.github.io/CoralFlower/",
+   "beta": true,
+   "image": "images/coralflower.png"
+  },
+  "duell": {
+   "tag": "Bitimbral synth",
+   "what": "A MULTIMORPHING bitimbral synth: two complete parts, three ways to play them together, and a morph that glides between two versions of every sound. Ten engines including wavetables, twin filters, effects and a mod matrix. Layer, dual or stereo mode. Velocity sensitivity and aftertouch. Dual core.",
+   "category": "Synth",
+   "author": "OSCILL/R",
+   "site": "https://github.com/oscillr/DUELL",
+   "beta": false,
+   "image": "images/duell.png"
+  },
+  "felucca": {
+   "tag": "Multi-engine synth",
+   "what": "The custom firmware the others build on: the FM-1's own synth engines, a sequencer, effects and a better panel, with an editor in the browser.",
+   "category": "Synth",
+   "author": "Hügelton",
+   "site": "https://github.com/hugelton/Felucca",
+   "beta": false,
+   "image": "images/felucca.png"
+  },
+  "fimba": {
+   "tag": "Kalimba",
+   "what": "A physically modelled kalimba: tines laid out like the real one, thumb-roll chords, mbira patterns, a sound hole to cover, grains, tape and a plate reverb. Play it in the browser first.",
+   "category": "Synth",
+   "author": "J. Sowers",
+   "site": "https://jadamsowers.github.io/fm1-fimba/",
+   "beta": true,
+   "image": "images/fimba.png"
+  },
+  "fmini": {
+   "tag": "Three-oscillator mono",
+   "what": "A three-oscillator monosynth in the spirit of the classic Moogs: a 24 dB/octave ladder filter, two contours, 100 factory patches, an arpeggiator, a sequencer and MIDI. Built on Felucca.",
+   "category": "Synth",
+   "author": "ruppert",
+   "site": "https://ruppert.github.io/fmini-1/",
+   "beta": false,
+   "image": "images/fmini.png"
+  },
+  "fomni": {
+   "tag": "Chord harp",
+   "what": "A chord harp inspired by the Omnichord: strum the white keys, pick chords on the black ones.",
+   "category": "Chords",
+   "author": "C. Vestal",
+   "site": "https://github.com/charlesvestal/fm1-fomni",
+   "beta": true,
+   "image": "images/fomni.png"
+  },
+  "ghoulbox": {
+   "tag": "Dungeon synth",
+   "what": "Dungeon synth: a cathedral hall reverb, tape and crush, a hurdy-gurdy engine, choirs, organs and recorded psaltery and harp, an old-RPG screen with wall torches.",
+   "category": "Synth",
+   "author": "J. Persinger",
+   "site": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/",
+   "beta": false,
+   "image": "images/ghoulbox.png"
+  },
+  "jiant": {
+   "tag": "Bio-synthetic OS",
+   "what": "A bio-synthetic groovebox: six tracks drawn as living beings in thermal colours, eight engines (FM6 with Dexed, analog, phase, voice…), mutating macros, song mode from SLOOP. Not yet tested much on a real FM-1.",
+   "category": "Groovebox",
+   "author": "juanjiant",
+   "site": "https://juanjiant-bit.github.io/JIANT/",
+   "beta": false,
+   "image": "images/jiant.png"
+  },
+  "karma": {
+   "tag": "Four-track groovebox",
+   "what": "A four-track groovebox: an acid bass or a Juno-style poly, physical modelling, two dozen synthesis models and a drum synth. A 64-step sequencer with song mode, generators that write parts on one chord plan, pixel characters, and USB audio with six stems, MIDI out and DAW sync.",
+   "category": "Groovebox",
+   "author": "Ariel Muchnik",
+   "site": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1",
+   "beta": false
+  },
+  "melodee": {
+   "tag": "Multi-engine synth",
+   "what": "Total playing pleasure, far beyond Felucca: recording without quantize, microtonal scales, a Casio CZ-1, a bit-by-bit Dexed, scale modes made for an MPC Sample as its companion.",
+   "category": "Synth",
+   "author": "keremimo",
+   "site": "https://github.com/keremimo/melodee",
+   "beta": true,
+   "image": "images/melodee.png"
+  },
+  "minitone": {
+   "tag": "Six-track multi-engine",
+   "what": "Felucca with six tracks and new engines: SID, Braids' 48 models, a TB-303 and engines after Elektron's Analog Four, SY Chip and Digitone 2, a ping-pong delay and a new reverb. Built on Felucca 1.5.",
+   "category": "Synth",
+   "author": "S. Schmitz",
+   "site": "https://github.com/eldontyrellcorp/Mini-Tone",
+   "beta": false,
+   "image": "images/minitone.png"
+  },
+  "mutabledreams": {
+   "author": "Kid Bunka",
+   "category": "Synth",
+   "tag": "Six-track Mutable-style synth",
+   "what": "Six synth tracks, or a Lo-Fi sample kit plus three synths, with Plaits, Rings and Elements voices inspired by Mutable Instruments. 156 factory Biomes and 352 tone presets, per-track LFOs, granular effects, 32-step sequences, chord journeys and User Banks.",
+   "site": "https://github.com/kidbee85-beep/mutable-dreams",
+   "beta": false,
+   "image": "images/mutabledreams.png"
+  },
+  "obervave": {
+   "tag": "8-voice poly synth",
+   "what": "An 8-voice analog-style poly in the spirit of the classic American polys of 1979-84, now on four tracks: each its own sound, arp and sequence; a mixer with chorus, delay, plate reverb and drive sends, a master with DJ filter and compressor. Tracks start on the bar, patterns keep their sounds.",
+   "category": "Synth",
+   "author": "zvenson",
+   "site": "https://github.com/zvenson/obervave",
+   "beta": false
+  },
+  "pigeon": {
+   "tag": "Performance sampler",
+   "what": "An old-school hip-hop and house sampler after the SP-404 and the PO-33: two song samples and a 16-pad kit, up to 32 chops a song, a 64-step sequencer, patterns and a song arrangement. Built on Felucca.",
+   "category": "Groovebox",
+   "author": "The Shrimp Blimp",
+   "site": "https://theshrimpblimp.com/pigeon/",
+   "beta": true,
+   "image": "images/pigeon.png"
+  },
+  "purplemonkey": {
+   "tag": "For a small child",
+   "what": "A first instrument for toddlers: random key bashing and knob turning are rewarded with dancing animated pets and little musical sequences. Press a key, any key.",
+   "category": "Other",
+   "author": "Quixotic7",
+   "site": "https://quixotic7.github.io/PurpleMonkeyFM1/",
+   "beta": true,
+   "image": "images/purplemonkey.png"
+  },
+  "s1vave": {
+   "tag": "Synth after the Roland S-1…",
+   "what": "A synth after the Roland S-1 and the SH-101: a punchy sub-oscillator, a resonant filter, bass and lead sounds and hands-on controls for playing live. Built on OberVave.",
+   "category": "Synth",
+   "author": "Andrew GG",
+   "site": "https://andrewgg.one/s1vave/",
+   "beta": false,
+   "image": "images/s1vave.png"
+  },
+  "skiff": {
+   "tag": "Six-track groovebox",
+   "what": "Six tracks of synths and drums with a groovebox's workflow: fourteen engines, a 64-step sequencer with chords, ratchets, trig conditions and locks, songs, PERFORM with scenes, six themes and a browser editor; FM6 sounds built from scratch on the unit. Built on Felucca, with most of Felucca 1.6.1's work brought over (the second core, MIDI LEARN, INSERT); Felucca's sounds and projects load. Also runs on the SMK-37 Pro. Coming from 1.x: 2.0 saves in new formats – update on Skiff's own page (it backs up and converts), or back up in its editor first.",
+   "category": "Groovebox",
+   "author": "illuminus5",
+   "site": "https://illuminus5.github.io/skiff/",
+   "beta": false,
+   "image": "images/skiff.png"
+  },
+  "sloop": {
+   "tag": "Live groovebox",
+   "what": "A live groovebox: tracks, layers, a step sequencer, song mode, punch-in effects and samples, played on the FM-1 in real time.",
+   "category": "Groovebox",
+   "author": "isod89",
+   "site": "https://github.com/isod89/sloop-fm1",
+   "beta": false
+  },
+  "speak37": {
+   "tag": "Talking synth",
+   "what": "The talking synth, its FM-1 build: every key speaks the next word of a sentence at its pitch and chords speak in harmony; nine voices, 20 banks of sentences and songs, RHYTHM with an 808.",
+   "category": "Other",
+   "author": "M. Geisler",
+   "beta": false,
+   "image": "images/speak37.png"
+  },
+  "x0x": {
+   "tag": "909, 808 and 303s",
+   "what": "A groovebox: 909 and 808 drums, two 303s with TB-3PO, a breakbeat generator and song mode.",
+   "category": "Drums",
+   "author": "C. Vestal",
+   "site": "https://github.com/charlesvestal/fm1-x0x",
+   "beta": false
+  }
+ }
+}
