@@ -209,6 +209,15 @@
    "beta": true,
    "image": "images/purplemonkey.png"
   },
+  "rainbow": {
+   "tag": "Music toy",
+   "what": "A music toy for little children: 63 cartoon friends, every key in tune, chords, strumming, songs to follow and an ear game, notes on a staff, a volume cap for small ears.",
+   "category": "Other",
+   "author": "J. Bartlett",
+   "site": "https://joshbartlettband-web.github.io/felucca-rainbow/",
+   "beta": false,
+   "image": "images/rainbow.png"
+  },
   "s1vave": {
    "tag": "Synth after the Roland S-1…",
    "what": "A synth after the Roland S-1 and the SH-101: a punchy sub-oscillator, a resonant filter, bass and lead sounds and hands-on controls for playing live. Built on OberVave.",

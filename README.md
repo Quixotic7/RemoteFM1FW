@@ -20,7 +20,7 @@ shows them under About), and the exact source it was built from.
 | File | Firmware | Author | Licence | Source (the commit built) |
 | --- | --- | --- | --- | --- |
 | `amb-1.3.rfm1` | AMB-1 1.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/188b0a42f20a547864e732ae5ea1339d0fbcf395) |
-| `choralroot-0.28.rfm1` | ChoralRoot 0.28 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/5b52de271eeb7e2df1bd32e1ff30dae8c32eeab6) |
+| `choralroot-0.29.rfm1` | ChoralRoot 0.29 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/8ce8c90bda85a44c6373710d99fa48f34430d331) |
 | `clipper-1.3.rfm1` | Clipper 1.3 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/fbd8434e7b501ec5d772f5c5f656c25735929369) |
 | `coralflower-0.6.1.rfm1` | CoralFlower 0.6.1 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/719b2b7bb0be33aaad29e65ffbb4687c0c4ba2b9) |
 | `duell-1.1.rfm1` | DUELL (unofficial build) 1.1, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/974d87509e7e89db0738c731c8a657968e60e498) |
@@ -42,6 +42,7 @@ shows them under About), and the exact source it was built from.
 | `obervave-3.3.rfm1` | OberVave 3.3 | zvenson | GPL-3.0-only | [zvenson/obervave](https://github.com/zvenson/obervave/tree/25d463be127716af3f378c5302d2d84c3c89febd) |
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
+| `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
 | `s1vave-1.11.rfm1` | S1Vave 1.11 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/9c0d9ee5a1ca0a7d6001979ab1c2b1f8cf3f60de) |
 | `skiff-2.1.1.rfm1` | Skiff 2.1.1 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/48e77fda5916e9a5ba9e7339161f719d8877ce49) |
 | `sloop-2.8.4.rfm1` | SLOOP 2.8.4 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/sloop-fm1](https://github.com/isod89/sloop-fm1/tree/91f30182d9095e0ecdb43396554f2ce5a67df179) |
@@ -55,8 +56,9 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
-- FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `choralroot-0.28.rfm1`, `coralflower-0.6.1.rfm1`, `skiff-2.1.1.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `obervave-3.3.rfm1`, `sloop-2.8.4.rfm1`
+- FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`, `skiff-2.1.1.rfm1`
 - FM1VST 0.6.2, commit [`2b5101d`](https://github.com/Quixotic7/FM1VST/tree/2b5101d7811a61f817585a62633961c74f29a055), Emscripten 6.0.13: `duell-1.1.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`3edb1c4`](https://github.com/Quixotic7/FM1VST/tree/3edb1c4a95495f7492d7dcaa32dfdc0a750336f3), Emscripten 6.0.13: `felucca-1.8.0.rfm1`
@@ -70,7 +72,8 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, branch `rfm1-melodee`, commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13: `melodee-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`35965a9`](https://github.com/Quixotic7/FM1VST/tree/35965a9cd9d25ed073836e7edd32ea58526d8ef9), Emscripten 6.0.13: `minitone-1.0.5.rfm1`
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
+- FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
+- FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
 - FM1VST 0.6.2, commit [`d7fe2f1`](https://github.com/Quixotic7/FM1VST/tree/d7fe2f1029462824a25a02059bf6c48bc03e38dd), Emscripten 6.0.13: `x0x-1.2.0.rfm1`
