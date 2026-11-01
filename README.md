@@ -38,6 +38,7 @@ shows them under About), and the exact source it was built from.
 | `melodee-1.5.1.rfm1` | Melodee 1.5.1 | Kerem Kilic (Ellic Studio) | GPL-3.0-only (+ Apache-2.0, BSD-3-Clause, MIT, MPL-2.0, OFL-1.1 parts: its LICENSING.md) | [keremimo/melodee](https://github.com/keremimo/melodee/tree/6a608ba122ac42293908d394e26713e31ec52fb0) |
 | `minitone-1.0.5.rfm1` | Mini-Tone 1.0.5 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/6803c6c29e3402fcc0c4af7c2050df987d9b66b5) |
 | `mutabledreams-1.4.rfm1` | Mutable Dreams 1.4 | Kid Bunka / Christoph Link | GPL-3.0-only | [kidbee85-beep/mutable-dreams](https://github.com/kidbee85-beep/mutable-dreams/tree/032155147887f99583be1728c98dd318a9d81973) |
+| `niagaradrift-0.2.rfm1` | Niagara Drift 0.2 | Evan Yerburgh | GPL-3.0-only | [evanyerburgh/niagara-drift](https://github.com/evanyerburgh/niagara-drift/tree/802daa818af060293cae77afec013df3dec0a060) |
 | `obervave-3.3.rfm1` | OberVave 3.3 | zvenson | GPL-3.0-only | [zvenson/obervave](https://github.com/zvenson/obervave/tree/25d463be127716af3f378c5302d2d84c3c89febd) |
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
@@ -60,7 +61,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`3edb1c4`](https://github.com/Quixotic7/FM1VST/tree/3edb1c4a95495f7492d7dcaa32dfdc0a750336f3), Emscripten 6.0.13: `felucca-1.8.0.rfm1`
 - FM1VST 0.6.2, commit [`1b522e2`](https://github.com/Quixotic7/FM1VST/tree/1b522e23a901073d07cf626478d9d196a31cf6af), Emscripten 6.0.13: `fmini-1.14.3.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`5511e44`](https://github.com/Quixotic7/FM1VST/tree/5511e445a2a6bfd3d2c1637313d947be6d4a49b4), Emscripten 6.0.13: `frasil-2.6.rfm1`
+- FM1VST 0.6.2, commit [`5511e44`](https://github.com/Quixotic7/FM1VST/tree/5511e445a2a6bfd3d2c1637313d947be6d4a49b4), Emscripten 6.0.13: `frasil-2.6.rfm1`
 - FM1VST 0.6.2, commit [`7598bb3`](https://github.com/Quixotic7/FM1VST/tree/7598bb379942eace08e3eae99270da62ba0a84e9), Emscripten 6.0.13: `ghoulbox-2.4.rfm1`
 - FM1VST 0.6.2, commit [`1eee380`](https://github.com/Quixotic7/FM1VST/tree/1eee3804149b760b55d776021e9464ffb377005a), Emscripten 6.0.13: `grimm-2.0.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
@@ -69,6 +70,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, branch `rfm1-melodee`, commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13: `melodee-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`35965a9`](https://github.com/Quixotic7/FM1VST/tree/35965a9cd9d25ed073836e7edd32ea58526d8ef9), Emscripten 6.0.13: `minitone-1.0.5.rfm1`
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
 - FM1VST 0.6.2, commit [`d7fe2f1`](https://github.com/Quixotic7/FM1VST/tree/d7fe2f1029462824a25a02059bf6c48bc03e38dd), Emscripten 6.0.13: `x0x-1.2.0.rfm1`

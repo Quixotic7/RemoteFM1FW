@@ -173,6 +173,15 @@
    "beta": false,
    "image": "images/mutabledreams.png"
   },
+  "niagaradrift": {
+   "author": "E. Yerburgh",
+   "category": "Synth",
+   "tag": "Drone synth",
+   "what": "Two drones that breathe and drift on their own, after the Lyra-8, Subharmonicon and DS-2: twelve presets on the white keys, gestures and scenes to move them, an LFO, delay and a reverb that freezes. Press PLAY to fade them in.",
+   "site": "https://evanyerburgh.github.io/niagara-drift/",
+   "beta": false,
+   "image": "images/niagaradrift.png"
+  },
   "obervave": {
    "tag": "8-voice poly synth",
    "what": "An 8-voice analog-style poly in the spirit of the classic American polys of 1979-84, now on four tracks: each its own sound, arp and sequence; a mixer with chorus, delay, plate reverb and drive sends, a master with DJ filter and compressor. Tracks start on the bar, patterns keep their sounds.",
