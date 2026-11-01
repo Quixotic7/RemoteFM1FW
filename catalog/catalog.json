@@ -243,7 +243,8 @@
    "what": "Instruments written in Lua (droplets) playing sounds written in Faust or C (currents), inspired by norns. Built-in droplets to start; add your own as Lua scripts in your RemoteFM1 folder (code/ripple/droplets) and pick \"reload folder\". A Fantasy CFW: runs in RemoteFM1 only, never on an FM-1.",
    "site": "https://charlesvestal.github.io/fm1-ripple/",
    "beta": false,
-   "virtual": true
+   "virtual": true,
+   "image": "images/ripple.png"
   },
   "s1vave": {
    "tag": "Synth after the Roland S-1…",
