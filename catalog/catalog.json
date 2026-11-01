@@ -11,6 +11,15 @@
    "beta": false,
    "image": "images/amb.png"
   },
+  "aurora": {
+   "author": "twochannels",
+   "category": "Synth",
+   "tag": "Cinematic pads",
+   "what": "Epic film sounds: an eight-voice spectral pad of sine partials that drifts on its own, a swarm of saws, shaped wind, a shimmer plate, a tape delay and a freeze that holds a cloud of grains. Every page is a picture the four knobs shift, and HOME is an aurora bent by the sound.",
+   "site": "https://twochannels.github.io/AURORA/",
+   "beta": true,
+   "image": "images/aurora.png"
+  },
   "caravel": {
    "tag": "Felucca continued",
    "what": "Felucca continued: a multi-engine synth with ANALOG, SEM, HADES, PHASE, TRIO, a tonewheel, FM6, physical models, voices, samples, grain and slices, drums, noise and an experimental DRONE engine. Pair Morph blends two engines, a HOME screen of your own and free macros a track for live sound design.",

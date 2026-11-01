@@ -20,6 +20,7 @@ shows them under About), and the exact source it was built from.
 | File | Firmware | Author | Licence | Source (the commit built) |
 | --- | --- | --- | --- | --- |
 | `amb-1.3.rfm1` | AMB-1 1.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/188b0a42f20a547864e732ae5ea1339d0fbcf395) |
+| `aurora-0.7.7.rfm1` | AURORA 0.7.7 | twochannels | GPL-3.0-only | [twochannels/AURORA](https://github.com/twochannels/AURORA/tree/befdbfa80e88457ac5ebf48d7163250e05b030f8) |
 | `caravel-0.8.0.rfm1` | Caravel 0.8.0 | bonszaimusic | GPL-3.0-only | [bonszaimusic/caravel](https://github.com/bonszaimusic/caravel/tree/3b7a7d222fa5c5553addc88b6301cb7b526a6a9a) |
 | `choralroot-0.29.rfm1` | ChoralRoot 0.29 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/8ce8c90bda85a44c6373710d99fa48f34430d331) |
 | `clipper-1.3.rfm1` | Clipper 1.3 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/fbd8434e7b501ec5d772f5c5f656c25735929369) |
@@ -59,6 +60,7 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`9b4a94c`](https://github.com/Quixotic7/FM1VST/tree/9b4a94c470bab5ca8e4a4e5b04b7de430be73881), Emscripten 6.0.13: `aurora-0.7.7.rfm1`
 - FM1VST 0.6.2, commit [`f7fb87d`](https://github.com/Quixotic7/FM1VST/tree/f7fb87d802e060fc7c5b44591f8bddd1922eed77), Emscripten 6.0.13: `caravel-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `obervave-3.3.rfm1`, `sloop-2.8.4.rfm1`
@@ -79,7 +81,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
 - FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
 - FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
+- FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
 - FM1VST 0.6.2, commit [`d7fe2f1`](https://github.com/Quixotic7/FM1VST/tree/d7fe2f1029462824a25a02059bf6c48bc03e38dd), Emscripten 6.0.13: `x0x-1.2.0.rfm1`
