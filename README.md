@@ -45,6 +45,7 @@ shows them under About), and the exact source it was built from.
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
 | `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
+| `ripple-0.4.rfm1` | Ripple 0.4 ‡ | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ripple](https://github.com/charlesvestal/fm1-ripple/tree/34956a11bb9a0c0163799a67c88a9fe52f9616ec) |
 | `s1vave-1.11.rfm1` | S1Vave 1.11 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/9c0d9ee5a1ca0a7d6001979ab1c2b1f8cf3f60de) |
 | `skiff-2.1.1.rfm1` | Skiff 2.1.1 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/48e77fda5916e9a5ba9e7339161f719d8877ce49) |
 | `sloop-2.8.4.rfm1` | SLOOP 2.8.4 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/sloop-fm1](https://github.com/isod89/sloop-fm1/tree/91f30182d9095e0ecdb43396554f2ce5a67df179) |
@@ -69,7 +70,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`5511e44`](https://github.com/Quixotic7/FM1VST/tree/5511e445a2a6bfd3d2c1637313d947be6d4a49b4), Emscripten 6.0.13: `frasil-2.6.rfm1`
 - FM1VST 0.6.2, commit [`7598bb3`](https://github.com/Quixotic7/FM1VST/tree/7598bb379942eace08e3eae99270da62ba0a84e9), Emscripten 6.0.13: `ghoulbox-2.4.rfm1`
 - FM1VST 0.6.2, commit [`ccc7746`](https://github.com/Quixotic7/FM1VST/tree/ccc77467047fabb2bfe12b60d3c81d1997046252), Emscripten 6.0.13: `grimm-2.0.1.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`1b09950`](https://github.com/Quixotic7/FM1VST/tree/1b099508dbc0ad0bf02af04086a748069dc4f659), Emscripten 6.0.13: `hortator-0.26.0.rfm1`
+- FM1VST 0.6.2, commit [`1b09950`](https://github.com/Quixotic7/FM1VST/tree/1b099508dbc0ad0bf02af04086a748069dc4f659), Emscripten 6.0.13: `hortator-0.26.0.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
 - FM1VST 0.6.2, commit [`54084b4`](https://github.com/Quixotic7/FM1VST/tree/54084b4911ef30a1f69d5d75a3a2a5eada01eaf2), Emscripten 6.0.13: `jiant-10.26.rfm1`
 - FM1VST 0.6.2, commit [`926f899`](https://github.com/Quixotic7/FM1VST/tree/926f8996ce0f69d11d57cef02551488899247498), Emscripten 6.0.13: `karma-3.0.3.rfm1`
@@ -78,6 +79,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
 - FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
 - FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
 - FM1VST 0.6.2, commit [`d7fe2f1`](https://github.com/Quixotic7/FM1VST/tree/d7fe2f1029462824a25a02059bf6c48bc03e38dd), Emscripten 6.0.13: `x0x-1.2.0.rfm1`
@@ -125,6 +127,11 @@ doesn't bundle them, it downloads and runs the file you choose.
 - **FRASIL:** its name and logo, which its LICENSING.md lets be shared only unchanged, as part of FRASIL's own packages.
 - **Rainbow Mode:** its pictures of friends drawn after TV and film characters (original drawings; LOOK-ALIKES OFF
   swaps them for stand-ins, but every build includes them).
+
+‡ **Fantasy CFW: runs in RemoteFM1 apps only, never on an FM-1.** These `.rfm1` files are made for RemoteFM1's
+hosts (the site, the apps): they use more memory than an FM-1 has and read files from your RemoteFM1 folder (Ripple's
+droplets: `code/ripple/droplets`, `code/ripple/lib`). They have no device package, and a host that can't give them
+the folder says it needs a newer RemoteFM1.
 
 **Firmware authors:** if you'd rather your firmware weren't listed here, or want to publish `.rfm1` files yourself,
 open an issue and it will be changed or removed.

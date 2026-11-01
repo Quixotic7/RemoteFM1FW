@@ -236,6 +236,15 @@
    "beta": false,
    "image": "images/rainbow.png"
   },
+  "ripple": {
+   "author": "Charles Vestal",
+   "category": "Other",
+   "tag": "Lua droplets, Fantasy CFW",
+   "what": "Instruments written in Lua (droplets) playing sounds written in Faust or C (currents), inspired by norns. Built-in droplets to start; add your own as Lua scripts in your RemoteFM1 folder (code/ripple/droplets) and pick \"reload folder\". A Fantasy CFW: runs in RemoteFM1 only, never on an FM-1.",
+   "site": "https://charlesvestal.github.io/fm1-ripple/",
+   "beta": false,
+   "virtual": true
+  },
   "s1vave": {
    "tag": "Synth after the Roland S-1…",
    "what": "A synth after the Roland S-1 and the SH-101: a punchy sub-oscillator, a resonant filter, bass and lead sounds and hands-on controls for playing live. Built on OberVave.",

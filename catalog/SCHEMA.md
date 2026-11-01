@@ -17,12 +17,16 @@ manifest (the `rfm1` custom section, RemoteFM1IOS docs/RFM1-FORMAT.md section 4)
       "tag": "a short subtitle",
       "what": "the description RemoteFM1 (site and iOS app) shows for the firmware: one paragraph",
       "site": "https://... (optional: the firmware's own page)",
-      "beta": false
+      "beta": false,
+      "virtual": true
     }
   }
 }
 ```
 
+- `virtual` (only when true) marks a Fantasy CFW: the file's manifest says `"virtual": true` (FM1VST docs/VIRTUAL-CARTS.md).
+  It runs in RemoteFM1's apps only, never on an FM-1, and has no device package. RFM1Manager copies it from the manifest
+  when it stages a release; don't set it by hand.
 - Keys of `firmwares` are manifest ids (`[a-z0-9_]{1,31}`). Every field is optional; unknown fields are ignored.
 - `image` is relative to `catalog/`; PNG, JPEG or WebP, square, 512 px recommended, at most 1 MiB.
 - Readers fetch `https://raw.githubusercontent.com/Quixotic7/RemoteFM1FW/<tag or main>/catalog/catalog.json` and images
