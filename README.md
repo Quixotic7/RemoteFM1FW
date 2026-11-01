@@ -20,20 +20,22 @@ shows them under About), and the exact source it was built from.
 | File | Firmware | Author | Licence | Source (the commit built) |
 | --- | --- | --- | --- | --- |
 | `amb-1.3.rfm1` | AMB-1 1.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/188b0a42f20a547864e732ae5ea1339d0fbcf395) |
+| `caravel-0.8.0.rfm1` | Caravel 0.8.0 | bonszaimusic | GPL-3.0-only | [bonszaimusic/caravel](https://github.com/bonszaimusic/caravel/tree/3b7a7d222fa5c5553addc88b6301cb7b526a6a9a) |
 | `choralroot-0.29.rfm1` | ChoralRoot 0.29 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/8ce8c90bda85a44c6373710d99fa48f34430d331) |
 | `clipper-1.3.rfm1` | Clipper 1.3 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/fbd8434e7b501ec5d772f5c5f656c25735929369) |
 | `coralflower-0.6.1.rfm1` | CoralFlower 0.6.1 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/719b2b7bb0be33aaad29e65ffbb4687c0c4ba2b9) |
 | `duell-1.1.rfm1` | DUELL (unofficial build) 1.1, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/974d87509e7e89db0738c731c8a657968e60e498) |
 | `fartmachine-1.1.0.rfm1` | Fart Machine One 1.1.0 † | Trust This Mechanism | GPL-3.0-only | [adamcharleswilsonmusic-code/Fart-Machine-One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One/tree/5e49a216c18c6e0a7e5e42bef43843b40ad9ea5f) |
-| `felucca-1.8.0.rfm1` | Felucca 1.8.0 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/9f62297c2db627bbcb20d7ce896683a17318674c) |
+| `felucca-1.8.1.rfm1` | Felucca 1.8.1 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/f4df2964649f301ba5abd0ec6000110068672f25) |
 | `fimba-0.6.1.rfm1` | FiMba-1 0.6.1 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/0485ed0d387ce78216428c7b19f97d77bbe10b4d) |
 | `fmini-1.14.3.rfm1` | FMini-1 1.14.3 | ruppert | GPL-3.0-only | [ruppert/fmini-1](https://github.com/ruppert/fmini-1/tree/983901a72cfda407d66d0d3ae7194d0f3cc8d186) |
 | `fomni-0.4.rfm1` | FoMni-1 0.4 | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-fomni](https://github.com/charlesvestal/fm1-fomni/tree/6ecd227013cc18def0e89d035b3760eb268b342b) |
 | `frasil-2.6.rfm1` | FRASIL 2.6 † | Styves Goupil | MPL-2.0 | [styvesgoupil/frasil](https://github.com/styvesgoupil/frasil/tree/13a8bc1215c086103d40fad745361577db443332) |
 | `ghoulbox-2.4.rfm1` | GHOULBOX 2.4 | jasonpersinger | GPL-3.0-only | [jasonpersinger/ghoulbox-fm1-dungeon-synth](https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth/tree/9f2b9a22e456d7fe9552b40f7a1d0c13200913bb) |
-| `grimm-2.0.rfm1` | GR!MM 2.0 | GRiMMBIENT | GPL-3.0-only | [GRiMMBIENT/grimm](https://github.com/GRiMMBIENT/grimm/tree/f272a35b827593b9e35b0f88487040a6b92f1506) |
+| `grimm-2.0.1.rfm1` | GR!MM 2.0.1 | GRiMMBIENT | GPL-3.0-only | [GRiMMBIENT/grimm](https://github.com/GRiMMBIENT/grimm/tree/f14f21593e7fc439a2a640e859ff36f6c8c1fe0d) |
+| `hortator-0.26.0.rfm1` | Hortator 0.26.0 | DEADACTIVE, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [deadactive/hortator](https://github.com/deadactive/hortator/tree/4e40f27232518e34881d02727eb3df3ee9940f03) |
 | `hyp1-1.5.54.rfm1` | HYP-1 1.5.54 | RedtailWorks | GPL-3.0-only | [RustyPawz/fm1-HYP1](https://github.com/RustyPawz/fm1-HYP1/tree/57c456db61826331d356458c9c1a136517da7cbf) |
-| `jiant-10.9.rfm1` | JIANT FM 10.9 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/f46764d74836d5c77e767be1b48d9ff963f5fad6) |
+| `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.0.3.rfm1` | KARMA 3.0.3 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/739b6c9c2e5df81885b88d4cdf97a3bb0ae329e8) |
 | `melodee-1.5.1.rfm1` | Melodee 1.5.1 | Kerem Kilic (Ellic Studio) | GPL-3.0-only (+ Apache-2.0, BSD-3-Clause, MIT, MPL-2.0, OFL-1.1 parts: its LICENSING.md) | [keremimo/melodee](https://github.com/keremimo/melodee/tree/6a608ba122ac42293908d394e26713e31ec52fb0) |
 | `minitone-1.0.5.rfm1` | Mini-Tone 1.0.5 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/6803c6c29e3402fcc0c4af7c2050df987d9b66b5) |
@@ -56,23 +58,25 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
+- FM1VST 0.6.2, commit [`f7fb87d`](https://github.com/Quixotic7/FM1VST/tree/f7fb87d802e060fc7c5b44591f8bddd1922eed77), Emscripten 6.0.13: `caravel-0.8.0.rfm1`
+- FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `obervave-3.3.rfm1`, `sloop-2.8.4.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`, `skiff-2.1.1.rfm1`
 - FM1VST 0.6.2, commit [`2b5101d`](https://github.com/Quixotic7/FM1VST/tree/2b5101d7811a61f817585a62633961c74f29a055), Emscripten 6.0.13: `duell-1.1.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
-- FM1VST 0.6.2, commit [`3edb1c4`](https://github.com/Quixotic7/FM1VST/tree/3edb1c4a95495f7492d7dcaa32dfdc0a750336f3), Emscripten 6.0.13: `felucca-1.8.0.rfm1`
+- FM1VST 0.6.2, commit [`e884bbe`](https://github.com/Quixotic7/FM1VST/tree/e884bbeef6cb581058b73004c67a9dee17348ec7), Emscripten 6.0.13: `felucca-1.8.1.rfm1`
 - FM1VST 0.6.2, commit [`1b522e2`](https://github.com/Quixotic7/FM1VST/tree/1b522e23a901073d07cf626478d9d196a31cf6af), Emscripten 6.0.13: `fmini-1.14.3.rfm1`
 - FM1VST 0.6.2, commit [`5511e44`](https://github.com/Quixotic7/FM1VST/tree/5511e445a2a6bfd3d2c1637313d947be6d4a49b4), Emscripten 6.0.13: `frasil-2.6.rfm1`
 - FM1VST 0.6.2, commit [`7598bb3`](https://github.com/Quixotic7/FM1VST/tree/7598bb379942eace08e3eae99270da62ba0a84e9), Emscripten 6.0.13: `ghoulbox-2.4.rfm1`
-- FM1VST 0.6.2, commit [`1eee380`](https://github.com/Quixotic7/FM1VST/tree/1eee3804149b760b55d776021e9464ffb377005a), Emscripten 6.0.13: `grimm-2.0.rfm1`
+- FM1VST 0.6.2, commit [`ccc7746`](https://github.com/Quixotic7/FM1VST/tree/ccc77467047fabb2bfe12b60d3c81d1997046252), Emscripten 6.0.13: `grimm-2.0.1.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`1b09950`](https://github.com/Quixotic7/FM1VST/tree/1b099508dbc0ad0bf02af04086a748069dc4f659), Emscripten 6.0.13: `hortator-0.26.0.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
-- FM1VST 0.6.2, commit [`44f3455`](https://github.com/Quixotic7/FM1VST/tree/44f3455f51ef39154960437390243d5c4c4a2d4b), Emscripten 6.0.13: `jiant-10.9.rfm1`
+- FM1VST 0.6.2, commit [`54084b4`](https://github.com/Quixotic7/FM1VST/tree/54084b4911ef30a1f69d5d75a3a2a5eada01eaf2), Emscripten 6.0.13: `jiant-10.26.rfm1`
 - FM1VST 0.6.2, commit [`926f899`](https://github.com/Quixotic7/FM1VST/tree/926f8996ce0f69d11d57cef02551488899247498), Emscripten 6.0.13: `karma-3.0.3.rfm1`
 - FM1VST 0.6.2, branch `rfm1-melodee`, commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13: `melodee-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`35965a9`](https://github.com/Quixotic7/FM1VST/tree/35965a9cd9d25ed073836e7edd32ea58526d8ef9), Emscripten 6.0.13: `minitone-1.0.5.rfm1`
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
-- FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
+- FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
 - FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
@@ -111,10 +115,16 @@ release with its release build's options and everything its firmware has (FM6, C
 tracks, the shared FX rack), the CZ-1 and Prophet-5 factory sounds compiled in as Melodee's own build does; USB audio
 and the USB MIDI host are left out (they need the FM-1's USB hardware).
 
-† **Hosted here, not part of the app.** SLOOP, Clipper and KARMA are built as their authors intended, with the Hügelton icon
-atlas that Felucca's licensing keeps under all rights reserved; X0X as its author ships it, with its 909 cymbal
-samples. These files are only hosted here for download: RemoteFM1 doesn't bundle them, it downloads and runs the
-file you choose.
+† **Hosted here, not part of the app.** These firmwares carry something their licences don't let anyone freely
+redistribute on its own. Each is built exactly as its author ships it and only hosted here for download: RemoteFM1
+doesn't bundle them, it downloads and runs the file you choose.
+
+- **SLOOP, Clipper and KARMA:** the Hügelton icon atlas, which Felucca's licensing keeps under all rights reserved.
+- **X0X:** its 909 cymbal samples.
+- **Fart Machine One:** its recordings.
+- **FRASIL:** its name and logo, which its LICENSING.md lets be shared only unchanged, as part of FRASIL's own packages.
+- **Rainbow Mode:** its pictures of friends drawn after TV and film characters (original drawings; LOOK-ALIKES OFF
+  swaps them for stand-ins, but every build includes them).
 
 **Firmware authors:** if you'd rather your firmware weren't listed here, or want to publish `.rfm1` files yourself,
 open an issue and it will be changed or removed.

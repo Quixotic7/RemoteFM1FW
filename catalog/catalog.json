@@ -11,6 +11,15 @@
    "beta": false,
    "image": "images/amb.png"
   },
+  "caravel": {
+   "tag": "Felucca continued",
+   "what": "Felucca continued: a multi-engine synth with ANALOG, SEM, HADES, PHASE, TRIO, a tonewheel, FM6, physical models, voices, samples, grain and slices, drums, noise and an experimental DRONE engine. Pair Morph blends two engines, a HOME screen of your own and free macros a track for live sound design.",
+   "category": "Synth",
+   "author": "BonszaiMusic",
+   "site": "https://bonszaimusic.github.io/caravel/webapp/installer/",
+   "beta": true,
+   "image": "images/caravel.png"
+  },
   "choralroot": {
    "tag": "Chord instrument",
    "what": "A Telepathic Orchid-style chord instrument: one hand plays roots, the other shapes chords; voicings, performance modes, bass and a looper.",
@@ -118,6 +127,15 @@
    "author": "GRiMMBIENT",
    "site": "https://grimmbient.github.io/grimm/",
    "beta": false
+  },
+  "hortator": {
+   "tag": "Drum machine",
+   "what": "A drum machine: eight tracks of drums, a step sequencer, Grids, a pumping compressor, LFOs, resonators and live effects. Press PLAY to hear the power-on pattern.",
+   "category": "Drums",
+   "author": "DEADACTIVE",
+   "site": "https://deadactive.github.io/hortator/",
+   "beta": true,
+   "image": "images/hortator.png"
   },
   "hyp1": {
    "author": "RedtailWorks",
