@@ -287,6 +287,16 @@
    "editor": "https://joshbartlettband-web.github.io/felucca-rainbow/webapp/editor/",
    "port": "Felucca"
   },
+  "ravel": {
+   "image": "images/ravel.png",
+   "author": "De-Pattern",
+   "category": "Groovebox",
+   "tag": "Sound-design groovebox",
+   "what": "A pocket groovebox for sound design: eight tracks that synthesize, strike and drum, and play, excite and reshape one another through an influence grid. Thirteen synth engines (VA, a full Casio CZ, FM, physical models, formant, wavetable, organ, TINE and more), struck bodies, 33 drum machines after the Machinedrum, an arp, articulation envelopes and a glue compressor.",
+   "site": "https://de-pattern.github.io/Ravel_FM1/",
+   "port": "Ravel FM-1",
+   "beta": false
+  },
   "remotefm1": {
    "image": "images/remotefm1.png",
    "author": "Quixotic7",
