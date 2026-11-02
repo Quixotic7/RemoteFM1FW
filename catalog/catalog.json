@@ -168,7 +168,6 @@
    "site": "https://deadactive.github.io/hortator/",
    "beta": true,
    "image": "images/hortator.png",
-   "editor": "https://deadactive.github.io/hortator/webapp/editor/",
    "port": "Hortator"
   },
   "hyp1": {
