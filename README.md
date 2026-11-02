@@ -20,41 +20,70 @@ shows them under About), and the exact source it was built from.
 | File | Firmware | Author | Licence | Source (the commit built) |
 | --- | --- | --- | --- | --- |
 | `amb-1.3.rfm1` | AMB-1 1.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/188b0a42f20a547864e732ae5ea1339d0fbcf395) |
+| `arcticscream-1.3.1.rfm1` | Arctic Scream p0larpatch 1.3.1 | PolarPatch | GPL-3.0-only | [PolarPatch/Arctic-scream-FM-1](https://github.com/PolarPatch/Arctic-scream-FM-1/tree/a616332a3d22dc5e2d4ff8be89382d9cb942110e) |
 | `aurora-0.7.7.rfm1` | AURORA 0.7.7 | twochannels | GPL-3.0-only | [twochannels/AURORA](https://github.com/twochannels/AURORA/tree/befdbfa80e88457ac5ebf48d7163250e05b030f8) |
+| `berlinan-0.5.1.rfm1` | Berlinan 0.5.1 | Jiří Píša | GPL-2.0-or-later | [jiripisa/fm1-berlinan](https://github.com/jiripisa/fm1-berlinan/tree/afe2d937442fd248d145a34e8907d1c67ee4c3d6) |
+| `bytemania-1.2.0.rfm1` | Bytemania 1.2.0 | llozd | GPL-3.0-only | [llozd/bytemania](https://github.com/llozd/bytemania/tree/e670b35369f8556ee82683f35c6b8bfbcb366155) |
 | `caravel-0.8.0.rfm1` | Caravel 0.8.0 | bonszaimusic | GPL-3.0-only | [bonszaimusic/caravel](https://github.com/bonszaimusic/caravel/tree/3b7a7d222fa5c5553addc88b6301cb7b526a6a9a) |
+| `carnacos-0.9.6.rfm1` | Carnac OS 0.9.6 | OrbVorgis | GPL-3.0-only | [OwenKirby/carnac-os](https://github.com/OwenKirby/carnac-os/tree/55cf5b5391951c3393972c83b937e8af344c1ddd) |
+| `chipbox-1.3.3.rfm1` | Chipbox 1.3.3 | pbarilla | GPL-3.0-only | [pbarilla/chipbox](https://github.com/pbarilla/chipbox/tree/48510318cffe4db2a5ceccfc153a65dcd6c8d6ff) |
 | `choralroot-0.29.rfm1` | ChoralRoot 0.29 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/8ce8c90bda85a44c6373710d99fa48f34430d331) |
 | `clipper-1.3.rfm1` | Clipper 1.3 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/fbd8434e7b501ec5d772f5c5f656c25735929369) |
 | `coralflower-0.6.1.rfm1` | CoralFlower 0.6.1 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/719b2b7bb0be33aaad29e65ffbb4687c0c4ba2b9) |
+| `ctl1-1.0.rfm1` | CTL-1 1.0 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ctl](https://github.com/charlesvestal/fm1-ctl/tree/c3c2a7e51f3d14dd7a94f8b3775e838f097ec367) |
 | `duell-1.1.rfm1` | DUELL (unofficial build) 1.1, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/974d87509e7e89db0738c731c8a657968e60e498) |
+| `dungeontracker-1.0.0.rfm1` | Dungeon Tracker 1.0.0 | BourbonWX | GPL-3.0-only | [BourbonWX/Dungeon-Tracker](https://github.com/BourbonWX/Dungeon-Tracker/tree/9d2ad657a154e8c09eb506a5123bb4608f85ecf4) |
+| `etch-1.88.rfm1` | ETCH 1.88 | SikkenWorks (Joppe Sikken), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/ETCH](https://github.com/SikkenWorks/ETCH/tree/2eaaad834f153f64dfae0b910e664e17acbb6901) |
 | `fartmachine-1.1.0.rfm1` | Fart Machine One 1.1.0 † | Trust This Mechanism | GPL-3.0-only | [adamcharleswilsonmusic-code/Fart-Machine-One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One/tree/5e49a216c18c6e0a7e5e42bef43843b40ad9ea5f) |
 | `felucca-1.8.1.rfm1` | Felucca 1.8.1 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/f4df2964649f301ba5abd0ec6000110068672f25) |
 | `fimba-0.6.1.rfm1` | FiMba-1 0.6.1 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/0485ed0d387ce78216428c7b19f97d77bbe10b4d) |
+| `fmel1-1.0.rfm1` | FMEL-1 1.0 † | AntonioAltea | GPL-3.0-only | [AntonioAltea/fmel-1](https://github.com/AntonioAltea/fmel-1/tree/2d69b3892a2eac2ed6f4eef1d82cf5d6de9c87a8) |
 | `fmini-1.14.3.rfm1` | FMini-1 1.14.3 | ruppert | GPL-3.0-only | [ruppert/fmini-1](https://github.com/ruppert/fmini-1/tree/983901a72cfda407d66d0d3ae7194d0f3cc8d186) |
 | `fomni-0.4.rfm1` | FoMni-1 0.4 | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-fomni](https://github.com/charlesvestal/fm1-fomni/tree/6ecd227013cc18def0e89d035b3760eb268b342b) |
 | `frasil-2.6.rfm1` | FRASIL 2.6 † | Styves Goupil | MPL-2.0 | [styvesgoupil/frasil](https://github.com/styvesgoupil/frasil/tree/13a8bc1215c086103d40fad745361577db443332) |
 | `ghoulbox-2.4.rfm1` | GHOULBOX 2.4 | jasonpersinger | GPL-3.0-only | [jasonpersinger/ghoulbox-fm1-dungeon-synth](https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth/tree/9f2b9a22e456d7fe9552b40f7a1d0c13200913bb) |
 | `grimm-2.0.1.rfm1` | GR!MM 2.0.1 | GRiMMBIENT | GPL-3.0-only | [GRiMMBIENT/grimm](https://github.com/GRiMMBIENT/grimm/tree/f14f21593e7fc439a2a640e859ff36f6c8c1fe0d) |
+| `guitchordi-0.1.0-beta.1.rfm1` | GuitChordi 0.1.0-beta.1 | Stoogs | GPL-3.0-only | [stoogs/guitchordi](https://github.com/stoogs/guitchordi/tree/09a4f170d76e7e6b1fad6cb3f3609553eabaf498) |
+| `hawkchua-1.7.rfm1` | HAWK CHUA 1.7 | plieuwski, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [Plieuw/hawk-chua](https://github.com/Plieuw/hawk-chua/tree/b29d6a0b40f13092eefb6ded7ccfe364ea244b16) |
 | `hortator-0.26.0.rfm1` | Hortator 0.26.0 | DEADACTIVE, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [deadactive/hortator](https://github.com/deadactive/hortator/tree/4e40f27232518e34881d02727eb3df3ee9940f03) |
 | `hyp1-1.5.54.rfm1` | HYP-1 1.5.54 | RedtailWorks | GPL-3.0-only | [RustyPawz/fm1-HYP1](https://github.com/RustyPawz/fm1-HYP1/tree/57c456db61826331d356458c9c1a136517da7cbf) |
 | `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.0.3.rfm1` | KARMA 3.0.3 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/739b6c9c2e5df81885b88d4cdf97a3bb0ae329e8) |
+| `kwasub-1.0.46.rfm1` | K-WASUB 1.0.46 | Guizmoh | GPL-3.0-only | [Guizmoh/K-WASUB_Firmware_for_FM1](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1/tree/d7fa87d4d73f67ef54b2bc60aaa5d3c2dfc49231) |
+| `matryoshka-1.8.2.rfm1` | Matryoshka 1.8.2 | michael glaviano (glvno), morgulbrut | GPL-3.0-only | [glvno/matryoshka](https://github.com/glvno/matryoshka/tree/256be5467d0bb9f3b82fd8cf9756f1f10fb79ab1) |
 | `melodee-1.5.1.rfm1` | Melodee 1.5.1 | Kerem Kilic (Ellic Studio) | GPL-3.0-only (+ Apache-2.0, BSD-3-Clause, MIT, MPL-2.0, OFL-1.1 parts: its LICENSING.md) | [keremimo/melodee](https://github.com/keremimo/melodee/tree/6a608ba122ac42293908d394e26713e31ec52fb0) |
 | `minitone-1.0.5.rfm1` | Mini-Tone 1.0.5 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/6803c6c29e3402fcc0c4af7c2050df987d9b66b5) |
+| `mnm1-1.0.1.rfm1` | MNM-1 1.0.1 | galfaroth, DEADACTIVE, Leo Kuroshita (Hügelton Instruments), Inigo Hernandez | GPL-3.0-only | [galfaroth/mnm1](https://github.com/galfaroth/mnm1/tree/2c7aee4c277bb642404c4638dbc77a360d36cf55) |
+| `modelar-0.3.rfm1` | MODELAR 0.3 | Hirakos | MPL-2.0 | [hirakos999/MODELAR](https://github.com/hirakos999/MODELAR/tree/89475ca2586d6861cc35cd62ea2e1f23a574d9cc) |
+| `mono2k-1.6.2.rfm1` | MONO2K 1.6.2 | Iñigo Hernandez (Sequencist) | GPL-3.0-only | [InigoHernandez/mono2k](https://github.com/InigoHernandez/mono2k/tree/3ebaff9cbd2c3323288c673e0f380016fc52ee9f) |
+| `mope1-0.3.0.rfm1` | MOPE-1 0.3.0 | slothpallas | GPL-3.0-only | [slothpallas/mope-1](https://github.com/slothpallas/mope-1/tree/e439d0c8051830c4e958b129336fe4cfa0a7361d) |
 | `mutabledreams-1.4.rfm1` | Mutable Dreams 1.4 | Kid Bunka / Christoph Link | GPL-3.0-only | [kidbee85-beep/mutable-dreams](https://github.com/kidbee85-beep/mutable-dreams/tree/032155147887f99583be1728c98dd318a9d81973) |
 | `niagaradrift-0.2.rfm1` | Niagara Drift 0.2 | Evan Yerburgh | GPL-3.0-only | [evanyerburgh/niagara-drift](https://github.com/evanyerburgh/niagara-drift/tree/802daa818af060293cae77afec013df3dec0a060) |
 | `obervave-3.3.rfm1` | OberVave 3.3 | zvenson | GPL-3.0-only | [zvenson/obervave](https://github.com/zvenson/obervave/tree/25d463be127716af3f378c5302d2d84c3c89febd) |
+| `penumbra-1.0.rfm1` | Penumbra 1.0 | Lunar Eclipse Forge | GPL-3.0-only | [MadMooneyham/Penumbra](https://github.com/MadMooneyham/Penumbra/tree/a84d98fa6d159250f24e9b938dcbe3cdd4cde102) |
+| `perf1-0.16.0.rfm1` | PERF-1 0.16.0 | deamonSLINKY | GPL-3.0-only | [deamonSLINKY/PERF-1](https://github.com/deamonSLINKY/PERF-1/tree/22c295d6a098fc837f285c641aba4a4acb8c0077) |
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
 | `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
 | `ravel-1.5.0.rfm1` | Ravel 1.5.0 | De-Pattern | GPL-3.0-only | [De-Pattern/Ravel_FM1](https://github.com/De-Pattern/Ravel_FM1/tree/edfab09afeb74310b87b20ef4f568ee97d510bcb) |
 | `remotefm1-0.3.1.rfm1` | RemoteFM1 0.3.1 | Quixotic7 | MPL-2.0 | [Quixotic7/RemoteFM1](https://github.com/Quixotic7/RemoteFM1/tree/e6fa19d1b518fafc823b140d35fb2a51e9f870ff) |
 | `ripple-0.4.rfm1` | Ripple 0.4 ‡ | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ripple](https://github.com/charlesvestal/fm1-ripple/tree/34956a11bb9a0c0163799a67c88a9fe52f9616ec) |
+| `rupture-1.48.rfm1` | RUPTURE 1.48 | Joppe Sikken (SikkenWorks), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/RUPTURE](https://github.com/SikkenWorks/RUPTURE/tree/bea4bfecb7370addae4530aaad976ac38da27f30) |
 | `s1vave-1.11.rfm1` | S1Vave 1.11 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/9c0d9ee5a1ca0a7d6001979ab1c2b1f8cf3f60de) |
+| `sid-0.3.rfm1` | FM-1 SID 0.3 | Joakim Eriksson | GPL-3.0-only | [joakimeriksson/fm1-sid](https://github.com/joakimeriksson/fm1-sid/tree/c2e231f5a1ac2bbe5799d92db0aa08e94dc36d7f) |
+| `sid1-1.0.0.rfm1` | SID-1 1.0.0 | putchdev (the SID-1 authors) | GPL-3.0-only | [putchdev/sid-1](https://github.com/putchdev/sid-1/tree/1d0555b784173bb61e3e371ccedfbe8ff2559d18) |
+| `sidj-1.3.0.rfm1` | SiDJ 1.3.0 | Thomas Jansson (tubesockor) | GPL-3.0-only | [thomasj/fm1-sidj](https://github.com/thomasj/fm1-sidj/tree/a91d24a0a0adb53f4a6785f2ce9875a0d249cdcd) |
+| `sidou-1.1.0.rfm1` | SIDOU 1.1.0 | SIDOU contributors (Denis Sablić) | GPL-3.0-only | [dsablic/sidou](https://github.com/dsablic/sidou/tree/1a75687f1ac6fa6fe20d31128464b83cf16ec80c) |
 | `skiff-2.1.1.rfm1` | Skiff 2.1.1 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/48e77fda5916e9a5ba9e7339161f719d8877ce49) |
 | `sloop-2.8.4.rfm1` | SLOOP 2.8.4 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/sloop-fm1](https://github.com/isod89/sloop-fm1/tree/91f30182d9095e0ecdb43396554f2ce5a67df179) |
+| `smileyface-1.0.0.rfm1` | Smileyface 1.0.0 | pbarilla | GPL-3.0-only | [pbarilla/smileyface](https://github.com/pbarilla/smileyface/tree/622f74d8b1f1b53f10a9a1c06a6a3e81fa663a3e) |
 | `speak37-1.0.rfm1` | Speak37 1.0 | genkigenki | GPL-3.0-only | [genkigenki/Speak37](https://github.com/genkigenki/Speak37/tree/a617d60fca316bd8c72ac9041579367f6633c0ab) |
+| `spellbox-0.3.rfm1` | SPELLBOX 0.3 | pjac1810 | GPL-3.0-only | [pjac1810/spellbox](https://github.com/pjac1810/spellbox/tree/d1b90ea5d22200d424fbf2ab154bf52923378abe) |
+| `tessera-3.2.2.rfm1` | Tessera 3.2.2 | Theo Dainis (Rastapopolix) | GPL-3.0-only | [Rastapopolix/tessera](https://github.com/Rastapopolix/tessera/tree/80bf08613dd2a64add146175a0bb7d4fbdbbf52f) |
 | `tonitor-0.55.rfm1` | Tonitor 0.55 | Nuno Zimas | GPL-3.0-only | [nzimas/tonitor](https://github.com/nzimas/tonitor/tree/a240bc182b55e17fadc004d17e0b64c9eb42185f) |
 | `trax-0.9.3.rfm1` | FM1-TRAX 0.9.3 | jartificer | GPL-3.0-only | [jartificer/fm1-trax](https://github.com/jartificer/fm1-trax/tree/bea3146fb4b668dd7f1d5763797bf2ebc4d936ed) |
+| `vector37-0.3.2.rfm1` | Vector37 0.3.2 | genkigenki | GPL-3.0-only | [genkigenki/Vector37](https://github.com/genkigenki/Vector37/tree/08742a4198f99e2db2846b00b70ed6808239c447) |
+| `vesper-2.0.1.rfm1` | VESPER 2.0.1 † | Fat Cat Studios | GPL-3.0-only | [fatcatstudios-hub/vesper-fm1](https://github.com/fatcatstudios-hub/vesper-fm1/tree/f50977bc6c6e4610bcc11f2ae3c552be7802e5eb) |
 | `x0x-1.2.0.rfm1` | X0X 1.2.0 † | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-x0x](https://github.com/charlesvestal/fm1-x0x/tree/ca2d377e3b9522579245152a81781a575f4d2fea) |
 | `zen1-1.2.rfm1` | ZEN-1 1.2 | aceyprime | GPL-3.0-only | [aceyprime/zen-1](https://github.com/aceyprime/zen-1/tree/ec9295233ea64ddac224b58b4d07216706c1b8ee) |
 <!-- rfm1-table:end -->
@@ -62,13 +91,15 @@ shows them under About), and the exact source it was built from.
 <!-- rfm1-build:start (generated by RFM1Manager from each file's built_by) -->
 **Build provenance** (each file's `built_by`):
 
-- FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`369eeaa`](https://github.com/Quixotic7/FM1VST/tree/369eeaa5b7657f705f1c5e682d5bf96c4c50ad43), Emscripten 6.0.13: `aurora-0.7.7.rfm1`, `duell-1.1.rfm1`, `felucca-1.8.1.rfm1`, `frasil-2.6.rfm1`, `grimm-2.0.1.rfm1`, `jiant-10.26.rfm1`, `karma-3.0.3.rfm1`, `minitone-1.0.5.rfm1`, `mutabledreams-1.4.rfm1`, `obervave-3.3.rfm1`, `rainbow-1.1.5-rb.rfm1`, `s1vave-1.11.rfm1`, `tonitor-0.55.rfm1`, `x0x-1.2.0.rfm1`
+- FM1VST 0.6.2, commit [`7b08318`](https://github.com/Quixotic7/FM1VST/tree/7b08318f3947f61bb71df5c87835eb9f151a3afd), Emscripten 6.0.13: `amb-1.3.rfm1`, `arcticscream-1.3.1.rfm1`, `berlinan-0.5.1.rfm1`, `bytemania-1.2.0.rfm1`, `carnacos-0.9.6.rfm1`, `chipbox-1.3.3.rfm1`, `ctl1-1.0.rfm1`, `dungeontracker-1.0.0.rfm1`, `etch-1.88.rfm1`, `hawkchua-1.7.rfm1`, `matryoshka-1.8.2.rfm1`, `mnm1-1.0.1.rfm1`, `modelar-0.3.rfm1`, `mono2k-1.6.2.rfm1`, `mope1-0.3.0.rfm1`, `penumbra-1.0.rfm1`, `perf1-0.16.0.rfm1`, `rupture-1.48.rfm1`, `sid-0.3.rfm1`, `sid1-1.0.0.rfm1`, `sidj-1.3.0.rfm1`, `sidou-1.1.0.rfm1`, `smileyface-1.0.0.rfm1`, `spellbox-0.3.rfm1`, `tessera-3.2.2.rfm1`, `vector37-0.3.2.rfm1`, `vesper-2.0.1.rfm1`
+- FM1VST 0.6.2, commit [`369eeaa`](https://github.com/Quixotic7/FM1VST/tree/369eeaa5b7657f705f1c5e682d5bf96c4c50ad43), Emscripten 6.0.13: `aurora-0.7.7.rfm1`, `duell-1.1.rfm1`, `felucca-1.8.1.rfm1`, `frasil-2.6.rfm1`, `grimm-2.0.1.rfm1`, `jiant-10.26.rfm1`, `karma-3.0.3.rfm1`, `minitone-1.0.5.rfm1`, `mutabledreams-1.4.rfm1`, `obervave-3.3.rfm1`, `rainbow-1.1.5-rb.rfm1`, `s1vave-1.11.rfm1`, `tonitor-0.55.rfm1`, `x0x-1.2.0.rfm1`
 - FM1VST 0.6.2, commit [`f7fb87d`](https://github.com/Quixotic7/FM1VST/tree/f7fb87d802e060fc7c5b44591f8bddd1922eed77), Emscripten 6.0.13: `caravel-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `sloop-2.8.4.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`, `skiff-2.1.1.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
+- FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`5c81d03`](https://github.com/Quixotic7/FM1VST/tree/5c81d03977773f28a857e3cd19693fd5ddf071c4), Emscripten 6.0.13: `fmel1-1.0.rfm1`, `guitchordi-0.1.0-beta.1.rfm1`, `kwasub-1.0.46.rfm1`
 - FM1VST 0.6.2, commit [`1b522e2`](https://github.com/Quixotic7/FM1VST/tree/1b522e23a901073d07cf626478d9d196a31cf6af), Emscripten 6.0.13: `fmini-1.14.3.rfm1`
 - FM1VST 0.6.2, commit [`7598bb3`](https://github.com/Quixotic7/FM1VST/tree/7598bb379942eace08e3eae99270da62ba0a84e9), Emscripten 6.0.13: `ghoulbox-2.4.rfm1`
 - FM1VST 0.6.2, commit [`1b09950`](https://github.com/Quixotic7/FM1VST/tree/1b099508dbc0ad0bf02af04086a748069dc4f659), Emscripten 6.0.13: `hortator-0.26.0.rfm1`
@@ -78,7 +109,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`c3557bb`](https://github.com/Quixotic7/FM1VST/tree/c3557bba9dc710e29e306ccb57a10a5fad5a4006), Emscripten 6.0.13: `ravel-1.5.0.rfm1`
 - FM1VST 0.6.2, commit [`037a8dd`](https://github.com/Quixotic7/FM1VST/tree/037a8ddfc280af758985680c12e8e5c55d15ec98), Emscripten 6.0.13: `remotefm1-0.3.1.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
-- FM1VST 0.6.2, branch `rfm1-mono2k`, commit [`d669521`](https://github.com/Quixotic7/FM1VST/tree/d669521e904f9a79f72f60573a2f4c176554a1e7), Emscripten 6.0.13: `trax-0.9.3.rfm1`
+- FM1VST 0.6.2, commit [`d669521`](https://github.com/Quixotic7/FM1VST/tree/d669521e904f9a79f72f60573a2f4c176554a1e7), Emscripten 6.0.13: `trax-0.9.3.rfm1`
 - FM1VST 0.6.2, commit [`1269c97`](https://github.com/Quixotic7/FM1VST/tree/1269c97d0f16b6b13ba0cc7522470afb375b4566), Emscripten 6.0.13: `zen1-1.2.rfm1`
 <!-- rfm1-build:end -->
 
@@ -123,6 +154,9 @@ doesn't bundle them, it downloads and runs the file you choose.
 - **FRASIL:** its name and logo, which its LICENSING.md lets be shared only unchanged, as part of FRASIL's own packages.
 - **Rainbow Mode:** its pictures of friends drawn after TV and film characters (original drawings; LOOK-ALIKES OFF
   swaps them for stand-ins, but every build includes them).
+- **VESPER:** a voice of M-VAVE's V15 factory DX7 bank (PIANO 1), from M-VAVE's recovery image.
+- **FMEL-1:** its Mellotron M400S tapes by Taijiguy, free to use but not in commercial software, and Javi's
+  sprites, used by permission.
 
 ‡ **Fantasy CFW: runs in RemoteFM1 apps only, never on an FM-1.** These `.rfm1` files are made for RemoteFM1's
 hosts (the site, the apps): they use more memory than an FM-1 has and read files from your RemoteFM1 folder (Ripple's

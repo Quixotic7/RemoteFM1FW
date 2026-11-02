@@ -12,6 +12,17 @@
    "image": "images/amb.png",
    "port": "AMB-1 FM-1"
   },
+  "arcticscream": {
+   "image": "images/arcticscream.png",
+   "author": "PolarPatch",
+   "category": "Synth",
+   "tag": "Arctic feedback drones",
+   "what": "Arctic Scream is a dark-ambient drone machine built on GR!MM: four tracks over FM, supersaw, formant, tonewheel, physical-model, phase-distortion and sample sources, plus Holvut, a feedback string-and-body loop that wakes, howls and overblows into screams. Drones wander and build like a storm; WARP and MORPH twist the sound, with a huge SPACE reverb and freeze, GRAIN, TAPE and a HORROR scale.",
+   "site": "https://polarpatch.github.io/Arctic-scream-FM-1/",
+   "editor": "https://polarpatch.github.io/Arctic-scream-FM-1/editor.html",
+   "port": "Arctic Scream",
+   "beta": false
+  },
   "aurora": {
    "author": "twochannels",
    "category": "Synth",
@@ -21,6 +32,25 @@
    "beta": true,
    "image": "images/aurora.png",
    "port": "Felucca"
+  },
+  "berlinan": {
+   "image": "images/berlinan.png",
+   "author": "Jiří Píša",
+   "category": "Other",
+   "tag": "Berlin School sequencer",
+   "what": "Berlinan is a generative Berlin School sequencer: a small ensemble of voices repeat, drift against each other on loops of unequal length and earn their mutations over time, the same as Berlinan for macOS. It makes no sound itself: each voice goes out over MIDI on its own channel to your synths, and you steer the arranger, density, tension and snapshots from the panel.",
+   "site": "https://jiripisa.github.io/fm1-berlinan/",
+   "port": "FM-Berlinan",
+   "beta": true
+  },
+  "bytemania": {
+   "image": "images/bytemania.png",
+   "author": "llozd",
+   "category": "Synth",
+   "tag": "Bytebeat formula synth",
+   "what": "Bytemania is a bytebeat synth: each sound is one line of code, a formula of t that makes an 8-bit sample every step, and the key sets how fast t runs. 30 built-in patches, tuned waves and credited classic bytebeats; write your own with a live compiler or roll random ones. The knobs bend variables inside the formula while it plays, with loops, voice modes, a raster or scope view and 64 user slots.",
+   "port": "Felucca",
+   "beta": false
   },
   "caravel": {
    "tag": "Felucca continued",
@@ -32,6 +62,27 @@
    "image": "images/caravel.png",
    "editor": "https://bonszaimusic.github.io/caravel/webapp/editor/",
    "port": "Caravel"
+  },
+  "carnacos": {
+   "image": "images/carnacos.png",
+   "author": "Owen Kirby",
+   "category": "Synth",
+   "tag": "Neolithic wavetable synth",
+   "what": "Carnac OS is a two-layer wavetable synth themed on the standing stones of Carnac: 15 morphing wavetable banks including SH-2-style Foundations shapes, synthesised PCM waves (choir, horns, pan flute, chimes) and seven voice architectures, among them STRIKE with 20 Neolithic attacks. Filters, mod slots, spring, tomb and tank reverbs, tape and BBD delays, a sequencer and an arpeggiator.",
+   "site": "https://owenkirby.github.io/carnac-os/",
+   "port": "X0X FM-1",
+   "beta": true
+  },
+  "chipbox": {
+   "image": "images/chipbox.png",
+   "author": "pbarilla",
+   "category": "Groovebox",
+   "tag": "Chiptune sound chips",
+   "what": "Chipbox turns the FM-1 into a box of classic sound chips: NES, Game Boy, Master System, PC Engine, Atari, VRC6, AY, Mega Drive FM, OPL, SID and dozens more, each a channel with its own drum kits. Write tunes in a step rack, chain pages into songs and punch in tape and FX live; every console has its colours and each power-on a different retro boot screen.",
+   "site": "https://ihavenocluewhatimdoing.com/chipbox/",
+   "editor": "https://ihavenocluewhatimdoing.com/chipbox/projects/",
+   "port": "Felucca",
+   "beta": false
   },
   "choralroot": {
    "tag": "Chord instrument",
@@ -65,6 +116,26 @@
    "image": "images/coralflower.png",
    "port": "CoralFlower FM-1"
   },
+  "ctl1": {
+   "image": "images/ctl1.png",
+   "author": "Charles Vestal",
+   "category": "Other",
+   "tag": "MIDI controller + GM",
+   "what": "CTL-1 turns the FM-1 into a MIDI controller: keys with velocity and aftertouch in any scale with chords under the black keys, four knobs sending controllers in four banks, an arpeggiator and a four-track Euclidean drum sequencer on its clock. Everything goes out as MIDI, and the built-in General MIDI sounds play along, so it works with nothing connected.",
+   "site": "https://charlesvestal.github.io/fm1-ctl/",
+   "port": "CTL-1 FM-1",
+   "beta": false
+  },
+  "drift": {
+   "author": "Fabian Freitag",
+   "category": "Synth",
+   "tag": "Ambient Euclidean synth",
+   "what": "DRIFT is an ambient synthesizer and generative sequencer by Fabian Freitag, based on Felucca: classic synth sounds, warm basses, pads and plucks over a repeating generative Euclidean sequencer, with probability, chaos and timing variations that keep moving while you edit. Two oscillators, a resonant filter, delays and six reverbs from Room to Submarine, scale-locked keys and a minimal monochrome interface.",
+   "site": "https://www.fbnfrtg.de/tools/fm1/drift/",
+   "port": "Felucca",
+   "beta": true,
+   "image": "images/drift.png"
+  },
   "duell": {
    "tag": "Bitimbral synth",
    "what": "A MULTIMORPHING bitimbral synth: two complete parts, three ways to play them together, and a morph that glides between two versions of every sound. Ten engines including wavetables, twin filters, effects and a mod matrix. Layer, dual or stereo mode. Velocity sensitivity and aftertouch. Dual core.",
@@ -75,6 +146,26 @@
    "image": "images/duell.png",
    "editor": "https://oscillr.github.io/DUELL/editor/",
    "port": "DUELL"
+  },
+  "dungeontracker": {
+   "image": "images/dungeontracker.png",
+   "author": "BourbonWX",
+   "category": "Groovebox",
+   "tag": "Tracker dungeon groovebox",
+   "what": "Dungeon Tracker is a Felucca fork that makes the FM-1 an old-school four-track FM groovebox, with a first-person dungeon crawl on HOME that your song plays. Each track is a party class (drum rogue, chord cleric, bass fighter, lead mage), with FMKIT drums, two-operator FMTONE, Ambika-style WAVES, a SID voice and LOFI and DUNGEON kits. Dice roll sounds, and every power-on writes a fresh song.",
+   "port": "Felucca",
+   "beta": false
+  },
+  "etch": {
+   "image": "images/etch.png",
+   "author": "SikkenWorks",
+   "category": "Synth",
+   "tag": "Drawn wavetable synth",
+   "what": "ETCH is a drawn-wavetable synth: draw three 128-point waves right on the screen, morph between them, and shape them with wave effects, modulation, organic and evolving motion and a full effects chain. Eight voices, an arpeggiator, a sequencer, projects and presets; a simple Play-and-Shape mode, or Advanced with all 63 screens.",
+   "site": "https://sikkenworks.github.io/ETCH/",
+   "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html",
+   "port": "ETCH",
+   "beta": false
   },
   "fartmachine": {
    "image": "images/fartmachine.png",
@@ -106,6 +197,16 @@
    "beta": true,
    "image": "images/fimba.png",
    "port": "FiMba FM-1"
+  },
+  "fmel1": {
+   "image": "images/fmel1.png",
+   "author": "AntonioAltea",
+   "category": "Sampler",
+   "tag": "Mellotron tape keys",
+   "what": "FMEL-1 turns the FM-1 into a Mellotron: every key plays its own length of real tape, recorded from Taijiguy's 1973 M400S: flute, choir, cello and vibes, plus a lo-fi piano. Layer a second sound and colour it with tape wow, flutter, hiss and wear, vibrato, echo, hall or plate reverb, a speaker EQ and a half-speed motor switch. ARP and a 16-step sequencer play along, and Javi's animated players act out each sound.",
+   "site": "https://antonioaltea.github.io/fmel-1/",
+   "port": "Felucca",
+   "beta": false
   },
   "fmini": {
    "tag": "Three-oscillator mono",
@@ -149,6 +250,16 @@
    "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/",
    "port": "Felucca"
   },
+  "golana": {
+   "image": "images/golana.png",
+   "author": "Gadlele",
+   "category": "Synth",
+   "tag": "microKORG-style analog synth",
+   "what": "Golana turns the FM-1 into one deep analog-style synth laid out like the microKORG: two oscillators with sub, drift and a wavefolder, five filters including a screaming MS20, two envelopes, two LFOs and a four-slot patch bay. Poly, mono, legato or eight-voice unison, ten arp types and a 16-step sequencer with slides, chorus to METAL distortion, delay and reverb. Every page draws what it does; 32 programs.",
+   "site": "https://gadlele.github.io/Golana/",
+   "port": "Felucca",
+   "beta": false
+  },
   "grimm": {
    "image": "images/grimm.png",
    "tag": "Dark ambient",
@@ -159,6 +270,27 @@
    "beta": false,
    "editor": "https://grimmbient.github.io/grimm/editor.html",
    "port": "Felucca"
+  },
+  "guitchordi": {
+   "image": "images/guitchordi.png",
+   "author": "Stoogs",
+   "category": "Synth",
+   "tag": "Strummed chord instrument",
+   "what": "GuitChordi turns the FM-1 into a six-string chord instrument: the black keys pick from eleven chord slots and the white keys are the strings, with soft, normal and accent zones. 16 synthesized guitars, harp, bowed violin, pizzicato cello, bass and dulcimer on a physical string model, 50 chord styles from jazz and blues to lo-fi, 14 tunings, editable voicings, and Freeplay, Strum and Arp modes.",
+   "site": "https://stoogs.github.io/guitchordi/emu/",
+   "port": "GuitChordi FM-1",
+   "beta": true
+  },
+  "hawkchua": {
+   "image": "images/hawkchua.png",
+   "author": "plieuwski",
+   "category": "Synth",
+   "tag": "Chaotic circuit synth",
+   "what": "HAWK CHUA turns every voice into a live Chua's circuit: its CHAOS knob walks from a clean cycle through period doubling into the double scroll, or picks one of 30 noise programs. Vactrol-style gates feed Rings resonators and waveguides, then temple, cathedral and mosque shimmer reverbs, while the screen draws each voice's attractor. 512 GM-style presets, phrase generators, an arpeggiator and a four-track tape recorder.",
+   "site": "https://plieuw.github.io/hawk-chua/",
+   "editor": "https://plieuw.github.io/hawk-chua/webapp/remote/",
+   "port": "Felucca",
+   "beta": false
   },
   "hortator": {
    "tag": "Drum machine",
@@ -202,6 +334,28 @@
    "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/",
    "port": "FM-1 KARMA"
   },
+  "kwasub": {
+   "image": "images/kwasub.png",
+   "author": "Guizmoh",
+   "category": "Synth",
+   "tag": "Bass synthesizer",
+   "what": "K-WASUB is a bass synthesizer for drum & bass, dub, dubstep and techno: two oscillators each running one of several engines (analog, super/reese, wavetable, FM, phase distortion, wavefolder, hard sync, vocal, CS), morphable, with a synthesised sample layer for attack and texture, a seven-character filter, tempo-locked LFOs for wobble and an effects rack. SEQ BASS, an arpeggiator, drums and live effects.",
+   "site": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/",
+   "editor": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/data.html",
+   "port": "Felucca",
+   "beta": false
+  },
+  "matryoshka": {
+   "image": "images/matryoshka.png",
+   "author": "glvno",
+   "category": "Synth",
+   "tag": "Patchable modular synth",
+   "what": "Matryoshka is a patchable modular synth in the spirit of the Nord Modular: its web editor builds patches from oscillators, filters, envelopes, sequencers and drum maps, and the FM-1 plays them as pages of devices. Factory instruments recall classic synths and drum machines (Oracle V, Silver Box, Cassia 1, 808 and 909 kits), with a step sequencer, songs and a live link to the editor.",
+   "site": "https://matry0shka.pages.dev/",
+   "editor": "https://matry0shka.pages.dev/",
+   "port": "Matryoshka",
+   "beta": false
+  },
   "melodee": {
    "tag": "Multi-engine synth",
    "what": "Total playing pleasure, far beyond Felucca: recording without quantize, microtonal scales, a Casio CZ-1, a bit-by-bit Dexed, scale modes made for an MPC Sample as its companion.",
@@ -222,6 +376,47 @@
    "beta": false,
    "image": "images/minitone.png",
    "port": "Felucca"
+  },
+  "mnm1": {
+   "image": "images/mnm1.png",
+   "author": "galfaroth",
+   "category": "Groovebox",
+   "tag": "Six-track synth sequencer",
+   "what": "MNM-1 is a six-track synth groovebox forked from Hortator: each track runs a machine (SuperWave, SID, FM, VO-6, GND, MONO2K voices and drums, or effects routed through buses), with a resonant filter, a synced tape delay and three LFOs per track. Up to 64 steps with parameter locks, slides, probability, ratchets and arpeggiators, and 330 factory sounds.",
+   "site": "https://galfaroth.github.io/mnm1/",
+   "port": "FM-1 MNM-1",
+   "beta": false
+  },
+  "modelar": {
+   "image": "images/modelar.png",
+   "author": "hirakos999",
+   "category": "Synth",
+   "tag": "Kaoss-pad drone synth",
+   "what": "MODELAR is a semi-modular drone synth played like a Kaoss Pad: four oscillators sound all the time and modulate each other through eight routings. The white keys are a 4x4 XY pad that opens the filter, drives the cross-modulation and fades the effects in; the black keys play 11 gestures that move the cursor on their own. Raise K1 to K4 to bring the oscillators in.",
+   "site": "https://github.com/hirakos999/MODELAR",
+   "port": "MODELAR FM-1",
+   "beta": true
+  },
+  "mono2k": {
+   "image": "images/mono2k.png",
+   "author": "Sequencist",
+   "category": "Groovebox",
+   "tag": "Monomachine-style mono machines",
+   "what": "MONO2K is a tribute to Elektron's Monomachine: six mono tracks, each running one machine (FM, superwaves, wavetables, a SID, a formant voice, effects and four drum synths). A 64-step sequencer with parameter locks, trig conditions, ratchets, per-track lengths and Grids lanes drives them into a lofi bus with reverb, ADPCM crunch, drive and 22 performance effects, on a dithered 1-bit screen.",
+   "site": "https://inigohernandez.github.io/mono2k/",
+   "editor": "https://inigohernandez.github.io/mono2k/editor.html",
+   "port": "MONO2K FM-1",
+   "beta": false
+  },
+  "mope1": {
+   "image": "images/mope1.png",
+   "author": "slothpallas",
+   "category": "Synth",
+   "tag": "Sad wavetable blob",
+   "what": "MOPE-1 is a sad wavetable synth with a backing band, like an old toy keyboard that only plays depressing beats. A glossy pixel blob in a rainy room is the screen: cutoff closes its eyes, resonance turns them into lasers, the delay makes it cry a tear per echo. PLAY starts the band, REC loops over it, ARP arpeggiates. It plays anyway.",
+   "site": "https://slothpallas.github.io/mope-1/",
+   "port": "Mope FM-1",
+   "beta": true
   },
   "mutabledreams": {
    "author": "Kid Bunka",
@@ -253,6 +448,27 @@
    "beta": false,
    "image": "images/obervave.png",
    "port": "Felucca"
+  },
+  "penumbra": {
+   "image": "images/penumbra.png",
+   "author": "Lunar Eclipse Forge",
+   "category": "Synth",
+   "tag": "Cinematic space drone",
+   "what": "Penumbra is a space-drone instrument: switch it on and a deep five-voice drone swells in on a pedal. VOX plays a soft voice on the white keys, always in the scene's key, far back in a long shimmer reverb; BLOOM is a slow swell and a looper follows the key. Holds throw, bend and freeze the sound, MORPH walks from scene to scene. Six journeys and eight user slots.",
+   "site": "https://github.com/MadMooneyham/Penumbra",
+   "port": "Penumbra FM-1",
+   "beta": false
+  },
+  "perf1": {
+   "image": "images/perf1.png",
+   "author": "deamonSLINKY",
+   "category": "Groovebox",
+   "tag": "Generative live groovebox",
+   "what": "PERF-1 is a live-performance groovebox: pick one of 170 pieces across 17 genres and five tracks play themselves (pad, bass, 303-style acid, FM pluck, drums). Steer it live: break down, build and drop, throw any of 93 effects, mute and solo, or let the auto-DJ run the arc, over a deep sequencer, DX7-style FM voices and a Jam page where every key is in the scale.",
+   "site": "https://deamonslinky.github.io/PERF-1/",
+   "editor": "https://deamonslinky.github.io/PERF-1/editor/",
+   "port": "HYP-1 FM-1",
+   "beta": true
   },
   "pigeon": {
    "tag": "Performance sampler",
@@ -317,6 +533,16 @@
    "image": "images/ripple.png",
    "port": "Ripple FM-1"
   },
+  "rupture": {
+   "image": "images/rupture.png",
+   "author": "SikkenWorks",
+   "category": "Synth",
+   "tag": "CXS mono bass",
+   "what": "RUPTURE is a monophonic bass synth on Cycle Exchange Synthesis, with a band-limited saw as the alternative oscillator and two sub-oscillators for weight. A SOUND SHAPE page, a resonant ladder filter, Channel EQ and eight effects from MOSFET drive to octave fuzz shape it; a 128-step sequencer, arpeggiator, Scale Guide and 12 projects of 8 sequences round it out. Its sound starts about 6 s after power-on, as on the unit.",
+   "site": "https://sikkenworks.github.io/RUPTURE/",
+   "port": "RUPTURE",
+   "beta": false
+  },
   "s1vave": {
    "tag": "Synth after the Roland S-1…",
    "what": "A synth after the Roland S-1 and the SH-101: a punchy sub-oscillator, a resonant filter, bass and lead sounds and hands-on controls for playing live. Built on OberVave.",
@@ -327,6 +553,49 @@
    "image": "images/s1vave.png",
    "editor": "https://andrewgg.one/s1vave/editor/",
    "port": "Felucca"
+  },
+  "sid": {
+   "image": "images/sid.png",
+   "author": "Joakim Eriksson",
+   "category": "Groovebox",
+   "tag": "C64 SID player",
+   "what": "FM-1 SID turns the FM-1 into a Commodore 64: C64 music and GoatTracker 2 songs through a reSID-emulated SID, with GoatTracker's ten example songs. Write and save your own in the built-in GoatTracker editor, or switch to the SID synth with 12 instruments and a three-track step sequencer. Chorus, delay and reverb, 6581 or 8580.",
+   "site": "https://joakimeriksson.github.io/fm1-emu/fm1-sid/",
+   "port": "Felucca",
+   "beta": true
+  },
+  "sid1": {
+   "image": "images/sid1.png",
+   "author": "putchdev",
+   "category": "Synth",
+   "tag": "C64 SID chip synth",
+   "what": "SID-1 turns the FM-1 into two Commodore 64 SID chips, six voices, 6581 or 8580, on an accurate port of reSID. Patches work like a C64 music player's instruments: ADSR, sync and ring, an 8-step wavetable for drums and arps, pulse and filter sweeps, vibrato and hard restart. 128 patches in 4 banks; layer, split, or play six voices over MIDI like a C64 tune.",
+   "site": "https://sid-1.putch.co.uk/",
+   "editor": "https://sid-1.putch.co.uk/",
+   "port": "SID-1 FM-1",
+   "beta": false
+  },
+  "sidj": {
+   "image": "images/sidj.png",
+   "author": "Thomas Jansson",
+   "category": "Other",
+   "tag": "C64 SID player",
+   "what": "SiDJ turns the FM-1 into a Commodore 64 music deck: SID tunes on a cycle-exact emulated C64 with a 6581 or 8580, every voice remixable live (transpose, mute and solo, swap waveforms, bend envelopes and the filter, LFOs, tempo and a vinyl fader), with a MIDI clock taken from the tune. Ships with two tunes by its author, Thomas Jansson (tubesockor); add your own .sid files from its songs page.",
+   "site": "https://thomasj.github.io/fm1-sidj/",
+   "editor": "https://thomasj.github.io/fm1-sidj/#songs",
+   "port": "SiDJ FM-1",
+   "beta": false
+  },
+  "sidou": {
+   "image": "images/sidou.png",
+   "author": "dsablic",
+   "category": "Groovebox",
+   "tag": "C64 SID tracker",
+   "what": "SIDOU turns the FM-1 into a C64 SID music machine: two SID chips with 6581 and 8580 character, effect slots and LAB for your own sounds. Write songs with STEP and a GoatTracker 2 compatible tracker, with SID drums and dice-rolled patterns, play .sid tunes on its own 6502, or play the chips live from the keys or over MIDI.",
+   "site": "https://dsablic.github.io/sidou/",
+   "editor": "https://dsablic.github.io/sidou/",
+   "port": "SIDOU FM-1",
+   "beta": false
   },
   "skiff": {
    "tag": "Six-track groovebox",
@@ -350,6 +619,16 @@
    "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
    "port": "Felucca"
   },
+  "smileyface": {
+   "image": "images/smileyface.png",
+   "author": "pbarilla",
+   "category": "Synth",
+   "tag": "Acid bass sequencer",
+   "what": "Smileyface turns the FM-1 into an acid bass line machine: one squelchy voice, 16-step patterns with accents and slides, 16 patterns a project and 12 projects. Write a line on the keys or smash LFO for a random pattern, then twist cutoff, resonance, env mod and decay. FLY and WALK views turn the pattern into a little shooter game, and a grinning smiley reacts to every accent.",
+   "site": "https://ihavenocluewhatimdoing.com/smileyface/play/",
+   "port": "Felucca",
+   "beta": false
+  },
   "speak37": {
    "tag": "Talking synth",
    "what": "The talking synth, its FM-1 build: every key speaks the next word of a sentence at its pitch and chords speak in harmony; nine voices, 20 banks of sentences and songs, RHYTHM with an 808.",
@@ -358,6 +637,27 @@
    "beta": false,
    "image": "images/speak37.png",
    "port": "Speak37"
+  },
+  "spellbox": {
+   "image": "images/spellbox.png",
+   "author": "pjac1810",
+   "category": "Other",
+   "tag": "Talking spelling toy",
+   "what": "SPELLBOX turns the FM-1 into a talking spelling toy after the 1978 Speak & Spell: the blue-green display, a 10-pole LPC voice at 8 kHz and A to Z on the keys. SPELL, LETTER, SAY IT, SECRET CODE and MYSTERY WORD over four levels; SPEAK reads what you type, SING plays words across the keyboard, and circuit-bending knobs make it a bent toy. All speech newly made with espeak-ng.",
+   "site": "https://pjac1810.github.io/spellbox/",
+   "port": "Felucca",
+   "beta": true
+  },
+  "tessera": {
+   "image": "images/tessera.png",
+   "author": "Theo Dainis",
+   "category": "Groovebox",
+   "tag": "Generative sequencer synth",
+   "what": "Tessera is a generative firmware grown from Melodee: each of four tracks plays its own steps, an arpeggio or one of thirteen generators (Turing, Euclid, Markov, Grids-style ATLAS and more). EVOLVE mutates phrases, FORM builds song sections and cords modulate anything from anything, through FM6, ORACLE, TRIO, PHYS and an 808/909 DRUM engine with insert and send effects.",
+   "site": "https://rastapopolix.github.io/tessera/",
+   "editor": "https://rastapopolix.github.io/tessera/webapp/editor/",
+   "port": "Tessera",
+   "beta": false
   },
   "tonitor": {
    "image": "images/tonitor.png",
@@ -379,6 +679,26 @@
    "editor": "https://jartificer.github.io/fm1-trax/editor.html",
    "port": "FM1-TRAX",
    "beta": true
+  },
+  "vector37": {
+   "image": "images/vector37.png",
+   "author": "genkigenki",
+   "category": "Synth",
+   "tag": "Orbiting overtone synth",
+   "what": "Vector37 is an orbiting overtone synth: four corners are planets with two overtone generators, a blend and a filter each, a sun travels a path and a moon circles it, and the moon's distance to each planet sets how much of that corner you hear, all on one animated orbit screen. 32 factory sounds, wavetables, an arpeggiator, chords, freeze and latch. Inspired by the Beetlecrab Vector.",
+   "site": "https://genkigenki.github.io/smk37/#fw-vector37",
+   "port": "Vector37",
+   "beta": true
+  },
+  "vesper": {
+   "image": "images/vesper.png",
+   "author": "Fat Cat Studios",
+   "category": "Synth",
+   "tag": "Ambient worship pads",
+   "what": "VESPER is an ambient worship synth: 16 scenes, each layering four lush voices (pads, plucks, piano, swells) in any major key around a crystal orbit home screen. One SPACE knob adds grains, shimmer, reverb and echo, a global chain of DIRT, TONE, TEXTURE and VERB + DELAY shapes the mix, and you play live over the scene or record into it.",
+   "site": "https://fatcatstudios-hub.github.io/vesper-fm1/play/",
+   "port": "VESPER FM-1",
+   "beta": false
   },
   "x0x": {
    "tag": "909, 808 and 303s",
