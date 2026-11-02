@@ -46,6 +46,7 @@ shows them under About), and the exact source it was built from.
 | `pigeon-0.4.1.rfm1` | PIGEON 0.4.1 | TheShrimpBlimp | GPL-3.0-only | [TheShrimpBlimp/pigeon](https://github.com/TheShrimpBlimp/pigeon/tree/8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7) |
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
 | `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
+| `remotefm1-0.3.1.rfm1` | RemoteFM1 0.3.1 | Quixotic7 | MPL-2.0 | [Quixotic7/RemoteFM1](https://github.com/Quixotic7/RemoteFM1/tree/e6fa19d1b518fafc823b140d35fb2a51e9f870ff) |
 | `ripple-0.4.rfm1` | Ripple 0.4 ‡ | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ripple](https://github.com/charlesvestal/fm1-ripple/tree/34956a11bb9a0c0163799a67c88a9fe52f9616ec) |
 | `s1vave-1.11.rfm1` | S1Vave 1.11 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/9c0d9ee5a1ca0a7d6001979ab1c2b1f8cf3f60de) |
 | `skiff-2.1.1.rfm1` | Skiff 2.1.1 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/48e77fda5916e9a5ba9e7339161f719d8877ce49) |
@@ -60,7 +61,7 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`9b4a94c`](https://github.com/Quixotic7/FM1VST/tree/9b4a94c470bab5ca8e4a4e5b04b7de430be73881), Emscripten 6.0.13: `aurora-0.7.7.rfm1`
+- FM1VST 0.6.2, commit [`9b4a94c`](https://github.com/Quixotic7/FM1VST/tree/9b4a94c470bab5ca8e4a4e5b04b7de430be73881), Emscripten 6.0.13: `aurora-0.7.7.rfm1`
 - FM1VST 0.6.2, commit [`f7fb87d`](https://github.com/Quixotic7/FM1VST/tree/f7fb87d802e060fc7c5b44591f8bddd1922eed77), Emscripten 6.0.13: `caravel-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `obervave-3.3.rfm1`, `sloop-2.8.4.rfm1`
@@ -81,6 +82,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
 - FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
 - FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`037a8dd`](https://github.com/Quixotic7/FM1VST/tree/037a8ddfc280af758985680c12e8e5c55d15ec98), Emscripten 6.0.13: `remotefm1-0.3.1.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
 - FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`

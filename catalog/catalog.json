@@ -245,6 +245,15 @@
    "beta": false,
    "image": "images/rainbow.png"
   },
+  "remotefm1": {
+   "image": "images/remotefm1.png",
+   "author": "Quixotic7",
+   "category": "Synth",
+   "tag": "DX7 + MIDI controller",
+   "what": "I heard you liked firmwares: the firmware that runs these firmwares, running as one of them. On its own RemoteFM1 is a DX7 with Yamaha's 256 ROM voices, a looper, an arp and scales; on an FM-1 it is also a MIDI controller, and the panel for RemoteFM1 itself.",
+   "site": "https://remotefm1.com/",
+   "beta": false
+  },
   "ripple": {
    "author": "Charles Vestal",
    "category": "Other",
