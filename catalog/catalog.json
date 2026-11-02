@@ -369,6 +369,17 @@
    "beta": false,
    "port": "FM-1 Tonitor"
   },
+  "trax": {
+   "image": "images/trax.png",
+   "author": "jartificer",
+   "category": "Groovebox",
+   "tag": "Mega Drive tracker",
+   "what": "Turns the FM-1 into a Sega Mega Drive / Genesis music tracker: the YM2612 (six FM channels) and the SN76489 PSG, emulated, with a pattern tracker in the style of Deflemask and Furnace played from the keys and knobs. Ships with the demo song Sunset Beach Galaxy by Tobikomi.",
+   "site": "https://jartificer.github.io/fm1-trax/",
+   "editor": "https://jartificer.github.io/fm1-trax/editor.html",
+   "port": "FM1-TRAX",
+   "beta": true
+  },
   "x0x": {
    "tag": "909, 808 and 303s",
    "what": "A groovebox: 909 and 808 drums, two 303s with TB-3PO, a breakbeat generator and song mode.",

@@ -54,6 +54,7 @@ shows them under About), and the exact source it was built from.
 | `sloop-2.8.4.rfm1` | SLOOP 2.8.4 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/sloop-fm1](https://github.com/isod89/sloop-fm1/tree/91f30182d9095e0ecdb43396554f2ce5a67df179) |
 | `speak37-1.0.rfm1` | Speak37 1.0 | genkigenki | GPL-3.0-only | [genkigenki/Speak37](https://github.com/genkigenki/Speak37/tree/a617d60fca316bd8c72ac9041579367f6633c0ab) |
 | `tonitor-0.55.rfm1` | Tonitor 0.55 | Nuno Zimas | GPL-3.0-only | [nzimas/tonitor](https://github.com/nzimas/tonitor/tree/a240bc182b55e17fadc004d17e0b64c9eb42185f) |
+| `trax-0.9.3.rfm1` | FM1-TRAX 0.9.3 | jartificer | GPL-3.0-only | [jartificer/fm1-trax](https://github.com/jartificer/fm1-trax/tree/bea3146fb4b668dd7f1d5763797bf2ebc4d936ed) |
 | `x0x-1.2.0.rfm1` | X0X 1.2.0 † | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-x0x](https://github.com/charlesvestal/fm1-x0x/tree/ca2d377e3b9522579245152a81781a575f4d2fea) |
 | `zen1-1.2.rfm1` | ZEN-1 1.2 | aceyprime | GPL-3.0-only | [aceyprime/zen-1](https://github.com/aceyprime/zen-1/tree/ec9295233ea64ddac224b58b4d07216706c1b8ee) |
 <!-- rfm1-table:end -->
@@ -62,33 +63,22 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `amb-1.3.rfm1`, `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `pigeon-0.4.1.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
-- FM1VST 0.6.2, commit [`9b4a94c`](https://github.com/Quixotic7/FM1VST/tree/9b4a94c470bab5ca8e4a4e5b04b7de430be73881), Emscripten 6.0.13: `aurora-0.7.7.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`369eeaa`](https://github.com/Quixotic7/FM1VST/tree/369eeaa5b7657f705f1c5e682d5bf96c4c50ad43), Emscripten 6.0.13: `aurora-0.7.7.rfm1`, `duell-1.1.rfm1`, `felucca-1.8.1.rfm1`, `frasil-2.6.rfm1`, `grimm-2.0.1.rfm1`, `jiant-10.26.rfm1`, `karma-3.0.3.rfm1`, `minitone-1.0.5.rfm1`, `mutabledreams-1.4.rfm1`, `obervave-3.3.rfm1`, `rainbow-1.1.5-rb.rfm1`, `s1vave-1.11.rfm1`, `tonitor-0.55.rfm1`, `x0x-1.2.0.rfm1`
 - FM1VST 0.6.2, commit [`f7fb87d`](https://github.com/Quixotic7/FM1VST/tree/f7fb87d802e060fc7c5b44591f8bddd1922eed77), Emscripten 6.0.13: `caravel-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
-- FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `obervave-3.3.rfm1`, `sloop-2.8.4.rfm1`
+- FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `sloop-2.8.4.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`, `skiff-2.1.1.rfm1`
-- FM1VST 0.6.2, commit [`2b5101d`](https://github.com/Quixotic7/FM1VST/tree/2b5101d7811a61f817585a62633961c74f29a055), Emscripten 6.0.13: `duell-1.1.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
-- FM1VST 0.6.2, commit [`e884bbe`](https://github.com/Quixotic7/FM1VST/tree/e884bbeef6cb581058b73004c67a9dee17348ec7), Emscripten 6.0.13: `felucca-1.8.1.rfm1`
 - FM1VST 0.6.2, commit [`1b522e2`](https://github.com/Quixotic7/FM1VST/tree/1b522e23a901073d07cf626478d9d196a31cf6af), Emscripten 6.0.13: `fmini-1.14.3.rfm1`
-- FM1VST 0.6.2, commit [`5511e44`](https://github.com/Quixotic7/FM1VST/tree/5511e445a2a6bfd3d2c1637313d947be6d4a49b4), Emscripten 6.0.13: `frasil-2.6.rfm1`
 - FM1VST 0.6.2, commit [`7598bb3`](https://github.com/Quixotic7/FM1VST/tree/7598bb379942eace08e3eae99270da62ba0a84e9), Emscripten 6.0.13: `ghoulbox-2.4.rfm1`
-- FM1VST 0.6.2, commit [`ccc7746`](https://github.com/Quixotic7/FM1VST/tree/ccc77467047fabb2bfe12b60d3c81d1997046252), Emscripten 6.0.13: `grimm-2.0.1.rfm1`
 - FM1VST 0.6.2, commit [`1b09950`](https://github.com/Quixotic7/FM1VST/tree/1b099508dbc0ad0bf02af04086a748069dc4f659), Emscripten 6.0.13: `hortator-0.26.0.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
-- FM1VST 0.6.2, commit [`54084b4`](https://github.com/Quixotic7/FM1VST/tree/54084b4911ef30a1f69d5d75a3a2a5eada01eaf2), Emscripten 6.0.13: `jiant-10.26.rfm1`
-- FM1VST 0.6.2, commit [`926f899`](https://github.com/Quixotic7/FM1VST/tree/926f8996ce0f69d11d57cef02551488899247498), Emscripten 6.0.13: `karma-3.0.3.rfm1`
 - FM1VST 0.6.2, branch `rfm1-melodee`, commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13: `melodee-1.5.1.rfm1`
-- FM1VST 0.6.2, commit [`35965a9`](https://github.com/Quixotic7/FM1VST/tree/35965a9cd9d25ed073836e7edd32ea58526d8ef9), Emscripten 6.0.13: `minitone-1.0.5.rfm1`
-- FM1VST 0.6.2, commit [`8503cc2`](https://github.com/Quixotic7/FM1VST/tree/8503cc2356ec93a35267a537545b74352c15c573), Emscripten 6.0.13: `mutabledreams-1.4.rfm1`
 - FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
-- FM1VST 0.6.2, commit [`14cf097`](https://github.com/Quixotic7/FM1VST/tree/14cf0974c0b1fe58a6554a1369c05a5219de3335), Emscripten 6.0.13: `rainbow-1.1.5-rb.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`c3557bb`](https://github.com/Quixotic7/FM1VST/tree/c3557bba9dc710e29e306ccb57a10a5fad5a4006), Emscripten 6.0.13: `ravel-1.5.0.rfm1`
+- FM1VST 0.6.2, commit [`c3557bb`](https://github.com/Quixotic7/FM1VST/tree/c3557bba9dc710e29e306ccb57a10a5fad5a4006), Emscripten 6.0.13: `ravel-1.5.0.rfm1`
 - FM1VST 0.6.2, commit [`037a8dd`](https://github.com/Quixotic7/FM1VST/tree/037a8ddfc280af758985680c12e8e5c55d15ec98), Emscripten 6.0.13: `remotefm1-0.3.1.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
-- FM1VST 0.6.2, commit [`577e085`](https://github.com/Quixotic7/FM1VST/tree/577e0852fd9037ebb84c7cf9c9d2b5f4b372dbfe), Emscripten 6.0.13: `s1vave-1.11.rfm1`
-- FM1VST 0.6.2, commit [`284ce5c`](https://github.com/Quixotic7/FM1VST/tree/284ce5cb8ba53a9049214c9befc4c495e107c5b4), Emscripten 6.0.13: `tonitor-0.55.rfm1`
-- FM1VST 0.6.2, commit [`d7fe2f1`](https://github.com/Quixotic7/FM1VST/tree/d7fe2f1029462824a25a02059bf6c48bc03e38dd), Emscripten 6.0.13: `x0x-1.2.0.rfm1`
+- FM1VST 0.6.2, branch `rfm1-mono2k`, commit [`d669521`](https://github.com/Quixotic7/FM1VST/tree/d669521e904f9a79f72f60573a2f4c176554a1e7), Emscripten 6.0.13: `trax-0.9.3.rfm1`
 - FM1VST 0.6.2, commit [`1269c97`](https://github.com/Quixotic7/FM1VST/tree/1269c97d0f16b6b13ba0cc7522470afb375b4566), Emscripten 6.0.13: `zen1-1.2.rfm1`
 <!-- rfm1-build:end -->
 
