@@ -440,6 +440,15 @@
    "image": "images/niagaradrift.png",
    "port": "Niagara Drift FM-1"
   },
+  "nomansky": {
+   "image": "images/nomansky.png",
+   "author": "Hericdk",
+   "category": "Other",
+   "tag": "Space adventure groovebox",
+   "what": "No Man Sky FM is a space adventure you play while you make music, built on SLOOP 2.7.1: one hand flies the ship with two knobs while the other plays the soundtrack. Land on planets, mine, fight sentinels and pirates, race, escort ships and warp between stars, while every SLOOP screen (four-track sequencer, engines, arp, FX) floats over the game.",
+   "site": "https://hericdk.github.io/nomanskyFM/",
+   "beta": true
+  },
   "obervave": {
    "tag": "8-voice poly synth",
    "what": "An 8-voice analog-style poly in the spirit of the classic American polys of 1979-84, now on four tracks: each its own sound, arp and sequence; a mixer with chorus, delay, plate reverb and drive sends, a master with DJ filter and compressor. Tracks start on the bar, patterns keep their sounds.",

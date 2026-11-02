@@ -61,6 +61,7 @@ shows them under About), and the exact source it was built from.
 | `mope1-0.3.0.rfm1` | MOPE-1 0.3.0 | slothpallas | GPL-3.0-only | [slothpallas/mope-1](https://github.com/slothpallas/mope-1/tree/e439d0c8051830c4e958b129336fe4cfa0a7361d) |
 | `mutabledreams-1.4.rfm1` | Mutable Dreams 1.4 | Kid Bunka / Christoph Link | GPL-3.0-only | [kidbee85-beep/mutable-dreams](https://github.com/kidbee85-beep/mutable-dreams/tree/032155147887f99583be1728c98dd318a9d81973) |
 | `niagaradrift-0.2.rfm1` | Niagara Drift 0.2 | Evan Yerburgh | GPL-3.0-only | [evanyerburgh/niagara-drift](https://github.com/evanyerburgh/niagara-drift/tree/802daa818af060293cae77afec013df3dec0a060) |
+| `nomansky-0.5.rfm1` | No Man Sky FM 0.5 † | Hericdk | GPL-3.0-only | [hericdk/nomanskyFM](https://github.com/hericdk/nomanskyFM/tree/32e7f4c14a5e9f468d7fde69c91d78b3e0424f61) |
 | `obervave-3.3.rfm1` | OberVave 3.3 | zvenson | GPL-3.0-only | [zvenson/obervave](https://github.com/zvenson/obervave/tree/25d463be127716af3f378c5302d2d84c3c89febd) |
 | `penumbra-1.0.rfm1` | Penumbra 1.0 | Lunar Eclipse Forge | GPL-3.0-only | [MadMooneyham/Penumbra](https://github.com/MadMooneyham/Penumbra/tree/a84d98fa6d159250f24e9b938dcbe3cdd4cde102) |
 | `perf1-0.16.0.rfm1` | PERF-1 0.16.0 | deamonSLINKY | GPL-3.0-only | [deamonSLINKY/PERF-1](https://github.com/deamonSLINKY/PERF-1/tree/22c295d6a098fc837f285c641aba4a4acb8c0077) |
@@ -99,7 +100,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`8a81285`](https://github.com/Quixotic7/FM1VST/tree/8a8128536c96d9df50ac47d1790a062104c265c2), Emscripten 6.0.13: `choralroot-0.29.rfm1`
 - FM1VST 0.6.2, branch `rfm1-catalog-2`, commit [`5fde8b2`](https://github.com/Quixotic7/FM1VST/tree/5fde8b25fc0826500db281cb77ddea3b5fae9b61), Emscripten 6.0.13: `clipper-1.3.rfm1`, `sloop-2.8.4.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`3f088c6`](https://github.com/Quixotic7/FM1VST/tree/3f088c6f527b8f5f230d4cc99b7692196c66b25a), Emscripten 6.0.13: `drift-0.9.1.rfm1`, `golana-1.3.rfm1`
+- FM1VST 0.6.2, commit [`3f088c6`](https://github.com/Quixotic7/FM1VST/tree/3f088c6f527b8f5f230d4cc99b7692196c66b25a), Emscripten 6.0.13: `drift-0.9.1.rfm1`, `golana-1.3.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `purplemonkey-0.11.rfm1`, `speak37-1.0.rfm1`
 - FM1VST 0.6.2, commit [`5c81d03`](https://github.com/Quixotic7/FM1VST/tree/5c81d03977773f28a857e3cd19693fd5ddf071c4), Emscripten 6.0.13: `fmel1-1.0.rfm1`, `guitchordi-0.1.0-beta.1.rfm1`, `kwasub-1.0.46.rfm1`
@@ -107,6 +108,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
 - FM1VST 0.6.2, branch `rfm1-melodee`, commit [`51419f7`](https://github.com/Quixotic7/FM1VST/tree/51419f7960c789776692e8c415d9a5aeb3c65e89), Emscripten 6.0.13: `melodee-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`b23ecfe`](https://github.com/Quixotic7/FM1VST/tree/b23ecfe5d116ac695965073034ac2d272065594a), Emscripten 6.0.13: `niagaradrift-0.2.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`7920088`](https://github.com/Quixotic7/FM1VST/tree/79200880d44f595c838d2c95040cb9744838b415), Emscripten 6.0.13: `nomansky-0.5.rfm1`
 - FM1VST 0.6.2, commit [`c3557bb`](https://github.com/Quixotic7/FM1VST/tree/c3557bba9dc710e29e306ccb57a10a5fad5a4006), Emscripten 6.0.13: `ravel-1.5.0.rfm1`
 - FM1VST 0.6.2, commit [`037a8dd`](https://github.com/Quixotic7/FM1VST/tree/037a8ddfc280af758985680c12e8e5c55d15ec98), Emscripten 6.0.13: `remotefm1-0.3.1.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
@@ -158,6 +160,8 @@ doesn't bundle them, it downloads and runs the file you choose.
 - **VESPER:** a voice of M-VAVE's V15 factory DX7 bank (PIANO 1), from M-VAVE's recovery image.
 - **FMEL-1:** its Mellotron M400S tapes by Taijiguy, free to use but not in commercial software, and Javi's
   sprites, used by permission.
+- **No Man Sky FM:** its sprite art, a fan-made demake's pictures (one of them No Man's Sky's key art redrawn), with no
+  licence statement.
 
 ‡ **Fantasy CFW: runs in RemoteFM1 apps only, never on an FM-1.** These `.rfm1` files are made for RemoteFM1's
 hosts (the site, the apps): they use more memory than an FM-1 has and read files from your RemoteFM1 folder (Ripple's
