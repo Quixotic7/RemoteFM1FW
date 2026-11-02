@@ -9,7 +9,8 @@
    "author": "C. Vestal",
    "site": "https://charlesvestal.github.io/fm1-amb/",
    "beta": false,
-   "image": "images/amb.png"
+   "image": "images/amb.png",
+   "port": "AMB-1 FM-1"
   },
   "aurora": {
    "author": "twochannels",
@@ -18,7 +19,8 @@
    "what": "Epic film sounds: an eight-voice spectral pad of sine partials that drifts on its own, a swarm of saws, shaped wind, a shimmer plate, a tape delay and a freeze that holds a cloud of grains. Every page is a picture the four knobs shift, and HOME is an aurora bent by the sound.",
    "site": "https://twochannels.github.io/AURORA/",
    "beta": true,
-   "image": "images/aurora.png"
+   "image": "images/aurora.png",
+   "port": "Felucca"
   },
   "caravel": {
    "tag": "Felucca continued",
@@ -27,7 +29,9 @@
    "author": "BonszaiMusic",
    "site": "https://bonszaimusic.github.io/caravel/webapp/installer/",
    "beta": true,
-   "image": "images/caravel.png"
+   "image": "images/caravel.png",
+   "editor": "https://bonszaimusic.github.io/caravel/webapp/editor/",
+   "port": "Caravel"
   },
   "choralroot": {
    "tag": "Chord instrument",
@@ -36,7 +40,9 @@
    "author": "Quixotic7",
    "site": "https://github.com/Quixotic7/ChoralRootFM1",
    "beta": true,
-   "image": "images/choralroot.png"
+   "image": "images/choralroot.png",
+   "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
+   "port": "ChoralRoot FM-1"
   },
   "clipper": {
    "tag": "Deep synth grown out of SLOOP",
@@ -45,7 +51,9 @@
    "author": "isod89",
    "site": "https://isod89.github.io/clipper-fm1/webapp/installer/",
    "beta": false,
-   "image": "images/clipper.png"
+   "image": "images/clipper.png",
+   "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/",
+   "port": "Clipper"
   },
   "coralflower": {
    "tag": "Chords, a flower grows",
@@ -54,7 +62,8 @@
    "author": "FicusFicusov",
    "site": "https://ficusficusov.github.io/CoralFlower/",
    "beta": true,
-   "image": "images/coralflower.png"
+   "image": "images/coralflower.png",
+   "port": "CoralFlower FM-1"
   },
   "duell": {
    "tag": "Bitimbral synth",
@@ -63,7 +72,9 @@
    "author": "OSCILL/R",
    "site": "https://github.com/oscillr/DUELL",
    "beta": false,
-   "image": "images/duell.png"
+   "image": "images/duell.png",
+   "editor": "https://oscillr.github.io/DUELL/editor/",
+   "port": "DUELL"
   },
   "fartmachine": {
    "image": "images/fartmachine.png",
@@ -72,7 +83,8 @@
    "tag": "Sampler toy",
    "what": "A questionable musical instrument: ten artisanal farts, reverb, delay and a sixteen-step sequencer.",
    "site": "https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One",
-   "beta": false
+   "beta": false,
+   "port": "FoMni FM-1"
   },
   "felucca": {
    "tag": "Multi-engine synth",
@@ -81,7 +93,9 @@
    "author": "Hügelton",
    "site": "https://github.com/hugelton/Felucca",
    "beta": false,
-   "image": "images/felucca.png"
+   "image": "images/felucca.png",
+   "editor": "https://hugelton.github.io/Felucca/webapp/editor/",
+   "port": "Felucca"
   },
   "fimba": {
    "tag": "Kalimba",
@@ -90,7 +104,8 @@
    "author": "J. Sowers",
    "site": "https://jadamsowers.github.io/fm1-fimba/",
    "beta": true,
-   "image": "images/fimba.png"
+   "image": "images/fimba.png",
+   "port": "FiMba FM-1"
   },
   "fmini": {
    "tag": "Three-oscillator mono",
@@ -99,7 +114,8 @@
    "author": "ruppert",
    "site": "https://ruppert.github.io/fmini-1/",
    "beta": false,
-   "image": "images/fmini.png"
+   "image": "images/fmini.png",
+   "port": "FM-1 Midi"
   },
   "fomni": {
    "tag": "Chord harp",
@@ -108,7 +124,8 @@
    "author": "C. Vestal",
    "site": "https://github.com/charlesvestal/fm1-fomni",
    "beta": true,
-   "image": "images/fomni.png"
+   "image": "images/fomni.png",
+   "port": "FoMni FM-1"
   },
   "frasil": {
    "author": "Styves Goupil",
@@ -117,7 +134,9 @@
    "what": "An ambient drone instrument: tap a key to latch a drone, a note or a chord in your key. Three layers a voice into a big reverb with shimmer and freeze; GLINT's icy FM bells on top, by hand, arpeggio or sequence; BASS a deep line below, held or sequenced; three LFOs keep it all moving.",
    "site": "https://frasilsynth.com",
    "beta": false,
-   "image": "images/frasil.png"
+   "image": "images/frasil.png",
+   "editor": "https://river.frasilsynth.com/",
+   "port": "FRASIL FM-1"
   },
   "ghoulbox": {
    "tag": "Dungeon synth",
@@ -126,7 +145,9 @@
    "author": "J. Persinger",
    "site": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/",
    "beta": false,
-   "image": "images/ghoulbox.png"
+   "image": "images/ghoulbox.png",
+   "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/",
+   "port": "Felucca"
   },
   "grimm": {
    "image": "images/grimm.png",
@@ -135,7 +156,9 @@
    "category": "Synth",
    "author": "GRiMMBIENT",
    "site": "https://grimmbient.github.io/grimm/",
-   "beta": false
+   "beta": false,
+   "editor": "https://grimmbient.github.io/grimm/editor.html",
+   "port": "Felucca"
   },
   "hortator": {
    "tag": "Drum machine",
@@ -144,7 +167,9 @@
    "author": "DEADACTIVE",
    "site": "https://deadactive.github.io/hortator/",
    "beta": true,
-   "image": "images/hortator.png"
+   "image": "images/hortator.png",
+   "editor": "https://deadactive.github.io/hortator/webapp/editor/",
+   "port": "Hortator"
   },
   "hyp1": {
    "author": "RedtailWorks",
@@ -153,7 +178,8 @@
    "what": "Hypnotic techno and acid: a breathing pad, a deep drone, a generative 303 line and grain over drums you sequence. Flip patterns on the bar, break it down, build it up. Forked from AMB-1. One of a pack of four: LOF-1 (a lofi groovebox), ECO-1 (a plant plays it) and GRAV-1 (a star and its planets), experimental, on its project page.",
    "site": "https://rustypawz.github.io/fm1-HYP1/",
    "beta": false,
-   "image": "images/hyp1.png"
+   "image": "images/hyp1.png",
+   "port": "HYP-1 FM-1"
   },
   "jiant": {
    "tag": "Bio-synthetic OS",
@@ -162,7 +188,9 @@
    "author": "juanjiant",
    "site": "https://juanjiant-bit.github.io/JIANT/",
    "beta": true,
-   "image": "images/jiant.png"
+   "image": "images/jiant.png",
+   "editor": "https://juanjiant-bit.github.io/JIANT/webapp/editor/",
+   "port": "FM-1"
   },
   "karma": {
    "tag": "Four-track groovebox",
@@ -171,7 +199,9 @@
    "author": "Ariel Muchnik",
    "site": "https://github.com/eatyourgreensstudio-dotcom/karma-fm1",
    "beta": false,
-   "image": "images/karma.png"
+   "image": "images/karma.png",
+   "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/",
+   "port": "FM-1 KARMA"
   },
   "melodee": {
    "tag": "Multi-engine synth",
@@ -180,7 +210,9 @@
    "author": "keremimo",
    "site": "https://github.com/keremimo/melodee",
    "beta": true,
-   "image": "images/melodee.png"
+   "image": "images/melodee.png",
+   "editor": "https://keremimo.github.io/melodee/webapp/editor/",
+   "port": "Melodee FM-1"
   },
   "minitone": {
    "tag": "Six-track multi-engine",
@@ -189,7 +221,8 @@
    "author": "S. Schmitz",
    "site": "https://github.com/eldontyrellcorp/Mini-Tone",
    "beta": false,
-   "image": "images/minitone.png"
+   "image": "images/minitone.png",
+   "port": "Felucca"
   },
   "mutabledreams": {
    "author": "Kid Bunka",
@@ -198,7 +231,9 @@
    "what": "Six synth tracks, or a Lo-Fi sample kit plus three synths, with Plaits, Rings and Elements voices inspired by Mutable Instruments. 156 factory Biomes and 352 tone presets, per-track LFOs, granular effects, 32-step sequences, chord journeys and User Banks.",
    "site": "https://github.com/kidbee85-beep/mutable-dreams",
    "beta": false,
-   "image": "images/mutabledreams.png"
+   "image": "images/mutabledreams.png",
+   "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
+   "port": "Mutable Dreams FM-1"
   },
   "niagaradrift": {
    "author": "E. Yerburgh",
@@ -207,7 +242,8 @@
    "what": "Two drones that breathe and drift on their own, after the Lyra-8, Subharmonicon and DS-2: twelve presets on the white keys, gestures and scenes to move them, an LFO, delay and a reverb that freezes. Press PLAY to fade them in.",
    "site": "https://evanyerburgh.github.io/niagara-drift/",
    "beta": false,
-   "image": "images/niagaradrift.png"
+   "image": "images/niagaradrift.png",
+   "port": "Niagara Drift FM-1"
   },
   "obervave": {
    "tag": "8-voice poly synth",
@@ -216,7 +252,8 @@
    "author": "zvenson",
    "site": "https://github.com/zvenson/obervave",
    "beta": false,
-   "image": "images/obervave.png"
+   "image": "images/obervave.png",
+   "port": "Felucca"
   },
   "pigeon": {
    "tag": "Performance sampler",
@@ -225,7 +262,8 @@
    "author": "The Shrimp Blimp",
    "site": "https://theshrimpblimp.com/pigeon/",
    "beta": true,
-   "image": "images/pigeon.png"
+   "image": "images/pigeon.png",
+   "port": "PIGEON"
   },
   "purplemonkey": {
    "tag": "For a small child",
@@ -234,7 +272,9 @@
    "author": "Quixotic7",
    "site": "https://quixotic7.github.io/PurpleMonkeyFM1/",
    "beta": true,
-   "image": "images/purplemonkey.png"
+   "image": "images/purplemonkey.png",
+   "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
+   "port": "ChoralRoot FM-1"
   },
   "rainbow": {
    "tag": "Music toy",
@@ -243,7 +283,9 @@
    "author": "J. Bartlett",
    "site": "https://joshbartlettband-web.github.io/felucca-rainbow/",
    "beta": false,
-   "image": "images/rainbow.png"
+   "image": "images/rainbow.png",
+   "editor": "https://joshbartlettband-web.github.io/felucca-rainbow/webapp/editor/",
+   "port": "Felucca"
   },
   "remotefm1": {
    "image": "images/remotefm1.png",
@@ -252,7 +294,8 @@
    "tag": "DX7 + MIDI controller",
    "what": "I heard you liked firmwares: the firmware that runs these firmwares, running as one of them. On its own RemoteFM1 is a DX7 with Yamaha's 256 ROM voices, a looper, an arp and scales; on an FM-1 it is also a MIDI controller, and the panel for RemoteFM1 itself.",
    "site": "https://remotefm1.com/",
-   "beta": false
+   "beta": false,
+   "port": "FM-1"
   },
   "ripple": {
    "author": "Charles Vestal",
@@ -262,7 +305,8 @@
    "site": "https://charlesvestal.github.io/fm1-ripple/",
    "beta": false,
    "virtual": true,
-   "image": "images/ripple.png"
+   "image": "images/ripple.png",
+   "port": "Ripple FM-1"
   },
   "s1vave": {
    "tag": "Synth after the Roland S-1…",
@@ -271,7 +315,9 @@
    "author": "Andrew GG",
    "site": "https://andrewgg.one/s1vave/",
    "beta": false,
-   "image": "images/s1vave.png"
+   "image": "images/s1vave.png",
+   "editor": "https://andrewgg.one/s1vave/editor/",
+   "port": "Felucca"
   },
   "skiff": {
    "tag": "Six-track groovebox",
@@ -280,7 +326,9 @@
    "author": "illuminus5",
    "site": "https://illuminus5.github.io/skiff/",
    "beta": false,
-   "image": "images/skiff.png"
+   "image": "images/skiff.png",
+   "editor": "https://illuminus5.github.io/skiff/webapp/editor/",
+   "port": "Felucca"
   },
   "sloop": {
    "tag": "Live groovebox",
@@ -289,7 +337,9 @@
    "author": "isod89",
    "site": "https://github.com/isod89/sloop-fm1",
    "beta": false,
-   "image": "images/sloop.png"
+   "image": "images/sloop.png",
+   "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
+   "port": "Felucca"
   },
   "speak37": {
    "tag": "Talking synth",
@@ -297,7 +347,8 @@
    "category": "Other",
    "author": "M. Geisler",
    "beta": false,
-   "image": "images/speak37.png"
+   "image": "images/speak37.png",
+   "port": "Speak37"
   },
   "tonitor": {
    "image": "images/tonitor.png",
@@ -306,7 +357,8 @@
    "category": "Other",
    "author": "N. Zimas",
    "site": "https://nzimas.github.io/tonitor/",
-   "beta": false
+   "beta": false,
+   "port": "FM-1 Tonitor"
   },
   "x0x": {
    "tag": "909, 808 and 303s",
@@ -315,7 +367,8 @@
    "author": "C. Vestal",
    "site": "https://github.com/charlesvestal/fm1-x0x",
    "beta": false,
-   "image": "images/x0x.png"
+   "image": "images/x0x.png",
+   "port": "X0X FM-1"
   },
   "zen1": {
    "image": "images/zen1.png",
@@ -324,7 +377,8 @@
    "tag": "Ambient as a living window",
    "what": "Ambient as a living window: cherry petals on a river, koi in a pond, fireflies under a real moon, and every movement a note. Set it down and let it play; the keys play along, the knobs shape the scene.",
    "site": "https://aceyprime.github.io/zen-1/",
-   "beta": false
+   "beta": false,
+   "port": "ZEN-1 FM-1"
   }
  }
 }
