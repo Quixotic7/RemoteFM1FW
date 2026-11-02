@@ -134,7 +134,8 @@
    "site": "https://www.fbnfrtg.de/tools/fm1/drift/",
    "port": "Felucca",
    "beta": true,
-   "image": "images/drift.png"
+   "image": "images/drift.png",
+   "editor": "https://www.fbnfrtg.de/tools/fm1/drift/webplayer/samples/"
   },
   "duell": {
    "tag": "Bitimbral synth",
