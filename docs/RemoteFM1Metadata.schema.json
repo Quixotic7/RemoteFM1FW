@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Quixotic7/RemoteFM1FW/main/docs/RemoteFM1Metadata.schema.json",
+  "title": "RemoteFM1Metadata.json (schema 1)",
+  "description": "Card text, screenshot, skin, panel labels and release choice for a firmware in RemoteFM1. Put the file at your repository's root. Guide: https://github.com/Quixotic7/RemoteFM1FW/blob/main/docs/REMOTEFM1-METADATA.md",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string", "description": "This schema's URL, so your editor checks the file." },
+    "schema": { "const": 1, "description": "The file format version. Always 1." },
+    "target": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._+\\-/]{0,99}$",
+      "description": "The release tag to build (e.g. \"v1.4.2\"; \"1.4.2\" also matches a \"v1.4.2\" tag). Read from your default branch, not from the release."
+    },
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The firmware's card in RemoteFM1's catalog.",
+      "properties": {
+        "tag": { "type": "string", "minLength": 1, "maxLength": 40, "pattern": "^[^\\u0000-\\u001f\\u007f]*$", "description": "A short subtitle under the name. One line." },
+        "what": { "type": "string", "minLength": 1, "maxLength": 600, "description": "One paragraph: what the firmware is and does." },
+        "category": { "enum": ["Synth", "Groovebox", "Chords", "Drums", "Other"], "description": "Where it is listed." },
+        "site": { "type": "string", "pattern": "^https://[^\\s\"<>]+$", "maxLength": 300, "description": "Your firmware's own page (https)." },
+        "editor": { "type": "string", "pattern": "^https://[^\\s\"<>]+$", "maxLength": 300, "description": "Your own web editor / manager page (https). RemoteFM1 opens it wired to the firmware running in the app." },
+        "port": { "type": "string", "minLength": 1, "maxLength": 31, "pattern": "^[^\\u0000-\\u001f\\u007f]*$", "description": "Your firmware's USB MIDI port name, as its USB descriptor gives it." },
+        "image": { "$ref": "#/$defs/path", "description": "The card picture: PNG, JPEG or WebP, square, at most 1 MiB, 512 x 512 px recommended." }
+      }
+    },
+    "skin": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "A background and colours for RemoteFM1's on-screen FM-1. Needs at least an image or a theme.",
+      "properties": {
+        "background": { "$ref": "#/$defs/path", "description": "PNG or JPEG, at most 4 MiB, longer side at most 4096 px. Portrait, or any shape; cropped to fill." },
+        "landscape": { "$ref": "#/$defs/path", "description": "Optional image for wide views. Same limits." },
+        "dim": { "type": "number", "minimum": 0, "maximum": 0.8, "description": "How much of the faceplate colour goes over the image (0 to 0.8, default 0)." },
+        "theme": {
+          "description": "Colours as \"#RRGGBB\": the five main roles, or all fourteen.",
+          "oneOf": [
+            { "type": "object", "additionalProperties": false, "required": ["body", "key", "knob", "led", "bezel"],
+              "properties": { "body": { "$ref": "#/$defs/rgb" }, "key": { "$ref": "#/$defs/rgb" }, "knob": { "$ref": "#/$defs/rgb" }, "led": { "$ref": "#/$defs/rgb" }, "bezel": { "$ref": "#/$defs/rgb" } } },
+            { "type": "object", "additionalProperties": false,
+              "required": ["body", "label", "bed", "key", "hi", "lo", "keyText", "knob", "mark", "bezel", "lcd", "ink", "led", "ledOff"],
+              "properties": { "body": { "$ref": "#/$defs/rgb" }, "label": { "$ref": "#/$defs/rgb" }, "bed": { "$ref": "#/$defs/rgb" }, "key": { "$ref": "#/$defs/rgb" },
+                "hi": { "$ref": "#/$defs/rgb" }, "lo": { "$ref": "#/$defs/rgb" }, "keyText": { "$ref": "#/$defs/rgb" }, "knob": { "$ref": "#/$defs/rgb" },
+                "mark": { "$ref": "#/$defs/rgb" }, "bezel": { "$ref": "#/$defs/rgb" }, "lcd": { "$ref": "#/$defs/rgb" }, "ink": { "$ref": "#/$defs/rgb" },
+                "led": { "$ref": "#/$defs/rgb" }, "ledOff": { "$ref": "#/$defs/rgb" } } }
+          ]
+        }
+      }
+    },
+    "labels": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Fixed names for the panel's buttons and knobs. Upper-cased; \"\" means the control has no job.",
+      "properties": {
+        "buttons": {
+          "type": "object",
+          "propertyNames": { "pattern": "^(ARP|Arp|EDIT|ENV|Edit|Env|FX|Fx|GLO|Glo|HOME|Home|LFO|Lfo|OCT\\+|OCT-|Oct\\+|Oct-|PLAY|Play|REC|Rec|SAVE|SEL|SEQ|Save|Sel|Seq|arp|edit|env|fx|glo|home|lfo|oct\\+|oct-|play|rec|save|sel|seq)$" },
+          "additionalProperties": { "$ref": "#/$defs/label" }
+        },
+        "knobs": {
+          "type": "object",
+          "propertyNames": { "pattern": "^(ALGO|Algo|K1|K2|K3|K4|MASTER|Master|PRESETS|Presets|SELECT|Select|algo|k1|k2|k3|k4|master|presets|select)$" },
+          "additionalProperties": { "$ref": "#/$defs/label" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "path": { "type": "string", "minLength": 1, "pattern": "^(?!/)(?![A-Za-z]:)(?!.*\\\\)(?!(.*/)?\\.\\.?(/|$))(?!.*//)[^\\u0000-\\u001f]+$", "description": "A file in your repository, relative to its root, with / between folders. No .., no absolute paths, no symlinks." },
+    "rgb": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "label": { "type": "string", "maxLength": 10, "pattern": "^[ -~]*$", "description": "0 to 10 printable ASCII characters (5 or fewer draw best)." }
+  }
+}

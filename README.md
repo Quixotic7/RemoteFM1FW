@@ -186,4 +186,6 @@ droplets: `code/ripple/droplets`, `code/ripple/lib`; Elasticat's samples: `audio
 the folder says it needs a newer RemoteFM1.
 
 **Firmware authors:** if you'd rather your firmware weren't listed here, or want to publish `.rfm1` files yourself,
-open an issue and it will be changed or removed.
+open an issue and it will be changed or removed. To set your firmware's description, screenshot, skin, panel labels
+or the release we build, add a `RemoteFM1Metadata.json` to your repository: see
+[docs/REMOTEFM1-METADATA.md](docs/REMOTEFM1-METADATA.md).

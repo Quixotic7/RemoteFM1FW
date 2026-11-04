@@ -20,7 +20,9 @@ manifest (the `rfm1` custom section, RemoteFM1IOS docs/RFM1-FORMAT.md section 4)
       "editor": "https://... (optional: the author's own web editor / manager page)",
       "port": "Felucca (optional: the firmware's USB MIDI port name)",
       "beta": false,
-      "virtual": true
+      "virtual": true,
+      "author_meta": { "commit": "<sha>", "fields": { "tag": "...", "image": "docs/card.png" }, "image": { "file": "images/<id>.png", "sha256": "..." }, "skin": true, "labels": { "buttons": 4, "knobs": 4 }, "warnings": [] },
+      "overrides": ["what"]
     }
   }
 }
@@ -35,6 +37,15 @@ manifest (the `rfm1` custom section, RemoteFM1IOS docs/RFM1-FORMAT.md section 4)
   `ChoralRoot FM-1`): editors look for an output whose name contains it, so the apps name their in-app port so.
 - Keys of `firmwares` are manifest ids (`[a-z0-9_]{1,31}`). Every field is optional; unknown fields are ignored.
 - `image` is relative to `catalog/`; PNG, JPEG or WebP, square, 512 px recommended, at most 1 MiB.
+- `author_meta` and `overrides` are RFM1Manager's bookkeeping; readers ignore them and read the card fields above,
+  which always hold the values to show. `author_meta` is what the firmware's own `RemoteFM1Metadata.json` said
+  (docs/REMOTEFM1-METADATA.md), read from its repository at `commit` (the commit built): `fields` are the
+  card fields it set (`image` as the path in that repository; `image` beside it is the copy here and its SHA-256),
+  `skin` whether it has a usable skin and `labels` how many panel labels it gives (both embedded in the .rfm1 by
+  FM1VST, not here), `warnings` what was wrong with it.
+  `overrides` lists the card fields the catalog's owner set by hand: those win over the author's values (a field
+  listed but absent is one the owner removed). A field neither in `author_meta.fields` nor in `overrides` is the
+  owner's own (every card made before author files existed). An entry without `author_meta` has no author file.
 - Readers fetch `https://raw.githubusercontent.com/Quixotic7/RemoteFM1FW/<tag or main>/catalog/catalog.json` and images
   beside it. The fields `author`, `category`, `tag`, `what`, `site`, `beta` are the ones RemoteFM1's
   `web/site/data/fw-catalog.json` uses, so the site's build_catalog.mjs can read this file in its place.
