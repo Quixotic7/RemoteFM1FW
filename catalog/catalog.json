@@ -69,10 +69,16 @@
    "author": "Owen Kirby",
    "category": "Synth",
    "tag": "Neolithic wavetable synth",
-   "what": "Carnac OS is a two-layer wavetable synth themed on the standing stones of Carnac: 15 morphing wavetable banks including SH-2-style Foundations shapes, synthesised PCM waves (choir, horns, pan flute, chimes) and seven voice architectures, among them STRIKE with 20 Neolithic attacks. Filters, mod slots, spring, tomb and tank reverbs, tape and BBD delays, a sequencer and an arpeggiator.",
    "site": "https://owenkirby.github.io/carnac-os/",
    "port": "X0X FM-1",
-   "beta": true
+   "beta": true,
+   "what": "CARNAC OS is a dual-timbral wavetable synth inspired by neolithic monuments and forgotten rituals. Built for deep sound design and immediate control, with a MAQ 16/3-style sequencer and a J6-style chord arp. The PCM waves need a separate installer: get it from my GitHub page.",
+   "hub_meta": {
+    "sha": "7dd7d385",
+    "fields": {
+     "what": "CARNAC OS is a dual-timbral wavetable synth inspired by neolithic monuments and forgotten rituals. Built for deep sound design and immediate control, with a MAQ 16/3-style sequencer and a J6-style chord arp. The PCM waves need a separate installer: get it from my GitHub page."
+    }
+   }
   },
   "chipbox": {
    "image": "images/chipbox.png",
@@ -446,12 +452,18 @@
    "author": "Kid Bunka",
    "category": "Synth",
    "tag": "Six-track Mutable-style synth",
-   "what": "Six synth tracks, or a Lo-Fi sample kit plus three synths, with Plaits, Rings and Elements voices inspired by Mutable Instruments. 156 factory Biomes and 352 tone presets, per-track LFOs, granular effects, 32-step sequences, chord journeys and User Banks.",
    "site": "https://github.com/kidbee85-beep/mutable-dreams",
    "beta": false,
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
-   "port": "Mutable Dreams FM-1"
+   "port": "Mutable Dreams FM-1",
+   "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 156 contrasting musical Biomes, 352 sounds and thirteen scales; shape generative rhythms, chord journeys and per-track MIDI; play and edit in your browser.",
+   "hub_meta": {
+    "sha": "f04b277d",
+    "fields": {
+     "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 156 contrasting musical Biomes, 352 sounds and thirteen scales; shape generative rhythms, chord journeys and per-track MIDI; play and edit in your browser."
+    }
+   }
   },
   "niagaradrift": {
    "author": "E. Yerburgh",
@@ -592,10 +604,16 @@
    "author": "Joakim Eriksson",
    "category": "Groovebox",
    "tag": "C64 SID player",
-   "what": "FM-1 SID turns the FM-1 into a Commodore 64: C64 music and GoatTracker 2 songs through a reSID-emulated SID, with GoatTracker's ten example songs. Write and save your own in the built-in GoatTracker editor, or switch to the SID synth with 12 instruments and a three-track step sequencer. Chorus, delay and reverb, 6581 or 8580.",
    "site": "https://joakimeriksson.github.io/fm1-emu/fm1-sid/",
    "port": "Felucca",
-   "beta": true
+   "beta": true,
+   "what": "C64 music on the FM-1: a 6510 runs each tune's own code and reSID plays it, PSID and RSID. A GoatTracker 2 editor on the FM-1 itself with ten GT2 example songs, a SID synth with a sequencer and effects, and any .sid sent from the browser plays at once.",
+   "hub_meta": {
+    "sha": "349f88d3",
+    "fields": {
+     "what": "C64 music on the FM-1: a 6510 runs each tune's own code and reSID plays it, PSID and RSID. A GoatTracker 2 editor on the FM-1 itself with ten GT2 example songs, a SID synth with a sequencer and effects, and any .sid sent from the browser plays at once."
+    }
+   }
   },
   "sid1": {
    "image": "images/sid1.png",
@@ -624,11 +642,17 @@
    "author": "Denis Sablić",
    "category": "Other",
    "tag": "Turns the FM-1 into a C64…",
-   "what": "Turns the FM-1 into a C64 SID machine: two SIDs, a GoatTracker 2 compatible tracker and step sequencer that generate patterns, chords and drums, .sid playback and LAB for sounds. Live Link puts its screen in a browser, live, and plays it from there; edit songs on the site.",
    "site": "https://dsablic.github.io/sidou/",
    "editor": "https://dsablic.github.io/sidou/",
    "port": "SIDOU FM-1",
-   "beta": false
+   "beta": false,
+   "what": "Turns the FM-1 into a C64 SID machine: two SIDs modelled on reSIDfp and measured against real 6581 and 8580 chips, a GoatTracker 2 tracker and step sequencer, .sid playback, LAB for layered sounds with a filter envelope, SidStation and MIDIbox SID patch import, and Live Link in a browser.",
+   "hub_meta": {
+    "sha": "c6d1127c",
+    "fields": {
+     "what": "Turns the FM-1 into a C64 SID machine: two SIDs modelled on reSIDfp and measured against real 6581 and 8580 chips, a GoatTracker 2 tracker and step sequencer, .sid playback, LAB for layered sounds with a filter envelope, SidStation and MIDIbox SID patch import, and Live Link in a browser."
+    }
+   }
   },
   "skiff": {
    "tag": "Six-track groovebox",
@@ -707,11 +731,17 @@
    "author": "jartificer",
    "category": "Groovebox",
    "tag": "Mega Drive tracker",
-   "what": "Turns the FM-1 into a Sega Mega Drive / Genesis music tracker: the YM2612 (six FM channels) and the SN76489 PSG, emulated, with a pattern tracker in the style of Deflemask and Furnace played from the keys and knobs. Ships with the demo song Sunset Beach Galaxy by Tobikomi.",
    "site": "https://jartificer.github.io/fm1-trax/",
    "editor": "https://jartificer.github.io/fm1-trax/editor.html",
    "port": "FM1-TRAX",
-   "beta": true
+   "beta": true,
+   "what": "A Mega Drive / Genesis music tracker. It emulates the YM2612 and SN76489 chips: six FM channels, three square waves and noise, with Deflemask-style effects, 128 FM presets, a drum kit on the DAC, 256 song slots, a demo song and VGM export.",
+   "hub_meta": {
+    "sha": "e15f1cd4",
+    "fields": {
+     "what": "A Mega Drive / Genesis music tracker. It emulates the YM2612 and SN76489 chips: six FM channels, three square waves and noise, with Deflemask-style effects, 128 FM presets, a drum kit on the DAC, 256 song slots, a demo song and VGM export."
+    }
+   }
   },
   "vector37": {
    "image": "images/vector37.png",

@@ -46,6 +46,10 @@ manifest (the `rfm1` custom section, RemoteFM1IOS docs/RFM1-FORMAT.md section 4)
   `overrides` lists the card fields the catalog's owner set by hand: those win over the author's values (a field
   listed but absent is one the owner removed). A field neither in `author_meta.fields` nor in `overrides` is the
   owner's own (every card made before author files existed). An entry without `author_meta` has no author file.
+  `hub_meta` is the fallback from the FM-1 Firmware Hub: the author's `fmhub.json` as the Hub's catalog carries it
+  (`sha`: the Hub's short commit of that file). `fields` are the card fields it filled (`what`, `category`,
+  `editor`, `author`), `image` the Hub's copy of the author's picture (its `url`, the copy here, its SHA-256). It fills
+  only fields that `author_meta` does not set and `overrides` does not list.
 - Readers fetch `https://raw.githubusercontent.com/Quixotic7/RemoteFM1FW/<tag or main>/catalog/catalog.json` and images
   beside it. The fields `author`, `category`, `tag`, `what`, `site`, `beta` are the ones RemoteFM1's
   `web/site/data/fw-catalog.json` uses, so the site's build_catalog.mjs can read this file in its place.
