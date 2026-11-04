@@ -171,7 +171,14 @@
    "image": "images/echofield.png"
   },
   "elasticat": {
-   "virtual": true
+   "virtual": true,
+   "author": "Quixotic7",
+   "category": "Other",
+   "tag": "Sampler + sequencer, Fantasy CFW",
+   "what": "A norns-style loop mangler: six tracks of loops, slices and grains with a 128-step sequencer, parameter locks, hold menus and a 128-slot sample pool. Loads WAVs from your RemoteFM1 folder (audio/), saves projects and takes to data/. A Fantasy CFW: runs in RemoteFM1 only, never on an FM-1.",
+   "site": "https://github.com/Quixotic7/elasticatfm1",
+   "beta": false,
+   "image": "images/elasticat.png"
   },
   "etch": {
    "image": "images/etch.png",
