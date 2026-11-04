@@ -71,7 +71,7 @@ shows them under About), and the exact source it was built from.
 | `purplemonkey-0.11.rfm1` | PurpleMonkey 0.11 | Quixotic7 | GPL-3.0-only | [Quixotic7/PurpleMonkeyFM1](https://github.com/Quixotic7/PurpleMonkeyFM1/tree/7590d4a5205bd4932b206d676c09b9521843a023) |
 | `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
 | `ravel-1.12.0.rfm1` | Ravel 1.12.0 | De-Pattern | GPL-3.0-only | [De-Pattern/Ravel_FM1](https://github.com/De-Pattern/Ravel_FM1/tree/16522bd3098e82a94440e8463535da7d62eb6127) |
-| `remotefm1-0.3.1.rfm1` | RemoteFM1 0.3.1 | Quixotic7 | MPL-2.0 | [Quixotic7/RemoteFM1](https://github.com/Quixotic7/RemoteFM1/tree/e6fa19d1b518fafc823b140d35fb2a51e9f870ff) |
+| `remotefm1-0.3.2.rfm1` | RemoteFM1 0.3.2 | Quixotic7 | MPL-2.0 | [Quixotic7/RemoteFM1](https://github.com/Quixotic7/RemoteFM1/tree/f4da1497ac2d2c8e6ad61f8c082689c10e023841) |
 | `ripple-0.4.rfm1` | Ripple 0.4 ‡ | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ripple](https://github.com/charlesvestal/fm1-ripple/tree/34956a11bb9a0c0163799a67c88a9fe52f9616ec) |
 | `rupture-1.67.rfm1` | RUPTURE 1.67 | Joppe Sikken (SikkenWorks), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/RUPTURE](https://github.com/SikkenWorks/RUPTURE/tree/4562cebde6e0c7674b9ff801b8d4d320955129f8) |
 | `s1vave-1.12.rfm1` | S1Vave 1.12 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/e890a211d2ad92dbdb41df610f9bd859b0eec079) |
@@ -123,7 +123,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`7d5f274`](https://github.com/Quixotic7/FM1VST/tree/7d5f274b3255339dcb63141a3b727d9dd202d43b), Emscripten 6.0.13: `niagaradrift-0.2.1.rfm1`
 - FM1VST 0.6.2, commit [`f8181a2`](https://github.com/Quixotic7/FM1VST/tree/f8181a2cbcd3b66b2f928721f3dff1aec5757f41), Emscripten 6.0.13: `perf1-0.16.1.rfm1`
 - FM1VST 0.6.2, commit [`c95eb9d`](https://github.com/Quixotic7/FM1VST/tree/c95eb9d7970ddadbed855f796f4ac437feac3978), Emscripten 6.0.13: `ravel-1.12.0.rfm1`
-- FM1VST 0.6.2, commit [`037a8dd`](https://github.com/Quixotic7/FM1VST/tree/037a8ddfc280af758985680c12e8e5c55d15ec98), Emscripten 6.0.13: `remotefm1-0.3.1.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`704ba28`](https://github.com/Quixotic7/FM1VST/tree/704ba28429a4fe9784e5d40207398cd7bfd67ed8), Emscripten 6.0.13: `remotefm1-0.3.2.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`a05e7a4`](https://github.com/Quixotic7/FM1VST/tree/a05e7a429438d11d5bbd2f77d55b96aaee12e7d4), Emscripten 6.0.13: `rupture-1.67.rfm1`
 - FM1VST 0.6.2, commit [`668af6a`](https://github.com/Quixotic7/FM1VST/tree/668af6ae44180bab3bccaadaa6a7aab05665519a), Emscripten 6.0.13: `s1vave-1.12.rfm1`
