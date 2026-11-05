@@ -184,7 +184,13 @@
    "what": "A norns-style loop mangler: six tracks of loops, slices and grains with a 128-step sequencer, parameter locks, hold menus and a 128-slot sample pool. Loads WAVs from your RemoteFM1 folder (audio/), saves projects and takes to data/. A Fantasy CFW: runs in RemoteFM1 only, never on an FM-1.",
    "site": "https://github.com/Quixotic7/elasticatfm1",
    "beta": false,
-   "image": "images/elasticat.png"
+   "image": "images/elasticat.png",
+   "author_meta": {
+    "commit": "af81abbe1a9e27229299216641a9c2912349ced2",
+    "fields": {},
+    "skin": true,
+    "warnings": []
+   }
   },
   "etch": {
    "image": "images/etch.png",
@@ -227,6 +233,24 @@
    "beta": true,
    "image": "images/fimba.png",
    "port": "FiMba FM-1"
+  },
+  "fizz": {
+   "what": "A groovebox around one engine, ChoralRoot's FM TONE: eight tracks, p-locks and preset sound locks, conditions, ratchets, chords, and MIDI FX for generative patterns and for reworking the ones you have. Bluetooth MIDI, and recording over USB audio.",
+   "category": "Groovebox",
+   "editor": "https://quixotic7.github.io/FIZZ/manager/",
+   "author": "Quixotic7",
+   "hub_meta": {
+    "sha": "a3a5d7a9",
+    "fields": {
+     "what": "A groovebox around one engine, ChoralRoot's FM TONE: eight tracks, p-locks and preset sound locks, conditions, ratchets, chords, and MIDI FX for generative patterns and for reworking the ones you have. Bluetooth MIDI, and recording over USB audio.",
+     "category": "Groovebox",
+     "editor": "https://quixotic7.github.io/FIZZ/manager/",
+     "author": "Quixotic7"
+    }
+   },
+   "tag": "FM TONE step sequencer",
+   "site": "https://quixotic7.github.io/FIZZ/",
+   "beta": true
   },
   "fmel1": {
    "image": "images/fmel1.png",

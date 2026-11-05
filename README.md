@@ -35,11 +35,12 @@ shows them under About), and the exact source it was built from.
 | `duell-1.1.rfm1` | DUELL (unofficial build) 1.1, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/974d87509e7e89db0738c731c8a657968e60e498) |
 | `dungeontracker-1.5.rfm1` | Dungeon Tracker 1.5 | BourbonWX | GPL-3.0-only | [BourbonWX/Dungeon-Tracker](https://github.com/BourbonWX/Dungeon-Tracker/tree/4e43c2f34899237f685a10999b00213644aef394) |
 | `echofield-0.2.8.rfm1` | ECHOFIELD 0.2.8 | Philip Bos | MIT | [Philip-Bos/echofield-fm1](https://github.com/Philip-Bos/echofield-fm1/tree/8187473e2713dd667d3cf0853f2f043f81307649) |
-| `elasticat-0.6.15.rfm1` | Elasticat 0.6.15 ‡ | Quixotic7 | GPL-3.0-only | [Quixotic7/elasticatfm1](https://github.com/Quixotic7/elasticatfm1/tree/bec432d71b83e12cbf5b5f2294d5b2df05dccd75) |
+| `elasticat-0.6.38.rfm1` | Elasticat 0.6.38 ‡ | Quixotic7 | GPL-3.0-only | [Quixotic7/elasticatfm1](https://github.com/Quixotic7/elasticatfm1/tree/af81abbe1a9e27229299216641a9c2912349ced2) |
 | `etch-1.88.rfm1` | ETCH 1.88 | SikkenWorks (Joppe Sikken), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/ETCH](https://github.com/SikkenWorks/ETCH/tree/2eaaad834f153f64dfae0b910e664e17acbb6901) |
 | `fartmachine-1.1.0.rfm1` | Fart Machine One 1.1.0 † | Trust This Mechanism | GPL-3.0-only | [adamcharleswilsonmusic-code/Fart-Machine-One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One/tree/5e49a216c18c6e0a7e5e42bef43843b40ad9ea5f) |
 | `felucca-1.8.1.rfm1` | Felucca 1.8.1 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/f4df2964649f301ba5abd0ec6000110068672f25) |
 | `fimba-0.6.1.rfm1` | FiMba-1 0.6.1 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/0485ed0d387ce78216428c7b19f97d77bbe10b4d) |
+| `fizz-0.12.0-beta.13.rfm1` | FIZZ 0.12.0-beta.13 | Michael P Jones (Quixotic7) | MPL-2.0 AND GPL-3.0-only AND MIT AND FTL AND OFL-1.1 | [Quixotic7/FIZZ](https://github.com/Quixotic7/FIZZ/tree/d50844dbe32dfe7e4a706f326ba291064e788ed8) |
 | `fmel1-1.1.rfm1` | FMEL-1 1.1 † | AntonioAltea | GPL-3.0-only | [AntonioAltea/fmel-1](https://github.com/AntonioAltea/fmel-1/tree/05ee6e5753f43ed0b7d87d50a42e5c40eebfdc84) |
 | `fmini-2.1.0.rfm1` | FMini-1 2.1.0 | ruppert | GPL-3.0-only | [ruppert/fmini-1](https://github.com/ruppert/fmini-1/tree/a65a7eee123d19f5eea26f8705035efdb9a05ee3) |
 | `fomni-0.4.rfm1` | FoMni-1 0.4 | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-fomni](https://github.com/charlesvestal/fm1-fomni/tree/6ecd227013cc18def0e89d035b3760eb268b342b) |
@@ -99,15 +100,17 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`7b08318`](https://github.com/Quixotic7/FM1VST/tree/7b08318f3947f61bb71df5c87835eb9f151a3afd), Emscripten 6.0.13: `amb-1.3.rfm1`, `arcticscream-1.3.1.rfm1`, `berlinan-0.5.1.rfm1`, `bytemania-1.2.0.rfm1`, `carnacos-0.9.6.rfm1`, `chipbox-1.3.3.rfm1`, `ctl1-1.0.rfm1`, `etch-1.88.rfm1`, `hawkchua-1.7.rfm1`, `mnm1-1.0.1.rfm1`, `modelar-0.3.rfm1`, `mope1-0.3.0.rfm1`, `sid-0.3.rfm1`, `sid1-1.0.0.rfm1`, `sidj-1.3.0.rfm1`, `spellbox-0.3.rfm1`, `tessera-3.2.2.rfm1`, `vector37-0.3.2.rfm1`, `vesper-2.0.1.rfm1`
 - FM1VST 0.6.2, commit [`d792e5f`](https://github.com/Quixotic7/FM1VST/tree/d792e5fc3443d268bfc4f8e2e6dc1eb9aaddae3c), Emscripten 6.0.13: `aurora-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`1e6a8cd`](https://github.com/Quixotic7/FM1VST/tree/1e6a8cd909d04e89c33533e93d73be0d6a1fed13), Emscripten 6.0.13: `caravel-0.10.1.rfm1`
-- FM1VST 0.6.2, commit [`95b8020`](https://github.com/Quixotic7/FM1VST/tree/95b8020dcfe5c030b86a0c0cae376648a6edffb1), Emscripten 6.0.13: `choralroot-0.29.2.rfm1`, `elasticat-0.6.15.rfm1`, `purplemonkey-0.11.rfm1`
+- FM1VST 0.6.2, commit [`95b8020`](https://github.com/Quixotic7/FM1VST/tree/95b8020dcfe5c030b86a0c0cae376648a6edffb1), Emscripten 6.0.13: `choralroot-0.29.2.rfm1`, `purplemonkey-0.11.rfm1`
 - FM1VST 0.6.2, commit [`b4a99ab`](https://github.com/Quixotic7/FM1VST/tree/b4a99abfff5cb76380825cba8b9041954cd34af1), Emscripten 6.0.13: `clipper-1.3.1.rfm1`, `frasil-3.0.rfm1`, `nomansky-0.9.rfm1`, `obervave-3.3.2.rfm1`, `penumbra-1.1.rfm1`, `sidou-1.5.0.rfm1`, `sloop-2.8.5.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`
 - FM1VST 0.6.2, commit [`daadfe2`](https://github.com/Quixotic7/FM1VST/tree/daadfe2f0a74cd4c3a46c8a9973410afc9d78b03), Emscripten 6.0.13: `drift-0.9.6.rfm1`
 - FM1VST 0.6.2, commit [`ea5e604`](https://github.com/Quixotic7/FM1VST/tree/ea5e6043a3dedc92cc1079ab4c2ce4c5494b583a), Emscripten 6.0.13: `duell-1.1.rfm1`, `felucca-1.8.1.rfm1`, `ghoulbox-2.4.rfm1`, `jiant-10.26.rfm1`, `minitone-1.0.5.rfm1`, `pigeon-0.4.1.rfm1`, `rainbow-1.1.5-rb.rfm1`
 - FM1VST 0.6.2, commit [`bc14147`](https://github.com/Quixotic7/FM1VST/tree/bc14147e26956b96a2278e88b3033c1d1006e1b7), Emscripten 6.0.13: `dungeontracker-1.5.rfm1`
 - FM1VST 0.6.2, commit [`e4a8051`](https://github.com/Quixotic7/FM1VST/tree/e4a8051dd97d8ad45dfdb72709cc04e417a3b1dd), Emscripten 6.0.13: `echofield-0.2.8.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`fc1dd05`](https://github.com/Quixotic7/FM1VST/tree/fc1dd05ed8b92b79207cf3381830f8e800ac4f20), Emscripten 6.0.13: `elasticat-0.6.38.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `fimba-0.6.1.rfm1`, `fomni-0.4.rfm1`, `speak37-1.0.rfm1`
+- FM1VST 0.6.2, branch `rfm1-target`, commit [`d5f8f64`](https://github.com/Quixotic7/FM1VST/tree/d5f8f64101b401abf6fd9aaa3f20c3c507e34d60), Emscripten 6.0.13: `fizz-0.12.0-beta.13.rfm1`
 - FM1VST 0.6.2, commit [`ada037f`](https://github.com/Quixotic7/FM1VST/tree/ada037f7c3aded8b68c23d753591ac531b726fe2), Emscripten 6.0.13: `fmel1-1.1.rfm1`
 - FM1VST 0.6.2, commit [`749bae9`](https://github.com/Quixotic7/FM1VST/tree/749bae90460d3b6dfa3828b9abba45d6ecb49538), Emscripten 6.0.13: `fmini-2.1.0.rfm1`
 - FM1VST 0.6.2, commit [`3f088c6`](https://github.com/Quixotic7/FM1VST/tree/3f088c6f527b8f5f230d4cc99b7692196c66b25a), Emscripten 6.0.13: `golana-1.3.rfm1`
