@@ -144,6 +144,11 @@
    "image": "images/drift.png",
    "editor": "https://www.fbnfrtg.de/tools/fm1/drift/webplayer/samples/"
   },
+  "dub": {
+   "author": "sbegueria",
+   "category": "Groovebox",
+   "what": "A generative dub techno machine that plays itself from the moment it is on: chord stabs into a tape echo, FM pings, a sub bass on five grooves, a ducking kick, crackle, and an eight-bar arrangement with breaks and fills."
+  },
   "duell": {
    "tag": "Bitimbral synth",
    "what": "A MULTIMORPHING bitimbral synth: two complete parts, three ways to play them together, and a morph that glides between two versions of every sound. Ten engines including wavetables, twin filters, effects and a mod matrix. Layer, dual or stereo mode. Velocity sensitivity and aftertouch. Dual core.",
@@ -488,6 +493,11 @@
      "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 156 contrasting musical Biomes, 352 sounds and thirteen scales; shape generative rhythms, chord journeys and per-track MIDI; play and edit in your browser."
     }
    }
+  },
+  "nachtfahrt": {
+   "author": "Cranky Man",
+   "category": "Synth",
+   "what": "Generative 1970s Berlin School: two sequencers drift against each other over a drone, in eight endless pieces. Play a melody on the white keys and the lead answers it, takes it as its theme and grows new ideas from it."
   },
   "niagaradrift": {
    "author": "E. Yerburgh",
