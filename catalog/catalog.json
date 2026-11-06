@@ -133,6 +133,12 @@
    "port": "CTL-1 FM-1",
    "beta": false
   },
+  "cultbox": {
+   "author": "beatcult",
+   "category": "Groovebox",
+   "what": "A three-channel groovebox: a Polivoks-style duophonic synth (PLVKS), an Elka-style sample drum machine with a step sequencer, and a dub siren, with BBD echoes, per-channel character effects, arp, scales and a mixer with panning.",
+   "site": "https://github.com/beatcult/CULTBOX"
+  },
   "drift": {
    "author": "FBNFRTG",
    "category": "Synth",
@@ -600,6 +606,14 @@
    "site": "https://remotefm1.com/",
    "beta": false,
    "port": "FM-1"
+  },
+  "rhythmer": {
+   "author": "Jazzy Rhythmer",
+   "category": "Groovebox",
+   "what": "A JIANT-based six-track groovebox with synthesized drums, nine synth models, 303-style acid and playable breakbeats. Generate and mutate patterns, sequence chops and repeats, switch two sample banks, and keep four projects with a browser editor.",
+   "site": "https://github.com/JazzyRhythmer/Rhythmer",
+   "editor": "https://jazzyrhythmer.github.io/Rhythmer/editor/",
+   "beta": true
   },
   "ripple": {
    "author": "Charles Vestal",

@@ -31,6 +31,7 @@ shows them under About), and the exact source it was built from.
 | `clipper-1.3.1.rfm1` | Clipper 1.3.1 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/7bc15a950a8b3fd51aec280514905448e4faaf1b) |
 | `coralflower-0.6.1.rfm1` | CoralFlower 0.6.1 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/719b2b7bb0be33aaad29e65ffbb4687c0c4ba2b9) |
 | `ctl1-1.0.1.rfm1` | CTL-1 1.0.1 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ctl](https://github.com/charlesvestal/fm1-ctl/tree/2b560cf1de65a7efa1dbe08e85536fc44a7d82ba) |
+| `cultbox-1.2.rfm1` | CULTBOX 1.2 † | beatcult | GPL-3.0-only | [beatcult/CULTBOX](https://github.com/beatcult/CULTBOX/tree/c35e403955b166b62b3ea09831087ec8595c5795) |
 | `drift-0.9.6.rfm1` | DRIFT 0.9.6 | Fabian Freitag (FBNFRTG) | GPL-3.0-only | [FBNFRTG/drift-fm1](https://github.com/FBNFRTG/drift-fm1/tree/08b65e1233fea6b542f9f22629ad6c1d761c7667) |
 | `dub-1.4.3.rfm1` | DUB-1 1.4.3 | Santiago Beguería | GPL-3.0-only | [sbegueria/fm1-dub](https://github.com/sbegueria/fm1-dub/tree/e89138a3de7d11f97c941ef467d166eb0763d160) |
 | `duell-1.1.rfm1` | DUELL (unofficial build) 1.1, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/974d87509e7e89db0738c731c8a657968e60e498) |
@@ -76,6 +77,7 @@ shows them under About), and the exact source it was built from.
 | `rainbow-1.1.5-rb.rfm1` | Rainbow Mode 1.1.5-rb † | Hausway | GPL-3.0-only | [joshbartlettband-web/felucca-rainbow](https://github.com/joshbartlettband-web/felucca-rainbow/tree/2a5bed79e4f1291359779d4938ca300a26d12471) |
 | `ravel-1.19.0.rfm1` | Ravel 1.19.0 | De-Pattern | GPL-3.0-only | [De-Pattern/Ravel_FM1](https://github.com/De-Pattern/Ravel_FM1/tree/723fa4506df69558c97dce8f53bbd72ca97c1a6b) |
 | `remotefm1-0.3.3.rfm1` | RemoteFM1 0.3.3 | Quixotic7 | MPL-2.0 | [Quixotic7/RemoteFM1](https://github.com/Quixotic7/RemoteFM1/tree/87e4dd40e287c962e2eaf43312538c8f3fa5a513) |
+| `rhythmer-0.1.0-beta.2.rfm1` | Rhythmer 0.1.0-beta.2 † | Jazzy Rhythmer | GPL-3.0-only | [JazzyRhythmer/Rhythmer](https://github.com/JazzyRhythmer/Rhythmer/tree/fe65b26f5f99408ca1cd905b9da9cfc79b626a2e) |
 | `ripple-0.4.rfm1` | Ripple 0.4 ‡ | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ripple](https://github.com/charlesvestal/fm1-ripple/tree/34956a11bb9a0c0163799a67c88a9fe52f9616ec) |
 | `rupture-1.84.2.rfm1` | RUPTURE 1.84.2 | Joppe Sikken (SikkenWorks), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/RUPTURE](https://github.com/SikkenWorks/RUPTURE/tree/e922c4ae32494957000b0bc88b01fe510299a8a8) |
 | `s1vave-1.12.1.rfm1` | S1Vave 1.12.1 | Andrew GG (a fork of zvenson's OberVave) | GPL-3.0-only | [AndrewGG88/S1Vave](https://github.com/AndrewGG88/S1Vave/tree/feaf96f725b51d7d5accae218a2881ec14204d2e) |
@@ -107,8 +109,9 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`95b8020`](https://github.com/Quixotic7/FM1VST/tree/95b8020dcfe5c030b86a0c0cae376648a6edffb1), Emscripten 6.0.13: `choralroot-0.29.2.rfm1`, `purplemonkey-0.11.rfm1`
 - FM1VST 0.6.2, commit [`b4a99ab`](https://github.com/Quixotic7/FM1VST/tree/b4a99abfff5cb76380825cba8b9041954cd34af1), Emscripten 6.0.13: `clipper-1.3.1.rfm1`, `frasil-3.0.rfm1`, `nomansky-0.9.rfm1`, `obervave-3.3.2.rfm1`, `sloop-2.8.5.rfm1`
 - FM1VST 0.6.2, commit [`516891a`](https://github.com/Quixotic7/FM1VST/tree/516891a7e471313f12cb2d09ea90688d49e8547f), Emscripten 6.0.13: `coralflower-0.6.1.rfm1`
+- FM1VST 0.6.2, commit [`0ded05a`](https://github.com/Quixotic7/FM1VST/tree/0ded05a742b5663ee44959ad159ac61315e1e56a), Emscripten 6.0.13: `cultbox-1.2.rfm1`
 - FM1VST 0.6.2, commit [`daadfe2`](https://github.com/Quixotic7/FM1VST/tree/daadfe2f0a74cd4c3a46c8a9973410afc9d78b03), Emscripten 6.0.13: `drift-0.9.6.rfm1`
-- FM1VST 0.6.2, branch `aout1-multichannel`, commit [`30911af`](https://github.com/Quixotic7/FM1VST/tree/30911af816e1e632469af77bda62e24382ed517a), Emscripten 6.0.13: `dub-1.4.3.rfm1`
+- FM1VST 0.6.2, branch `rfm1-add-dub`, commit [`30911af`](https://github.com/Quixotic7/FM1VST/tree/30911af816e1e632469af77bda62e24382ed517a), Emscripten 6.0.13: `dub-1.4.3.rfm1`
 - FM1VST 0.6.2, commit [`ea5e604`](https://github.com/Quixotic7/FM1VST/tree/ea5e6043a3dedc92cc1079ab4c2ce4c5494b583a), Emscripten 6.0.13: `duell-1.1.rfm1`, `felucca-1.8.1.rfm1`, `ghoulbox-2.4.rfm1`, `jiant-10.26.rfm1`, `minitone-1.0.5.rfm1`, `pigeon-0.4.1.rfm1`, `rainbow-1.1.5-rb.rfm1`
 - FM1VST 0.6.2, commit [`bc14147`](https://github.com/Quixotic7/FM1VST/tree/bc14147e26956b96a2278e88b3033c1d1006e1b7), Emscripten 6.0.13: `dungeontracker-1.5.rfm1`
 - FM1VST 0.6.2, commit [`a72da84`](https://github.com/Quixotic7/FM1VST/tree/a72da846bacb3c2eb4089a065b0935036caca150), Emscripten 6.0.13: `echofield-0.2.9.rfm1`
@@ -130,13 +133,14 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`a6a13be`](https://github.com/Quixotic7/FM1VST/tree/a6a13bec1fb0eb93474e7e616aaa1b1aef9c4489), Emscripten 6.0.13: `melodee-1.6.1.rfm1`
 - FM1VST 0.6.2, commit [`dd6b237`](https://github.com/Quixotic7/FM1VST/tree/dd6b23723a07b5cc89cce128159491b7e7eaa5b7), Emscripten 6.0.13: `mono2k-1.7.rfm1`
 - FM1VST 0.6.2, commit [`f4b8e52`](https://github.com/Quixotic7/FM1VST/tree/f4b8e528b864e917e03c6800d2173bfc7997a508), Emscripten 6.0.13: `mope1-0.4.0.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`4245afc`](https://github.com/Quixotic7/FM1VST/tree/4245afcbc86b2234b36ca80812b3ab0af4f0ba86), Emscripten 6.0.13: `nachtfahrt-1.0.0.rfm1`
+- FM1VST 0.6.2, commit [`4245afc`](https://github.com/Quixotic7/FM1VST/tree/4245afcbc86b2234b36ca80812b3ab0af4f0ba86), Emscripten 6.0.13: `nachtfahrt-1.0.0.rfm1`
 - FM1VST 0.6.2, commit [`7d5f274`](https://github.com/Quixotic7/FM1VST/tree/7d5f274b3255339dcb63141a3b727d9dd202d43b), Emscripten 6.0.13: `niagaradrift-0.2.1.rfm1`
 - FM1VST 0.6.2, commit [`6865db9`](https://github.com/Quixotic7/FM1VST/tree/6865db91b0b720d4b4e90b4b75625051d99c9e3e), Emscripten 6.0.13: `orbit-1.0.0.rfm1`, `sidj-1.4.0.rfm1`
 - FM1VST 0.6.2, commit [`ff5514b`](https://github.com/Quixotic7/FM1VST/tree/ff5514ba3b34fd6178456f1875ca0cc7950f6b7b), Emscripten 6.0.13: `penumbra-1.2.1.rfm1`
 - FM1VST 0.6.2, commit [`23660d0`](https://github.com/Quixotic7/FM1VST/tree/23660d097985ed87a3e2054eaaed9315410e3b30), Emscripten 6.0.13: `perf1-0.16.2.rfm1`
 - FM1VST 0.6.2, commit [`e36c02f`](https://github.com/Quixotic7/FM1VST/tree/e36c02f40fe15b7d48179f2f7467ede8ea8fcbb3), Emscripten 6.0.13: `ravel-1.19.0.rfm1`
 - FM1VST 0.6.2, commit [`6e0b330`](https://github.com/Quixotic7/FM1VST/tree/6e0b330b327f0686ee2888369ebdc4e74ed9fbb5), Emscripten 6.0.13: `remotefm1-0.3.3.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`ffd9971`](https://github.com/Quixotic7/FM1VST/tree/ffd9971bb11622f850c0cb7f9bdf41e2b24104e3), Emscripten 6.0.13: `rhythmer-0.1.0-beta.2.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`12024bc`](https://github.com/Quixotic7/FM1VST/tree/12024bc151e07fd9f4b3ecd77a33e135989f1911), Emscripten 6.0.13: `rupture-1.84.2.rfm1`
 - FM1VST 0.6.2, commit [`53b496c`](https://github.com/Quixotic7/FM1VST/tree/53b496c29d1d67799d1f01bb87492c1fbf8fa97f), Emscripten 6.0.13: `s1vave-1.12.1.rfm1`
