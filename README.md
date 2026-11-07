@@ -57,6 +57,7 @@ shows them under About), and the exact source it was built from.
 | `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.0.3.rfm1` | KARMA 3.0.3 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/739b6c9c2e5df81885b88d4cdf97a3bb0ae329e8) |
 | `kwasub-1.0.46.rfm1` | K-WASUB 1.0.46 | Guizmoh | GPL-3.0-only | [Guizmoh/K-WASUB_Firmware_for_FM1](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1/tree/d7fa87d4d73f67ef54b2bc60aaa5d3c2dfc49231) |
+| `loom-0.14.rfm1` | LOOM-8 0.14 † | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-loom](https://github.com/charlesvestal/fm1-loom/tree/faf459d1f9cea3e634b6e2622a1c3e91d58b3452) |
 | `matryoshka-1.9.1.rfm1` | Matryoshka 1.9.1 | michael glaviano (glvno), morgulbrut | GPL-3.0-only | [glvno/matryoshka](https://github.com/glvno/matryoshka/tree/4c4b12f2e5c6965bfe8a2fffe2a1457379b5b87f) |
 | `melodee-1.6.1.rfm1` | Melodee 1.6.1 | Kerem Kilic (Ellic Studio) | GPL-3.0-only (+ Apache-2.0, BSD-3-Clause, MIT, MPL-2.0, OFL-1.1 parts: its LICENSING.md) | [keremimo/melodee](https://github.com/keremimo/melodee/tree/165d177a425944f3d30b0b669255a6ed0050c3a5) |
 | `minitone-1.0.5.rfm1` | Mini-Tone 1.0.5 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/6803c6c29e3402fcc0c4af7c2050df987d9b66b5) |
@@ -129,6 +130,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`584fa0c`](https://github.com/Quixotic7/FM1VST/tree/584fa0cd38a4d804f4d927d9e99c03439d0bee80), Emscripten 6.0.13: `hortator-1.0.1.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
 - FM1VST 0.6.2, commit [`369eeaa`](https://github.com/Quixotic7/FM1VST/tree/369eeaa5b7657f705f1c5e682d5bf96c4c50ad43), Emscripten 6.0.13: `karma-3.0.3.rfm1`, `mutabledreams-1.4.rfm1`, `tonitor-0.55.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`2dad836`](https://github.com/Quixotic7/FM1VST/tree/2dad836e58c9d0919a0669148cb142d13b4b4447), Emscripten 6.0.13: `loom-0.14.rfm1`
 - FM1VST 0.6.2, commit [`54b565a`](https://github.com/Quixotic7/FM1VST/tree/54b565ab9b9712990bc75cb3c8bb464125f320ea), Emscripten 6.0.13: `matryoshka-1.9.1.rfm1`
 - FM1VST 0.6.2, commit [`a6a13be`](https://github.com/Quixotic7/FM1VST/tree/a6a13bec1fb0eb93474e7e616aaa1b1aef9c4489), Emscripten 6.0.13: `melodee-1.6.1.rfm1`
 - FM1VST 0.6.2, commit [`dd6b237`](https://github.com/Quixotic7/FM1VST/tree/dd6b23723a07b5cc89cce128159491b7e7eaa5b7), Emscripten 6.0.13: `mono2k-1.7.rfm1`
@@ -140,7 +142,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`23660d0`](https://github.com/Quixotic7/FM1VST/tree/23660d097985ed87a3e2054eaaed9315410e3b30), Emscripten 6.0.13: `perf1-0.16.2.rfm1`
 - FM1VST 0.6.2, commit [`e36c02f`](https://github.com/Quixotic7/FM1VST/tree/e36c02f40fe15b7d48179f2f7467ede8ea8fcbb3), Emscripten 6.0.13: `ravel-1.19.0.rfm1`
 - FM1VST 0.6.2, commit [`6e0b330`](https://github.com/Quixotic7/FM1VST/tree/6e0b330b327f0686ee2888369ebdc4e74ed9fbb5), Emscripten 6.0.13: `remotefm1-0.3.3.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`ffd9971`](https://github.com/Quixotic7/FM1VST/tree/ffd9971bb11622f850c0cb7f9bdf41e2b24104e3), Emscripten 6.0.13: `rhythmer-0.1.0-beta.2.rfm1`
+- FM1VST 0.6.2, commit [`ffd9971`](https://github.com/Quixotic7/FM1VST/tree/ffd9971bb11622f850c0cb7f9bdf41e2b24104e3), Emscripten 6.0.13: `rhythmer-0.1.0-beta.2.rfm1`
 - FM1VST 0.6.2, branch `virtual-carts-doc`, commit [`22973ea`](https://github.com/Quixotic7/FM1VST/tree/22973eae6619f559272cf33d10b5b5103adca261), Emscripten 6.0.13: `ripple-0.4.rfm1`
 - FM1VST 0.6.2, commit [`12024bc`](https://github.com/Quixotic7/FM1VST/tree/12024bc151e07fd9f4b3ecd77a33e135989f1911), Emscripten 6.0.13: `rupture-1.84.2.rfm1`
 - FM1VST 0.6.2, commit [`53b496c`](https://github.com/Quixotic7/FM1VST/tree/53b496c29d1d67799d1f01bb87492c1fbf8fa97f), Emscripten 6.0.13: `s1vave-1.12.1.rfm1`

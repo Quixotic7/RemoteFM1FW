@@ -410,6 +410,12 @@
    "port": "Felucca",
    "beta": false
   },
+  "loom": {
+   "author": "Charles Vestal",
+   "category": "Groovebox",
+   "what": "A groovebox inspired by the OP-XY: eight tracks on nine engines, step tricks and locks, weave, a conductor and throws.",
+   "site": "https://github.com/charlesvestal/fm1-loom"
+  },
   "matryoshka": {
    "image": "images/matryoshka.png",
    "author": "glvno",
