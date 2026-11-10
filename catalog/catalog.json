@@ -100,7 +100,13 @@
    "beta": true,
    "image": "images/choralroot.png",
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
-   "port": "ChoralRoot FM-1"
+   "port": "ChoralRoot FM-1",
+   "author_meta": {
+    "commit": "5e08da8797019b17b390954ad834cd5aa679e037",
+    "fields": {},
+    "skin": true,
+    "warnings": []
+   }
   },
   "clipper": {
    "tag": "SLOOP-family groovebox",
@@ -580,7 +586,13 @@
    "beta": true,
    "image": "images/purplemonkey.png",
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
-   "port": "ChoralRoot FM-1"
+   "port": "ChoralRoot FM-1",
+   "author_meta": {
+    "commit": "8c9bba141fea1a12ab1b65d429a0d226b7e0b451",
+    "fields": {},
+    "skin": true,
+    "warnings": []
+   }
   },
   "rainbow": {
    "tag": "Music toy",
@@ -700,11 +712,11 @@
    "editor": "https://dsablic.github.io/sidou/",
    "port": "SIDOU FM-1",
    "beta": false,
-   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured against real 6581 and 8580 chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for layered sounds with step tables and free LFOs, SidStation patch import, and Live Link in a browser.",
+   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback with live tweaks, LAB for sounds with step tables and LFOs, patches from an AI chat or SidStation banks, Bluetooth MIDI, and Live Link in a browser.",
    "hub_meta": {
-    "sha": "f55503b8",
+    "sha": "97867109",
     "fields": {
-     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured against real 6581 and 8580 chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for layered sounds with step tables and free LFOs, SidStation patch import, and Live Link in a browser."
+     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback with live tweaks, LAB for sounds with step tables and LFOs, patches from an AI chat or SidStation banks, Bluetooth MIDI, and Live Link in a browser."
     }
    }
   },
