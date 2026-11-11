@@ -102,7 +102,7 @@
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
    "port": "ChoralRoot FM-1",
    "author_meta": {
-    "commit": "5e08da8797019b17b390954ad834cd5aa679e037",
+    "commit": "36867e5c76fa1ecc02cba57102ee870695e1de10",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -156,6 +156,27 @@
    "image": "images/drift.png",
    "editor": "https://www.fbnfrtg.de/tools/fm1/drift/webplayer/samples/"
   },
+  "drumlab": {
+   "what": "Microtonic, for the FM-1! Roll the dice for a kit, build one from scratch, or bring in your Microtonic presets and patterns. Share kits and patterns as files, and send it all to your Teenage Engineering PO-32! Built on Chipbox!",
+   "category": "Drums",
+   "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/",
+   "author": "pbarilla",
+   "image": "images/drumlab.png",
+   "hub_meta": {
+    "sha": "21bd3084",
+    "fields": {
+     "what": "Microtonic, for the FM-1! Roll the dice for a kit, build one from scratch, or bring in your Microtonic presets and patterns. Share kits and patterns as files, and send it all to your Teenage Engineering PO-32! Built on Chipbox!",
+     "category": "Drums",
+     "editor": "https://ihavenocluewhatimdoing.com/drumlab/projects/",
+     "author": "pbarilla"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/drumlab-99daafed.png",
+     "file": "images/drumlab.png",
+     "sha256": "99daafedb5877978ea56b1e59063d52be43b6e14c7bfd1b3fd61b4f54797486a"
+    }
+   }
+  },
   "dub": {
    "author": "sbegueria",
    "category": "Groovebox",
@@ -181,6 +202,27 @@
    "port": "Felucca",
    "beta": false,
    "site": "https://github.com/BourbonWX/Dungeon-Tracker"
+  },
+  "dx747": {
+   "what": "An eight-part multitimbral DX7 module. Every part has its own MIDI channel and up to eight layered DX7 voices, with key splits, velocity windows and 64 scenes. A master filter, shared reverb and delay, DX7 ROM import and a web configurator. Played and controlled over MIDI.",
+   "category": "Synth",
+   "editor": "https://esbenvb.github.io/fm1-dx747/#configure",
+   "author": "Esben von Buchwald",
+   "image": "images/dx747.png",
+   "hub_meta": {
+    "sha": "307127bc",
+    "fields": {
+     "what": "An eight-part multitimbral DX7 module. Every part has its own MIDI channel and up to eight layered DX7 voices, with key splits, velocity windows and 64 scenes. A master filter, shared reverb and delay, DX7 ROM import and a web configurator. Played and controlled over MIDI.",
+     "category": "Synth",
+     "editor": "https://esbenvb.github.io/fm1-dx747/#configure",
+     "author": "Esben von Buchwald"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/dx747-5e499d7b.png",
+     "file": "images/dx747.png",
+     "sha256": "5e499d7b296938859c71a62dfbeecbf507e652458bdd2c54cab56fd20743d620"
+    }
+   }
   },
   "echofield": {
    "author": "Philip Bos",
@@ -504,11 +546,11 @@
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
    "port": "Mutable Dreams FM-1",
-   "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 156 contrasting musical Biomes, 352 sounds and thirteen scales; shape generative rhythms, chord journeys and per-track MIDI; play and edit in your browser.",
+   "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 168 musical Biomes, 364 sounds and thirteen scales; receive BLE MIDI notes, CC and clock, shape chord journeys and generative rhythms, and play or edit in your browser.",
    "hub_meta": {
-    "sha": "f04b277d",
+    "sha": "33f9ee60",
     "fields": {
-     "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 156 contrasting musical Biomes, 352 sounds and thirteen scales; shape generative rhythms, chord journeys and per-track MIDI; play and edit in your browser."
+     "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 168 musical Biomes, 364 sounds and thirteen scales; receive BLE MIDI notes, CC and clock, shape chord journeys and generative rhythms, and play or edit in your browser."
     }
    }
   },
@@ -623,7 +665,14 @@
    "what": "The firmware this site installs, running as itself. On its own (0.3) the FM-1 is a DX7 with Yamaha's ROM voices, a MIDI controller, a looper and an arp; when a computer connects it becomes that computer's panel.",
    "site": "https://remotefm1.com/",
    "beta": false,
-   "port": "FM-1"
+   "port": "FM-1",
+   "editor": "https://remotefm1.com/",
+   "hub_meta": {
+    "sha": "8472f6d4",
+    "fields": {
+     "editor": "https://remotefm1.com/"
+    }
+   }
   },
   "rhythmer": {
    "author": "Jazzy Rhythmer",
