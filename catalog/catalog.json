@@ -102,7 +102,7 @@
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
    "port": "ChoralRoot FM-1",
    "author_meta": {
-    "commit": "36867e5c76fa1ecc02cba57102ee870695e1de10",
+    "commit": "bebd69d178b5bbacd28e1766979ef5415c431c19",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -537,6 +537,27 @@
    "port": "Mope FM-1",
    "beta": true
   },
+  "mpyre": {
+   "what": "A riffbox for rock and metal: real guitar, bass and drum samples, an amp engine with cabinet IRs, pedals and guitar effects, plus all of SLOOP's synth engines. Bend strings, play whammy, wah and palm mutes live, record on the 4-track and turn riffs into songs.",
+   "category": "Groovebox",
+   "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/",
+   "author": "History Of Sky",
+   "image": "images/mpyre.webp",
+   "hub_meta": {
+    "sha": "88786ab7",
+    "fields": {
+     "what": "A riffbox for rock and metal: real guitar, bass and drum samples, an amp engine with cabinet IRs, pedals and guitar effects, plus all of SLOOP's synth engines. Bend strings, play whammy, wah and palm mutes live, record on the 4-track and turn riffs into songs.",
+     "category": "Groovebox",
+     "editor": "https://historyofsky.github.io/m-pyre/webapp/editor/",
+     "author": "History Of Sky"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/mpyre-b7ba5861.w640.webp",
+     "file": "images/mpyre.webp",
+     "sha256": "bb714d22d0237e2547188895337afaa9a0e2a2a59cb1a45224ab8307f8a8284d"
+    }
+   }
+  },
   "mutabledreams": {
    "author": "Kid Bunka",
    "category": "Synth",
@@ -587,6 +608,27 @@
    "beta": false,
    "image": "images/obervave.png",
    "port": "Felucca"
+  },
+  "patchwerk": {
+   "what": "A modular synth for the FM-1. With over 80 modules, including synth engines, samplers, filters, effects, sequencers, and generative tools, you can build, patch, and perform directly on the hardware.",
+   "category": "Synth",
+   "editor": "https://mattkuebrich.com/patchwerk/",
+   "author": "Matt Kuebrich",
+   "image": "images/patchwerk.webp",
+   "hub_meta": {
+    "sha": "2c1a496c",
+    "fields": {
+     "what": "A modular synth for the FM-1. With over 80 modules, including synth engines, samplers, filters, effects, sequencers, and generative tools, you can build, patch, and perform directly on the hardware.",
+     "category": "Synth",
+     "editor": "https://mattkuebrich.com/patchwerk/",
+     "author": "Matt Kuebrich"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/patchwerk-538c3edc.w640.webp",
+     "file": "images/patchwerk.webp",
+     "sha256": "2b4f6ca31a61f82c8937c37a832b86f8508553d7031fb6a246eaf231782e55e6"
+    }
+   }
   },
   "penumbra": {
    "image": "images/penumbra.png",
