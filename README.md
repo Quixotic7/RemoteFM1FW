@@ -44,7 +44,7 @@ shows them under About), and the exact source it was built from.
 | `fartmachine-1.1.0.rfm1` | Fart Machine One 1.1.0 † | Trust This Mechanism | GPL-3.0-only | [adamcharleswilsonmusic-code/Fart-Machine-One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One/tree/5e49a216c18c6e0a7e5e42bef43843b40ad9ea5f) |
 | `felucca-1.8.1.rfm1` | Felucca 1.8.1 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/f4df2964649f301ba5abd0ec6000110068672f25) |
 | `fimba-0.7.0.rfm1` | FiMba-1 0.7.0 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/838aa1d233d934c8a388acaaa47358655d6bfffe) |
-| `fizz-0.12.0-beta.13.rfm1` | FIZZ 0.12.0-beta.13 | Michael P Jones (Quixotic7) | MPL-2.0 AND GPL-3.0-only AND MIT AND FTL AND OFL-1.1 | [Quixotic7/FIZZ](https://github.com/Quixotic7/FIZZ/tree/d50844dbe32dfe7e4a706f326ba291064e788ed8) |
+| `fizz-0.12.0-beta.15.rfm1` | FIZZ 0.12.0-beta.15 | Michael P Jones (Quixotic7) | MPL-2.0 AND GPL-3.0-only AND MIT AND FTL AND OFL-1.1 | [Quixotic7/FIZZ](https://github.com/Quixotic7/FIZZ/tree/b62601813a01cb201dbf56de7c9b3c8985fdf3c8) |
 | `fmel1-1.3.rfm1` | FMEL-1 1.3 † | AntonioAltea | GPL-3.0-only | [AntonioAltea/fmel-1](https://github.com/AntonioAltea/fmel-1/tree/cb21b680568a1239c0705c5e6b33730241c50d97) |
 | `fmini-2.5.0.rfm1` | FMini-1 2.5.0 | ruppert | GPL-3.0-only | [ruppert/fmini-1](https://github.com/ruppert/fmini-1/tree/daf3ac62fc91ca68910b175acda0088b42557b0d) |
 | `fomni-0.4.1.rfm1` | FoMni-1 0.4.1 | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-fomni](https://github.com/charlesvestal/fm1-fomni/tree/17a740b7b2d19615ffe19aa73f8eda67f60f223d) |
@@ -130,7 +130,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`ea5e604`](https://github.com/Quixotic7/FM1VST/tree/ea5e6043a3dedc92cc1079ab4c2ce4c5494b583a), Emscripten 6.0.13: `felucca-1.8.1.rfm1`, `ghoulbox-2.4.rfm1`, `jiant-10.26.rfm1`, `minitone-1.0.5.rfm1`, `pigeon-0.4.1.rfm1`, `rainbow-1.1.5-rb.rfm1`
 - FM1VST 0.6.2, commit [`9dac62e`](https://github.com/Quixotic7/FM1VST/tree/9dac62e31daea0a902078a3fac9f0c7196496158), Emscripten 6.0.13: `fimba-0.7.0.rfm1`
-- FM1VST 0.6.2, branch `rfm1-target`, commit [`d5f8f64`](https://github.com/Quixotic7/FM1VST/tree/d5f8f64101b401abf6fd9aaa3f20c3c507e34d60), Emscripten 6.0.13: `fizz-0.12.0-beta.13.rfm1`
+- FM1VST 0.6.2, branch `rfm1-target`, commit [`d5f8f64`](https://github.com/Quixotic7/FM1VST/tree/d5f8f64101b401abf6fd9aaa3f20c3c507e34d60), Emscripten 6.0.13: `fizz-0.12.0-beta.15.rfm1`
 - FM1VST 0.6.2, commit [`6e72035`](https://github.com/Quixotic7/FM1VST/tree/6e72035070c8eb958eb64ae8956d32000254c9d2), Emscripten 6.0.13: `fmel1-1.3.rfm1`
 - FM1VST 0.6.2, commit [`49bedbc`](https://github.com/Quixotic7/FM1VST/tree/49bedbc68e254e92ebb977f3d642e0af222ffb8e), Emscripten 6.0.13: `fmini-2.5.0.rfm1`
 - FM1VST 0.6.2, commit [`fa0ef4e`](https://github.com/Quixotic7/FM1VST/tree/fa0ef4e4254d0614169c0fcc642b207a16788469), Emscripten 6.0.13: `fomni-0.4.1.rfm1`
