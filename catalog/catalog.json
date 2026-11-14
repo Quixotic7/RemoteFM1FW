@@ -102,7 +102,7 @@
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
    "port": "ChoralRoot FM-1",
    "author_meta": {
-    "commit": "bebd69d178b5bbacd28e1766979ef5415c431c19",
+    "commit": "1890b160d0176af33b34bb92b8f5148264e545d4",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -261,6 +261,14 @@
    "editor": "https://sikkenworks.github.io/ETCH/ETCH-Project-Preset-Manager.html",
    "port": "ETCH",
    "beta": false
+  },
+  "evilgenius": {
+   "author_meta": {
+    "commit": "988a54e4776d1a8c09250826b422cc928b2be21d",
+    "fields": {},
+    "skin": true,
+    "warnings": []
+   }
   },
   "fartmachine": {
    "image": "images/fartmachine.png",
@@ -567,11 +575,11 @@
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
    "port": "Mutable Dreams FM-1",
-   "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 168 musical Biomes, 364 sounds and thirteen scales; receive BLE MIDI notes, CC and clock, shape chord journeys and generative rhythms, and play or edit in your browser.",
+   "what": "A six-track generative synth for the M-VAVE FM-1. Play 272 Biomes, let 14 Itinera dreams travel for up to four hours, arrange with Journey, and record six mono voices plus the stereo mix over USB.",
    "hub_meta": {
-    "sha": "33f9ee60",
+    "sha": "72409c02",
     "fields": {
-     "what": "Six assignable synth tracks, or a Lo-Fi kit plus three synths. Explore 168 musical Biomes, 364 sounds and thirteen scales; receive BLE MIDI notes, CC and clock, shape chord journeys and generative rhythms, and play or edit in your browser."
+     "what": "A six-track generative synth for the M-VAVE FM-1. Play 272 Biomes, let 14 Itinera dreams travel for up to four hours, arrange with Journey, and record six mono voices plus the stereo mix over USB."
     }
    }
   },
@@ -588,7 +596,27 @@
    "site": "https://evanyerburgh.github.io/niagara-drift/",
    "beta": false,
    "image": "images/niagaradrift.png",
-   "port": "Niagara Drift FM-1"
+   "port": "Niagara Drift FM-1",
+   "author_meta": {
+    "commit": "1635475af6bf36c7b3657ffe612a966e5bf4aa84",
+    "fields": {
+     "tag": "Drone synth",
+     "what": "Two drones that breathe and drift on their own, shaped by hand: from hypnotic and blissful to harsh, beating and self-oscillating. Presets and macros for instant ambient textures, and deep controls to pilot them into outer space.",
+     "port": "Niagara Drift FM-1",
+     "category": "Synth",
+     "site": "https://evanyerburgh.github.io/niagara-drift/",
+     "image": "docs/img/screen-play.png"
+    },
+    "image": {
+     "sha256": "01fbbae31c1527dd4eee652987a9c383b16006c355be365e6a287d2c596525db"
+    },
+    "skin": false,
+    "warnings": []
+   },
+   "overrides": [
+    "image",
+    "what"
+   ]
   },
   "nomansky": {
    "image": "images/nomansky.png",
