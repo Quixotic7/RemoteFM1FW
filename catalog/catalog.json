@@ -336,6 +336,7 @@
     "category",
     "editor",
     "image",
+    "port",
     "site",
     "tag",
     "what"
@@ -346,7 +347,8 @@
    "what": "A SID chip groovebox that talks. Six tracks of C64 SID voices and SAM speech, per-step sound locks, conditions, ratchets and MIDI FX, and a tower of eight retro effects with a send per track. Bluetooth MIDI and USB audio. A C64 game for a screen.",
    "site": "https://quixotic7.github.io/evilgenius/",
    "editor": "https://quixotic7.github.io/evilgenius/manager/",
-   "beta": false
+   "beta": false,
+   "port": "EVILGENIUS FM-1"
   },
   "fartmachine": {
    "image": "images/fartmachine.png",
