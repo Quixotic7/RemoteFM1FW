@@ -43,7 +43,7 @@ shows them under About), and the exact source it was built from.
 | `echofield-0.2.12.rfm1` | ECHOFIELD 0.2.12 | Philip Bos | MIT | [Philip-Bos/echofield-fm1](https://github.com/Philip-Bos/echofield-fm1/tree/0047107189fe335c389cdbf878c764c632bc3d02) |
 | `elasticat-0.6.93.rfm1` | Elasticat 0.6.93 ‡ | Quixotic7 | GPL-3.0-only | [Quixotic7/elasticatfm1](https://github.com/Quixotic7/elasticatfm1/tree/db0a4f5b4e9826f75732da7c4fb77c5643341409) |
 | `etch-1.88.rfm1` | ETCH 1.88 | SikkenWorks (Joppe Sikken), Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [SikkenWorks/ETCH](https://github.com/SikkenWorks/ETCH/tree/2eaaad834f153f64dfae0b910e664e17acbb6901) |
-| `evilgenius-0.1.0-beta.3.rfm1` | EVILGENIUS 0.1.0-beta.3 † | Michael P Jones (Quixotic7) | MPL-2.0 | [Quixotic7/evilgenius](https://github.com/Quixotic7/evilgenius/tree/25a25c09509780fe1d2ff61b823e83465c6b99e0) |
+| `evilgenius-0.1.1.rfm1` | EVILGENIUS 0.1.1 † | Michael P Jones (Quixotic7) | MPL-2.0 | [Quixotic7/EvilGenius](https://github.com/Quixotic7/EvilGenius/tree/4fbc21f796e6cbf4f8dec09361fdf5fb54b0f813) |
 | `fartmachine-1.1.0.rfm1` | Fart Machine One 1.1.0 † | Trust This Mechanism | GPL-3.0-only | [adamcharleswilsonmusic-code/Fart-Machine-One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One/tree/5e49a216c18c6e0a7e5e42bef43843b40ad9ea5f) |
 | `felucca-1.8.2.rfm1` | Felucca 1.8.2 | Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [hugelton/Felucca](https://github.com/hugelton/Felucca/tree/6162de864075ad9edb8cd35e0e45ba75faa5d0db) |
 | `fimba-0.7.0.rfm1` | FiMba-1 0.7.0 | jadamsowers | GPL-3.0-only | [jadamsowers/fm1-fimba](https://github.com/jadamsowers/fm1-fimba/tree/838aa1d233d934c8a388acaaa47358655d6bfffe) |
@@ -115,6 +115,7 @@ shows them under About), and the exact source it was built from.
 - `amenity-2.1.0.rfm1`: built by the author (fm1-base 317cb86 tools/build.py --rfm1, emcc 6.0.10), their release [v2.1.0](https://github.com/ejtb76/amenity/releases/tag/v2.1.0), unchanged
 - `ctl-1.0.3.rfm1`: built by the author (fm1-base 3ae2a65 tools/build.py --rfm1, emcc 6.0.10), their release [v1.0.3](https://github.com/charlesvestal/fm1-ctl/releases/tag/v1.0.3), unchanged
 - `dubwise-0.4.2.rfm1`: built by the author (fm1-base b0976f2 tools/build.py --rfm1, emcc 6.0.10), their release [v0.4.2](https://github.com/DocRuzzy/dubwise-fm/releases/tag/v0.4.2), unchanged
+- `evilgenius-0.1.1.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.13), their release [v0.1.1](https://github.com/Quixotic7/evilgenius/releases/tag/v0.1.1), unchanged
 - `frasil-3.3.1.rfm1`: built by the author (fm1-base 0cf96f9 tools/build.py --rfm1, emcc 6.0.12), their release [v3.3.1](https://github.com/styvesgoupil/frasil/releases/tag/v3.3.1), unchanged
 - `kris_jangle-0.12.rfm1`: built by the author (fm1-base 13af268 tools/build.py --rfm1, emcc 6.0.10), their release [v0.12](https://github.com/doohinkus/kris-jangle/releases/tag/v0.12), unchanged
 - `loom-0.16.2.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.10), their release [v0.16.2](https://github.com/charlesvestal/fm1-loom/releases/tag/v0.16.2), unchanged
@@ -136,7 +137,6 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`6abdbf5`](https://github.com/Quixotic7/FM1VST/tree/6abdbf5e6994fa0b56bbbea5354320ded88b99da), Emscripten 6.0.13: `dx747-0.1.rfm1`
 - FM1VST 0.6.2, commit [`88e36ee`](https://github.com/Quixotic7/FM1VST/tree/88e36ee871e33a1f3b713220244f73aad3b86d51), Emscripten 6.0.13: `echofield-0.2.12.rfm1`
 - FM1VST 0.6.2, commit [`62c1783`](https://github.com/Quixotic7/FM1VST/tree/62c178310f16bc64d74482e57e675f08aa1658b4), Emscripten 6.0.13: `elasticat-0.6.93.rfm1`
-- FM1VST 0.6.2, commit [`5634390`](https://github.com/Quixotic7/FM1VST/tree/5634390f8f9e2b6607664d2e5faa47edcb0fc6cf), Emscripten 6.0.13: `evilgenius-0.1.0-beta.3.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`9dac62e`](https://github.com/Quixotic7/FM1VST/tree/9dac62e31daea0a902078a3fac9f0c7196496158), Emscripten 6.0.13: `fimba-0.7.0.rfm1`
 - FM1VST 0.6.2, branch `rfm1-target`, commit [`d5f8f64`](https://github.com/Quixotic7/FM1VST/tree/d5f8f64101b401abf6fd9aaa3f20c3c507e34d60), Emscripten 6.0.11: `fizz-0.12.0-beta.19.rfm1`

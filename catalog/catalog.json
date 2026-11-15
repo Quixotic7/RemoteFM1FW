@@ -326,11 +326,27 @@
   },
   "evilgenius": {
    "author_meta": {
-    "commit": "25a25c09509780fe1d2ff61b823e83465c6b99e0",
+    "commit": "4fbc21f796e6cbf4f8dec09361fdf5fb54b0f813",
     "fields": {},
     "skin": true,
     "warnings": []
-   }
+   },
+   "image": "images/evilgenius.png",
+   "overrides": [
+    "category",
+    "editor",
+    "image",
+    "site",
+    "tag",
+    "what"
+   ],
+   "author": "Quixotic7",
+   "category": "Groovebox",
+   "tag": "SID groovebox that talks",
+   "what": "A SID chip groovebox that talks. Six tracks of C64 SID voices and SAM speech, per-step sound locks, conditions, ratchets and MIDI FX, and a tower of eight retro effects with a send per track. Bluetooth MIDI and USB audio. A C64 game for a screen.",
+   "site": "https://quixotic7.github.io/evilgenius/",
+   "editor": "https://quixotic7.github.io/evilgenius/manager/",
+   "beta": false
   },
   "fartmachine": {
    "image": "images/fartmachine.png",
