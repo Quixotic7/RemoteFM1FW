@@ -129,6 +129,16 @@
    "image": "images/coralflower.png",
    "port": "CoralFlower FM-1"
   },
+  "ctl": {
+   "author": "Charles Vestal",
+   "category": "Other",
+   "tag": "MIDI controller + GM",
+   "what": "CTL-1 turns the FM-1 into a MIDI controller: keys with velocity and aftertouch in any scale with chords under the black keys, four knobs sending controllers in four banks, an arpeggiator and a four-track Euclidean drum sequencer on its clock. Everything goes out as MIDI, and the built-in General MIDI sounds play along, so it works with nothing connected.",
+   "site": "https://charlesvestal.github.io/fm1-ctl/",
+   "port": "CTL-1 FM-1",
+   "beta": false,
+   "image": "images/ctl.png"
+  },
   "ctl1": {
    "image": "images/ctl1.png",
    "author": "Charles Vestal",
