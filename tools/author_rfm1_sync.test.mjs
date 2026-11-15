@@ -50,6 +50,12 @@ test("the same version replaces our build (AMB-1, FRASIL), not an author's file 
   assert.match(r.reasons[0], /already not FM1VST's build/);
 });
 
+test("a held firmware keeps our build, even for a newer author release", () => {
+  const r = ctx(ours({ id: "evilgenius" }), rfm1({ id: "evilgenius" }));
+  assert.equal(r.verdict, "held");
+  assert.match(r.reasons[0], /SysEx/);
+});
+
 test("an older author release is not taken (and not a refusal)", () => {
   const r = ctx(ours({ version: "0.17" }), rfm1());
   assert.equal(r.verdict, "older");

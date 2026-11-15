@@ -84,6 +84,11 @@ export function manifestProblems(info) {
 export const commitOf = (m) => (/@([0-9a-f]{7,40})$/.exec(m?.source_url || "") || [])[1] || null;
 export const slugOf = (m) => (/^https:\/\/github\.com\/([^/@\s]+\/[^/@\s]+?)(?:\.git)?@/.exec(m?.source_url || "") || [])[1] || null;
 // FM1VST's own build (fm1_add_rfm1): "FM1VST 0.6.2 (e85477bb6807) fm1_add_rfm1, emcc ..."
+// firmwares whose FM1VST build stays in `current` even when the author's release has an .rfm1: id -> why (the owner's
+// call; the manager has the same list, RFM1Manager lib/authorrfm1.js AUTHOR_RFM1_HOLD)
+export const HOLD = {
+  evilgenius: "held on FM1VST's build (owner, 2026-11-15): fm1-base's --rfm1 host (host/rfm1.c) gives SysEx to its screen reader only, so the app never answers its manager",
+};
 export const isOurBuild = (m) => /^FM1VST /.test(m?.built_by || "");
 const digestSha = (a) => (a?.digest && a.digest.startsWith("sha256:") ? a.digest.slice(7).toLowerCase() : null);
 
@@ -103,7 +108,7 @@ export const SILENT_RMS = 0.0005;
 
 const short = (c) => String(c || "?").slice(0, 7);
 
-// the checks that need no tool: { verdict: "same" | "older" | "refuse" | "candidate", reasons, file }
+// the checks that need no tool: { verdict: "same" | "held" | "older" | "refuse" | "candidate", reasons, file }
 //   cur:    { file, info }               the file in `current`
 //   author: { asset, info }              the author's .rfm1 (asset: its release asset name)
 //   rel:    { slug, tag, tagCommit }     the author's release; tagCommit: the tag's commit (40 hex)
@@ -112,6 +117,7 @@ const short = (c) => String(c || "?").slice(0, 7);
 export function judgeStatic({ cur, author, rel, commitOnGitHub = null, abis, formats }) {
   const m = author.info.manifest, cm = cur.info.manifest;
   if (author.info.sha256 === cur.info.sha256) return { verdict: "same", reasons: [] };
+  if (HOLD[cm.id]) return { verdict: "held", reasons: [HOLD[cm.id]] };
   const p = [];
   if (m.id !== cm.id) p.push(`its manifest id "${m.id}" is not the current file's "${cm.id}"`);
   else {
@@ -361,7 +367,7 @@ export async function main(argv) {
     const st = judgeStatic({ cur: c, author, rel: rl, commitOnGitHub, abis, formats });
     const entry = { c, label, where, url: rel.html_url, author };
     if (st.verdict === "same") { res.same.push(entry); continue; }
-    if (st.verdict === "older") { res.none.push({ ...entry, slug, why: st.reasons[0] }); continue; }
+    if (st.verdict === "held" || st.verdict === "older") { res.none.push({ ...entry, slug, why: st.reasons[0] }); continue; }
     if (st.verdict === "refuse") { res.refused.push({ ...entry, reasons: st.reasons }); continue; }
     // the tools, on the renamed file (the author's bytes) and on the current file with the same options
     const out = join(o.work, "out", st.file);
