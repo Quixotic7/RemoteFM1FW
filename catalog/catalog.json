@@ -12,6 +12,27 @@
    "image": "images/amb.png",
    "port": "AMB-1 FM-1"
   },
+  "amenity": {
+   "what": "A live jungle tool built around classic breaks (Amen, Apache, Think) and your own. Hold white keys for rolls, builds, echo and Akai-style metallic stretch, play hits on the black keys, and shape the break with variation, warp, ringing feedback, lo-fi, EQ, saturation and compression.",
+   "category": "Drums",
+   "editor": "https://ejtb76.github.io/amenity/breaks/",
+   "author": "Presethead",
+   "image": "images/amenity.webp",
+   "hub_meta": {
+    "sha": "2005c335",
+    "fields": {
+     "what": "A live jungle tool built around classic breaks (Amen, Apache, Think) and your own. Hold white keys for rolls, builds, echo and Akai-style metallic stretch, play hits on the black keys, and shape the break with variation, warp, ringing feedback, lo-fi, EQ, saturation and compression.",
+     "category": "Drums",
+     "editor": "https://ejtb76.github.io/amenity/breaks/",
+     "author": "Presethead"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/amenity-ee0f1f83.w640.webp",
+     "file": "images/amenity.webp",
+     "sha256": "34eae10e7622f5dcb90618c4ef538d9468294d461c0733dd8c2d1a974aadf2ad"
+    }
+   }
+  },
   "arcticscream": {
    "image": "images/arcticscream.png",
    "author": "PolarPatch",
@@ -191,6 +212,37 @@
    "author": "sbegueria",
    "category": "Groovebox",
    "what": "A generative dub techno machine that plays itself from the moment it is on: chord stabs into a tape echo, FM pings, a sub bass on five grooves, a ducking kick, crackle, and an eight-bar arrangement with breaks and fills."
+  },
+  "dubwise": {
+   "tag": "A dub mixing desk you play live",
+   "what": "In dub, the mixing desk is the instrument. Dubwise FM is an eight-channel reggae band (FM drums, bass, skank, organ, melodica or horns, sirens and shouts), each channel with a mute and a throw, feeding a tape echo you can push into feedback and a spring reverb you can kick. Quantised mutes land on the one with a countdown, the stepped Big Knob filter clicks like King Tubby's, and every drop, throw and sweep is yours: nothing plays itself. Record your moves into a song, recall them as scenes, or take the eight stems out over USB.",
+   "category": "Groovebox",
+   "site": "https://docruzzy.github.io/dubwise-fm/",
+   "port": "DUBWISE FM-1",
+   "image": "images/dubwise.png",
+   "author_meta": {
+    "commit": "99c758934550ad15c93b6c98aa4935ec0f5e73e5",
+    "fields": {
+     "tag": "A dub mixing desk you play live",
+     "what": "In dub, the mixing desk is the instrument. Dubwise FM is an eight-channel reggae band (FM drums, bass, skank, organ, melodica or horns, sirens and shouts), each channel with a mute and a throw, feeding a tape echo you can push into feedback and a spring reverb you can kick. Quantised mutes land on the one with a countdown, the stepped Big Knob filter clicks like King Tubby's, and every drop, throw and sweep is yours: nothing plays itself. Record your moves into a song, recall them as scenes, or take the eight stems out over USB.",
+     "port": "DUBWISE FM-1",
+     "category": "Groovebox",
+     "site": "https://docruzzy.github.io/dubwise-fm/",
+     "image": "app/docs/img/remotefm1-card.png"
+    },
+    "image": {
+     "file": "images/dubwise.png",
+     "sha256": "157464eb000c64b0f219a16945aa6b1d6f45123df4cfdbe86293764defa4c3cc"
+    },
+    "skin": true,
+    "labels": {
+     "buttons": 6,
+     "knobs": 7
+    },
+    "warnings": []
+   },
+   "author": "DocRuzzy",
+   "beta": true
   },
   "duell": {
    "tag": "Bitimbral synth",
@@ -464,6 +516,25 @@
    "image": "images/karma.png",
    "editor": "https://eatyourgreensstudio-dotcom.github.io/karma-fm1/webapp/editor/",
    "port": "FM-1 KARMA"
+  },
+  "kris_jangle": {
+   "what": "Kris Jangle is a Christmas game for the FM-1: it plays the start of a carol and you replay it on the keys, building three notes per level up to the whole song. Four carols, three play modes from guided EASY to sound-only HARD, and Grump Mode on three misses.",
+   "category": "Other",
+   "author": "w33tSnx",
+   "image": "images/kris_jangle.webp",
+   "hub_meta": {
+    "sha": "04175b57",
+    "fields": {
+     "what": "Kris Jangle is a Christmas game for the FM-1: it plays the start of a carol and you replay it on the keys, building three notes per level up to the whole song. Four carols, three play modes from guided EASY to sound-only HARD, and Grump Mode on three misses.",
+     "category": "Other",
+     "author": "w33tSnx"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/krisjangle-dd310e86.w640.webp",
+     "file": "images/kris_jangle.webp",
+     "sha256": "c7f6cef22ae792d05e6a56b98e1cd74c92e99017d5629f9777a5d4b834fadf22"
+    }
+   }
   },
   "kwasub": {
    "image": "images/kwasub.png",

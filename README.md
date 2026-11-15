@@ -20,6 +20,7 @@ shows them under About), and the exact source it was built from.
 | File | Firmware | Author | Licence | Source (the commit built) |
 | --- | --- | --- | --- | --- |
 | `amb-1.3.2.rfm1` | AMB-1 1.3.2 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-amb](https://github.com/charlesvestal/fm1-amb/tree/7c538516d6c52216ff4c8a4881cf2f0dcb07c44b) |
+| `amenity-2.1.0.rfm1` | AMENITY 2.1.0 | Presethead | GPL-3.0-only | [ejtb76/amenity](https://github.com/ejtb76/amenity/tree/a6565ee3413691d8c4976b605b9efab7db9ad30b) |
 | `arcticscream-2.0.rfm1` | Arctic Scream p0larpatch 2.0 | PolarPatch | GPL-3.0-only | [PolarPatch/Arctic-scream-FM-1](https://github.com/PolarPatch/Arctic-scream-FM-1/tree/e7d301f0e0bbe8ecb918e2a6d979ef6cd2932694) |
 | `aurora-0.8.0.rfm1` | AURORA 0.8.0 | twochannels | GPL-3.0-only | [twochannels/AURORA](https://github.com/twochannels/AURORA/tree/45b231a8efaa30b6c20cd8aade5c5e25bca40514) |
 | `berlinan-0.5.1.rfm1` | Berlinan 0.5.1 | Jiří Píša | GPL-2.0-or-later | [jiripisa/fm1-berlinan](https://github.com/jiripisa/fm1-berlinan/tree/afe2d937442fd248d145a34e8907d1c67ee4c3d6) |
@@ -35,6 +36,7 @@ shows them under About), and the exact source it was built from.
 | `drift-0.9.6.rfm1` | DRIFT 0.9.6 | Fabian Freitag (FBNFRTG) | GPL-3.0-only | [FBNFRTG/drift-fm1](https://github.com/FBNFRTG/drift-fm1/tree/08b65e1233fea6b542f9f22629ad6c1d761c7667) |
 | `drumlab-0.1.3-beta.rfm1` | Drumlab 0.1.3-beta | Pasquale Barilla | GPL-3.0-only | [pbarilla/drumlab](https://github.com/pbarilla/drumlab/tree/011bde0d24a38abebfa57e089134f8f8fd2bb732) |
 | `dub-1.4.3.rfm1` | DUB-1 1.4.3 | Santiago Beguería | GPL-3.0-only | [sbegueria/fm1-dub](https://github.com/sbegueria/fm1-dub/tree/e89138a3de7d11f97c941ef467d166eb0763d160) |
+| `dubwise-0.4.2.rfm1` | DUBWISE 0.4.2 | DocRuzzy (SpIllt Beats) | GPL-3.0-only | [DocRuzzy/dubwise-fm](https://github.com/DocRuzzy/dubwise-fm/tree/99c758934550ad15c93b6c98aa4935ec0f5e73e5) |
 | `duell-1.2.rfm1` | DUELL (unofficial build) 1.2, with key velocity and aftertouch | oscillr | GPL-3.0-only | [oscillr/DUELL](https://github.com/oscillr/DUELL/tree/f48c5340be18ab98870fb5a47a237bdbb5729cf2) |
 | `dungeontracker-1.5.rfm1` | Dungeon Tracker 1.5 | BourbonWX | GPL-3.0-only | [BourbonWX/Dungeon-Tracker](https://github.com/BourbonWX/Dungeon-Tracker/tree/4e43c2f34899237f685a10999b00213644aef394) |
 | `dx747-0.1.rfm1` | DX747 0.1 † | Esben von Buchwald | GPL-3.0-only | [esbenvb/fm1-dx747](https://github.com/esbenvb/fm1-dx747/tree/bbae5d4a2222830ac5c9265a41f83dbde6982694) |
@@ -59,6 +61,7 @@ shows them under About), and the exact source it was built from.
 | `hyp1-1.5.54.rfm1` | HYP-1 1.5.54 | RedtailWorks | GPL-3.0-only | [RustyPawz/fm1-HYP1](https://github.com/RustyPawz/fm1-HYP1/tree/57c456db61826331d356458c9c1a136517da7cbf) |
 | `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.1.2.rfm1` | KARMA 3.1.2 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/bb96714469ad9c225e1423fcdb374f5544d05ddf) |
+| `kris_jangle-0.12.rfm1` | KRIS JANGLE 0.12 | w33tSnx | MPL-2.0 | [doohinkus/kris-jangle](https://github.com/doohinkus/kris-jangle/tree/13af2682fdc4c6b90540b0fd544dc7b72d6ec67c) |
 | `kwasub-1.1.02.rfm1` | K-WASUB 1.1.02 | Guizmoh | GPL-3.0-only | [Guizmoh/K-WASUB_Firmware_for_FM1](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1/tree/69d17131187ea9681ab2e0fb1c96e2c02248dfe7) |
 | `loom-0.16.2.rfm1` | LOOM-8 0.16.2 † | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-loom](https://github.com/charlesvestal/fm1-loom/tree/60ef2456f05005a7607fd2a8305889543adaa9ec) |
 | `matryoshka-1.14.0.rfm1` | Matryoshka 1.14.0 | michael glaviano (glvno), morgulbrut | GPL-3.0-only | [glvno/matryoshka](https://github.com/glvno/matryoshka/tree/76dfc277bf19a7ab1c5c590cf4f4f0780998f221) |
@@ -109,8 +112,11 @@ shows them under About), and the exact source it was built from.
 **Build provenance** (each file's `built_by`):
 
 - `amb-1.3.2.rfm1`: built by the author (fm1-base 3ae2a65 tools/build.py --rfm1, emcc 6.0.10), their release [v1.3.2](https://github.com/charlesvestal/fm1-amb/releases/tag/v1.3.2), unchanged
+- `amenity-2.1.0.rfm1`: built by the author (fm1-base 317cb86 tools/build.py --rfm1, emcc 6.0.10), their release [v2.1.0](https://github.com/ejtb76/amenity/releases/tag/v2.1.0), unchanged
 - `ctl-1.0.3.rfm1`: built by the author (fm1-base 3ae2a65 tools/build.py --rfm1, emcc 6.0.10), their release [v1.0.3](https://github.com/charlesvestal/fm1-ctl/releases/tag/v1.0.3), unchanged
+- `dubwise-0.4.2.rfm1`: built by the author (fm1-base b0976f2 tools/build.py --rfm1, emcc 6.0.10), their release [v0.4.2](https://github.com/DocRuzzy/dubwise-fm/releases/tag/v0.4.2), unchanged
 - `frasil-3.3.1.rfm1`: built by the author (fm1-base 0cf96f9 tools/build.py --rfm1, emcc 6.0.12), their release [v3.3.1](https://github.com/styvesgoupil/frasil/releases/tag/v3.3.1), unchanged
+- `kris_jangle-0.12.rfm1`: built by the author (fm1-base 13af268 tools/build.py --rfm1, emcc 6.0.10), their release [v0.12](https://github.com/doohinkus/kris-jangle/releases/tag/v0.12), unchanged
 - `loom-0.16.2.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.10), their release [v0.16.2](https://github.com/charlesvestal/fm1-loom/releases/tag/v0.16.2), unchanged
 - FM1VST 0.6.2, commit [`f2c6159`](https://github.com/Quixotic7/FM1VST/tree/f2c61596a08c41bd4f67bf75cbcd23a19e035ded), Emscripten 6.0.13: `arcticscream-2.0.rfm1`, `felucca-1.8.2.rfm1`, `mutabledreams-2.1.rfm1`, `niagaradrift-0.3.rfm1`, `obervave-3.5.2.rfm1`, `tessera-3.5.3.rfm1`
 - FM1VST 0.6.2, commit [`d792e5f`](https://github.com/Quixotic7/FM1VST/tree/d792e5fc3443d268bfc4f8e2e6dc1eb9aaddae3c), Emscripten 6.0.13: `aurora-0.8.0.rfm1`
