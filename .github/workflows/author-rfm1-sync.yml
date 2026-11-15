@@ -1,0 +1,77 @@
+# The nightly author .rfm1 sync (tools/author_rfm1_sync.mjs, docs/AUTHOR-RFM1.md): each firmware's own .rfm1 from its
+# newest stable GitHub release goes into the rolling release `current` when every check passes, with a dated release
+# holding only those files. 03:20 UTC: before remotefm1.com's nightly deploy (Quixotic7/RemoteFM1 pages.yml, 04:17 UTC),
+# which re-hosts `current`'s files, so no cross-repository token is needed.
+name: Author .rfm1 sync
+
+on:
+  schedule:
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run: check and report only, nothing uploaded"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: author-rfm1-sync
+  cancel-in-progress: false
+
+env:
+  # FM1VST's rfm1_check.py, rfm1_run and core-glue (RUN_ARGS): a pushed commit (branch rfm1-manager, 2026-11-14)
+  FM1VST_REF: 5634390f8f9e2b6607664d2e5faa47edcb0fc6cf
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: tools
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: FM1VST tools (pinned)
+        uses: actions/checkout@v4
+        with:
+          repository: Quixotic7/FM1VST
+          ref: ${{ env.FM1VST_REF }}
+          path: fm1vst
+          persist-credentials: false
+          sparse-checkout: |
+            tools
+            third_party/wasm3
+            core-api
+            core-glue
+            tests/fixtures
+
+      - name: rfm1_run cache
+        id: rfm1run
+        uses: actions/cache@v4
+        with:
+          path: rfm1_run-bin/rfm1_run
+          key: rfm1_run-${{ runner.os }}-${{ runner.arch }}-${{ env.FM1VST_REF }}-${{ hashFiles('tools/build_rfm1_run.sh') }}
+
+      - name: Build rfm1_run
+        if: steps.rfm1run.outputs.cache-hit != 'true'
+        run: sh tools/build_rfm1_run.sh fm1vst rfm1_run-bin/rfm1_run
+
+      - name: Rule tests
+        run: node --test tools/author_rfm1_sync.test.mjs
+
+      - name: Sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        run: |
+          set -- --repo "$GITHUB_REPOSITORY" --fm1vst fm1vst --rfm1-run rfm1_run-bin/rfm1_run
+          if [ "$DRY_RUN" = "true" ]; then set -- "$@" --dry-run; fi
+          node tools/author_rfm1_sync.mjs "$@"
