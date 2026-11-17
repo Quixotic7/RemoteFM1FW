@@ -326,7 +326,7 @@
   },
   "evilgenius": {
    "author_meta": {
-    "commit": "d9892fa1859570bebf61aa3f2a8031d7ab92a7fa",
+    "commit": "4441c86417db88ae6eb3d601fe149457157b0d6f",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -482,6 +482,25 @@
    "port": "GuitChordi FM-1",
    "beta": true
   },
+  "hadal1": {
+   "what": "Generative dark ambient: drones, demonic and angelic choirs, bells and 135 sound effects that keep changing by themselves across 15 worlds, with 40 melting pictures. Play bells or latch choir voices on the keys, or play and hold effects. Works on older and newer FM-1s (both flash chips).",
+   "category": "Other",
+   "author": "Polystellarflow",
+   "image": "images/hadal1.webp",
+   "hub_meta": {
+    "sha": "54a13c53",
+    "fields": {
+     "what": "Generative dark ambient: drones, demonic and angelic choirs, bells and 135 sound effects that keep changing by themselves across 15 worlds, with 40 melting pictures. Play bells or latch choir voices on the keys, or play and hold effects. Works on older and newer FM-1s (both flash chips).",
+     "category": "Other",
+     "author": "Polystellarflow"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/hadal1-fd397cb5.w640.webp",
+     "file": "images/hadal1.webp",
+     "sha256": "b911899596024923cb2d2430d1502a6b8217f96fc83f2139ecc2e7b902084f1b"
+    }
+   }
+  },
   "hawkchua": {
    "image": "images/hawkchua.png",
    "author": "plieuwski",
@@ -593,6 +612,25 @@
    "editor": "https://keremimo.github.io/melodee/webapp/editor/",
    "port": "Melodee FM-1"
   },
+  "mightyarp": {
+   "what": "Mighty Arp, from the creator of Mighty Synth Sampler, is a 4-op FM/subtractive synth built around a chance arpeggiator. Just hold a chord and let chance play the melody. 50 sounds plus a RANDOM mode that invents new ones, a 32-step sequencer, chords, effects and more.",
+   "category": "Synth",
+   "author": "Moby Pixel",
+   "image": "images/mightyarp.webp",
+   "hub_meta": {
+    "sha": "67f98f3a",
+    "fields": {
+     "what": "Mighty Arp, from the creator of Mighty Synth Sampler, is a 4-op FM/subtractive synth built around a chance arpeggiator. Just hold a chord and let chance play the melody. 50 sounds plus a RANDOM mode that invents new ones, a 32-step sequencer, chords, effects and more.",
+     "category": "Synth",
+     "author": "Moby Pixel"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/mightyarp-3d30b035.w640.webp",
+     "file": "images/mightyarp.webp",
+     "sha256": "dd0f26e93ab734f0f5720778763ff9274d6b18b1ba621a5eef8ad060d28d35ed"
+    }
+   }
+  },
   "minitone": {
    "tag": "Six-track multi-engine",
    "what": "Felucca with six tracks and new engines: SID, Braids' 48 models, a TB-303 and engines after Elektron's Analog Four, SY Chip and Digitone 2, a ping-pong delay and a new reverb. Built on Felucca 1.5.",
@@ -673,14 +711,7 @@
    "beta": false,
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
-   "port": "Mutable Dreams FM-1",
-   "what": "A six-track generative synth for the M-VAVE FM-1. Play 272 Biomes, let 14 Itinera dreams travel for up to four hours, arrange with Journey, and record six mono voices plus the stereo mix over USB.",
-   "hub_meta": {
-    "sha": "72409c02",
-    "fields": {
-     "what": "A six-track generative synth for the M-VAVE FM-1. Play 272 Biomes, let 14 Itinera dreams travel for up to four hours, arrange with Journey, and record six mono voices plus the stereo mix over USB."
-    }
-   }
+   "port": "Mutable Dreams FM-1"
   },
   "nachtfahrt": {
    "author": "Cranky Man",
@@ -930,11 +961,11 @@
    "editor": "https://dsablic.github.io/sidou/",
    "port": "SIDOU FM-1",
    "beta": false,
-   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback with live tweaks, LAB for sounds with step tables and LFOs, patches from an AI chat or SidStation banks, Bluetooth MIDI, and Live Link in a browser.",
+   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for sounds with tables and LFOs, AI-made songs and sounds, SidStation banks, Bluetooth MIDI and keyboards, Live Link and scene art you draw.",
    "hub_meta": {
-    "sha": "97867109",
+    "sha": "86fa8f63",
     "fields": {
-     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback with live tweaks, LAB for sounds with step tables and LFOs, patches from an AI chat or SidStation banks, Bluetooth MIDI, and Live Link in a browser."
+     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for sounds with tables and LFOs, AI-made songs and sounds, SidStation banks, Bluetooth MIDI and keyboards, Live Link and scene art you draw."
     }
    }
   },
