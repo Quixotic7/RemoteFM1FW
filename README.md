@@ -70,7 +70,7 @@ shows them under About), and the exact source it was built from.
 | `hyp1-1.5.54.rfm1` | HYP-1 1.5.54 | RedtailWorks | GPL-3.0-only | [RustyPawz/fm1-HYP1](https://github.com/RustyPawz/fm1-HYP1/tree/57c456db61826331d356458c9c1a136517da7cbf) |
 | `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.1.4.rfm1` | KARMA 3.1.4 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/878596e1afd551049313bb9182114d085f151812) |
-| `kris_jangle-0.12.rfm1` | KRIS JANGLE 0.12 | w33tSnx | MPL-2.0 | [doohinkus/kris-jangle](https://github.com/doohinkus/kris-jangle/tree/13af2682fdc4c6b90540b0fd544dc7b72d6ec67c) |
+| `kris_jangle-0.14.rfm1` | KRIS JANGLE 0.14 | w33tSnx | MPL-2.0 | [doohinkus/kris-jangle](https://github.com/doohinkus/kris-jangle/tree/aa6b78141150e5d07dbae7b5f51d5462e02417dd) |
 | `kwasub-1.1.03.rfm1` | K-WASUB 1.1.03 | Guizmoh | GPL-3.0-only | [Guizmoh/K-WASUB_Firmware_for_FM1](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1/tree/83f6a14f0802de3e11b3a70382bd2308561c2d6e) |
 | `loafbreaker-0.9.68.rfm1` | LOAF BREAKER 0.9.68 † | FLEXOR, Laurens Profittlich (CHOPPAH) | MPL-2.0 | [FLEXOR-R/loaf-breaker](https://github.com/FLEXOR-R/loaf-breaker/tree/f372ee0e6031a99df0e159b2bc47386353708b58) |
 | `loom-0.16.2.rfm1` | LOOM-8 0.16.2 † | Charles Vestal | GPL-3.0-only | [charlesvestal/fm1-loom](https://github.com/charlesvestal/fm1-loom/tree/60ef2456f05005a7607fd2a8305889543adaa9ec) |
@@ -117,6 +117,7 @@ shows them under About), and the exact source it was built from.
 | `sidou-1.20.0.rfm1` | SIDOU 1.20.0 | SIDOU contributors (Denis Sablić) | GPL-3.0-only | [dsablic/sidou](https://github.com/dsablic/sidou/tree/d2698276e58a3fb108f174d51c74109d37ab60f6) |
 | `skiff-2.7.rfm1` | Skiff 2.7 | illuminus5 | GPL-3.0-only | [illuminus5/skiff](https://github.com/illuminus5/skiff/tree/b257ddf6a15a21f6c5956abc9c19c0571daa8e15) |
 | `sloop-2.8.5.rfm1` | SLOOP 2.8.5 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/sloop-fm1](https://github.com/isod89/sloop-fm1/tree/bac9c05ea7627449405aa10e48da21d75b6c8c56) |
+| `sloop3-3.4.0.rfm1` | SLOOP 3 3.4.0 | isod89 | GPL-3.0-only | [isod89/sloop3-fm1](https://github.com/isod89/sloop3-fm1/tree/2228313f3abe0ad6c8f28ef0cd9b9d8167c01330) |
 | `smileyface-1.1.5.rfm1` | Smileyface 1.1.5 | pbarilla | GPL-3.0-only | [pbarilla/smileyface](https://github.com/pbarilla/smileyface/tree/2b698855864c9313f216a44543d753f4e7713e1d) |
 | `speak37-1.0.rfm1` | Speak37 1.0 | genkigenki | GPL-3.0-only | [genkigenki/Speak37](https://github.com/genkigenki/Speak37/tree/a617d60fca316bd8c72ac9041579367f6633c0ab) |
 | `spellbox-0.3.rfm1` | SPELLBOX 0.3 | pjac1810 | GPL-3.0-only | [pjac1810/spellbox](https://github.com/pjac1810/spellbox/tree/d1b90ea5d22200d424fbf2ab154bf52923378abe) |
@@ -144,7 +145,7 @@ shows them under About), and the exact source it was built from.
 - `dubwise-0.4.2.rfm1`: built by the author (fm1-base b0976f2 tools/build.py --rfm1, emcc 6.0.10), their release [v0.4.2](https://github.com/DocRuzzy/dubwise-fm/releases/tag/v0.4.2), unchanged
 - `fmlarynx-0.4.2.rfm1`: built by the author (fm1-base 317cb86 tools/build.py --rfm1, emcc 6.0.10), their release [v0.4.2](https://github.com/ejtb76/FMLarynx/releases/tag/v0.4.2), unchanged
 - `frasil-3.3.1.rfm1`: built by the author (fm1-base 0cf96f9 tools/build.py --rfm1, emcc 6.0.12), their release [v3.3.1](https://github.com/styvesgoupil/frasil/releases/tag/v3.3.1), unchanged
-- `kris_jangle-0.12.rfm1`: built by the author (fm1-base 13af268 tools/build.py --rfm1, emcc 6.0.10), their release [v0.12](https://github.com/doohinkus/kris-jangle/releases/tag/v0.12), unchanged
+- `kris_jangle-0.14.rfm1`: built by the author (fm1-base aa6b781 tools/build.py --rfm1, emcc 6.0.10), their release [v0.14](https://github.com/doohinkus/kris-jangle/releases/tag/v0.14), unchanged
 - `loom-0.16.2.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.10), their release [v0.16.2](https://github.com/charlesvestal/fm1-loom/releases/tag/v0.16.2), unchanged
 - `pond-0.1.2.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.10), their release [v0.1.2](https://github.com/superxor/amb-pond/releases/tag/v0.1.2), unchanged
 - `samsara-1.0.0.rfm1`: built by the author (fm1-base f88dab1 tools/build.py --rfm1, emcc 6.0.10), their release [v1.0.0](https://github.com/tomorrowsman/fm1-samsara/releases/tag/v1.0.0), unchanged
@@ -208,13 +209,14 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`1daa9a0`](https://github.com/Quixotic7/FM1VST/tree/1daa9a007f2f9d1f5abd41573e959a230a8ed9b1), Emscripten 6.0.13: `remotefm1-0.3.6.rfm1`
 - FM1VST 0.6.2, commit [`ffd9971`](https://github.com/Quixotic7/FM1VST/tree/ffd9971bb11622f850c0cb7f9bdf41e2b24104e3), Emscripten 6.0.13: `rhythmer-0.1.0-beta.2.rfm1`
 - FM1VST 0.6.2, commit [`a0c72d3`](https://github.com/Quixotic7/FM1VST/tree/a0c72d3f6b56335da59221d264003c7334c65b36), Emscripten 6.0.13: `ripple-0.6.1.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`19affc3`](https://github.com/Quixotic7/FM1VST/tree/19affc3b5a206860cb62af7e555db92548a35cc2), Emscripten 6.0.13: `ruido-0.7.1.rfm1`
+- FM1VST 0.6.2, commit [`19affc3`](https://github.com/Quixotic7/FM1VST/tree/19affc3b5a206860cb62af7e555db92548a35cc2), Emscripten 6.0.13: `ruido-0.7.1.rfm1`
 - FM1VST 0.6.2, commit [`f43f2bb`](https://github.com/Quixotic7/FM1VST/tree/f43f2bbcc065649d930716342f9bf03609aeb3a6), Emscripten 6.0.13: `rupture-1.93.rfm1`
 - FM1VST 0.6.2, commit [`7689780`](https://github.com/Quixotic7/FM1VST/tree/7689780195b0dfe5370ddc392a338048e9295207), Emscripten 6.0.13: `s1vave-2.0.1.rfm1`
 - FM1VST 0.6.2, commit [`41ab93d`](https://github.com/Quixotic7/FM1VST/tree/41ab93d739ff95b0456f7cb6d17d2e5a60e34d27), Emscripten 6.0.13: `sid1-1.0.1.rfm1`
 - FM1VST 0.6.2, commit [`5e94e2a`](https://github.com/Quixotic7/FM1VST/tree/5e94e2a92dd485fcde882feed7591ccaa3bdec69), Emscripten 6.0.13: `sidj-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`2458bc8`](https://github.com/Quixotic7/FM1VST/tree/2458bc8ae25bee48e9ffa9a76f2a04bc19465705), Emscripten 6.0.13: `sidou-1.20.0.rfm1`
 - FM1VST 0.6.2, commit [`2d66f0c`](https://github.com/Quixotic7/FM1VST/tree/2d66f0cff01c34e1337de0f4c5f4bba2b6884598), Emscripten 6.0.13: `skiff-2.7.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`39946cd`](https://github.com/Quixotic7/FM1VST/tree/39946cd73eb640866819aeafe3a304d48e4bd62f), Emscripten 6.0.13: `sloop3-3.4.0.rfm1`
 - FM1VST 0.6.2, commit [`ff00b5c`](https://github.com/Quixotic7/FM1VST/tree/ff00b5ca592f87ed1a09e2c3e529e74fa93b5010), Emscripten 6.0.13: `smileyface-1.1.5.rfm1`
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `speak37-1.0.rfm1`
 - FM1VST 0.6.2, commit [`8b2a7f3`](https://github.com/Quixotic7/FM1VST/tree/8b2a7f32468f9067ae1ae2c85baec9d3ef578ab8), Emscripten 6.0.13: `sy1-0.4.0.rfm1`
