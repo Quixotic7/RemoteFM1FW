@@ -101,6 +101,27 @@
     }
    }
   },
+  "chimeravocal": {
+   "what": "A singing human voice for the FM-1, ported from Jameson Hodge's CHIMERA. A simulated airway (lungs, vocal folds, throat, mouth, nose) sings words a syllable per key, or holds vowels you shape with the knobs. Write the words in the browser Studio and send them over USB.",
+   "category": "Synth",
+   "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
+   "author": "Shan-Sherif",
+   "image": "images/chimeravocal.webp",
+   "hub_meta": {
+    "sha": "dec47ae1",
+    "fields": {
+     "what": "A singing human voice for the FM-1, ported from Jameson Hodge's CHIMERA. A simulated airway (lungs, vocal folds, throat, mouth, nose) sings words a syllable per key, or holds vowels you shape with the knobs. Write the words in the browser Studio and send them over USB.",
+     "category": "Synth",
+     "editor": "https://shan-sherif.github.io/fm-1-chimera-vocal/studio/",
+     "author": "Shan-Sherif"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/fm1chimeravocal-d7154e51.w640.webp",
+     "file": "images/chimeravocal.webp",
+     "sha256": "d5b628a6c4af7b8e908372634610ff90edb85667358fe8c40d216792f3be51c2"
+    }
+   }
+  },
   "chipbox": {
    "image": "images/chipbox.png",
    "author": "pbarilla",
@@ -140,6 +161,25 @@
    "editor": "https://isod89.github.io/clipper-fm1/webapp/editor/",
    "port": "Clipper"
   },
+  "conductor": {
+   "what": "A pocket symphony orchestra groovebox with strings, woodwinds, brass and percussion. Compose in piano roll or musical notation, conduct individual sections with articulations, dynamics and expression curves, and arrange patterns into complete pieces.",
+   "category": "Groovebox",
+   "author": "MammothCheese",
+   "image": "images/conductor.webp",
+   "hub_meta": {
+    "sha": "f8db7120",
+    "fields": {
+     "what": "A pocket symphony orchestra groovebox with strings, woodwinds, brass and percussion. Compose in piano roll or musical notation, conduct individual sections with articulations, dynamics and expression curves, and arrange patterns into complete pieces.",
+     "category": "Groovebox",
+     "author": "MammothCheese"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/conductor-3111bc8f.w640.webp",
+     "file": "images/conductor.webp",
+     "sha256": "92cb915e8cb8e08bb0ea9ead83a92e47798ce8bea79301ecaadb32eedff84753"
+    }
+   }
+  },
   "coralflower": {
    "tag": "Chords, a flower grows",
    "what": "Chords after the Orchid, with controls made for the FM-1: one key plays a chord with a bass note. Also 27 scales, an arpeggiator, a sequencer with drums and a song mode, and a pixel flower that grows as you play.",
@@ -149,6 +189,25 @@
    "beta": true,
    "image": "images/coralflower.png",
    "port": "CoralFlower FM-1"
+  },
+  "csfm1": {
+   "what": "An Elektron-style six-track groovebox for the FM-1, with Elektron Syntakt support. One-press quick-start loops, generators for acid lines, dub chords, held atmospheres and modular bleeps, trig conditions and locks, a DJ filter and FX pad, and the keys set the song's key. Built on JIANT FM.",
+   "category": "Groovebox",
+   "author": "cursedsound",
+   "image": "images/csfm1.webp",
+   "hub_meta": {
+    "sha": "a48f6706",
+    "fields": {
+     "what": "An Elektron-style six-track groovebox for the FM-1, with Elektron Syntakt support. One-press quick-start loops, generators for acid lines, dub chords, held atmospheres and modular bleeps, trig conditions and locks, a DJ filter and FX pad, and the keys set the song's key. Built on JIANT FM.",
+     "category": "Groovebox",
+     "author": "cursedsound"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/cursedos-17548837.w640.webp",
+     "file": "images/csfm1.webp",
+     "sha256": "5e52b49d156c735199cc247ee92e5fdcafb1501bb0cc32d75a130adce414bc68"
+    }
+   }
   },
   "ctl": {
    "author": "Charles Vestal",
@@ -263,7 +322,14 @@
    "what": "A four-track groovebox that is a dungeon crawler: your party plays the music, the rogue drums, the fighter bass, the cleric pads and the mage the melody. Step-program in a tracker or record live, and see how deep you get.",
    "port": "Felucca",
    "beta": false,
-   "site": "https://github.com/BourbonWX/Dungeon-Tracker"
+   "site": "https://github.com/BourbonWX/Dungeon-Tracker",
+   "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/",
+   "hub_meta": {
+    "sha": "a0c278d0",
+    "fields": {
+     "editor": "https://bourbonwx.github.io/Dungeon-Tracker/webapp/editor/"
+    }
+   }
   },
   "dx747": {
    "what": "An eight-part multitimbral DX7 module. Every part has its own MIDI channel and up to eight layered DX7 voices, with key splits, velocity windows and 64 scenes. A master filter, shared reverb and delay, DX7 ROM import and a web configurator. Played and controlled over MIDI.",
@@ -399,6 +465,25 @@
    "site": "https://quixotic7.github.io/FIZZ/",
    "beta": true
   },
+  "fmav1": {
+   "what": "A semi-modular mono synth calibrated knob by knob on a real one: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks, MIDI clock sync, chorus, delay and reverb, 90 sounds.",
+   "category": "Synth",
+   "author": "wootrop & gpix",
+   "image": "images/fmav1.webp",
+   "hub_meta": {
+    "sha": "e26fa772",
+    "fields": {
+     "what": "A semi-modular mono synth calibrated knob by knob on a real one: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks, MIDI clock sync, chorus, delay and reverb, 90 sounds.",
+     "category": "Synth",
+     "author": "wootrop & gpix"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/fmav1-409abc4b.w640.webp",
+     "file": "images/fmav1.webp",
+     "sha256": "803ab2ada126f2b3cc19855a4c5be98f6a5f4f2cd97a5d3a22c35ce4e9791a55"
+    }
+   }
+  },
   "fmel1": {
    "image": "images/fmel1.png",
    "author": "AntonioAltea",
@@ -418,6 +503,27 @@
    "beta": false,
    "image": "images/fmini.png",
    "port": "FM-1 Midi"
+  },
+  "fmkick": {
+   "what": "A kick drum synthesizer with a sequencer of up to 32 steps: seven kinds of kick and 48 parameters, p-locks of any parameter on any step, step conditions and chance, nine generators, four LFOs, live and final effects with a hall reverb, three pattern banks, four projects and six themes.",
+   "category": "Drums",
+   "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html",
+   "author": "David Amo",
+   "image": "images/fmkick.webp",
+   "hub_meta": {
+    "sha": "a243c258",
+    "fields": {
+     "what": "A kick drum synthesizer with a sequencer of up to 32 steps: seven kinds of kick and 48 parameters, p-locks of any parameter on any step, step conditions and chance, nine generators, four LFOs, live and final effects with a hall reverb, three pattern banks, four projects and six themes.",
+     "category": "Drums",
+     "editor": "https://davidamomusic.github.io/fm-kick/kick/docs/FM-KICK-mirror.html",
+     "author": "David Amo"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/fmkick-bcde2a06.w640.webp",
+     "file": "images/fmkick.webp",
+     "sha256": "8ec408bf9d4e0f63e89f7eefbfc8fc155772b6775fe4bf6ba489888be3ad42e0"
+    }
+   }
   },
   "fomni": {
    "tag": "Chord harp",
@@ -451,6 +557,25 @@
    "editor": "https://jasonpersinger.me/ghoulbox-fm1-dungeon-synth/webapp/editor/",
    "port": "Felucca"
   },
+  "glitch": {
+   "what": "Neon-noir groovebox firmware for the M-VAVE FM-1: four tracks, seven sources, tape and megacity space FX, sixteen scales (Insen, Hirajoshi, Iwato, whole tone), and forty-four Blade Runner factory sounds. Its screen: a glitched landscape that tears with the sound.",
+   "category": "Groovebox",
+   "author": "saulofilho",
+   "image": "images/glitch.webp",
+   "hub_meta": {
+    "sha": "83e4d742",
+    "fields": {
+     "what": "Neon-noir groovebox firmware for the M-VAVE FM-1: four tracks, seven sources, tape and megacity space FX, sixteen scales (Insen, Hirajoshi, Iwato, whole tone), and forty-four Blade Runner factory sounds. Its screen: a glitched landscape that tears with the sound.",
+     "category": "Groovebox",
+     "author": "saulofilho"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/glitch-e474697a.w640.webp",
+     "file": "images/glitch.webp",
+     "sha256": "8d185ce3986d4d9e4f108114b6b68a0f793e10e1317492fb23826c0478708c0e"
+    }
+   }
+  },
   "golana": {
    "image": "images/golana.png",
    "author": "Gadlele",
@@ -460,6 +585,25 @@
    "site": "https://gadlele.github.io/Golana/",
    "port": "Felucca",
    "beta": false
+  },
+  "golf": {
+   "what": "A wavetable synthesizer: two oscillators that morph through 130 wavetables, with unison and warps, a ladder filter, a modulation matrix and effects. Its 32-step sequencer can move the wavetable and the filter on every step.",
+   "category": "Synth",
+   "author": "BARNIR",
+   "image": "images/golf.webp",
+   "hub_meta": {
+    "sha": "bdc64804",
+    "fields": {
+     "what": "A wavetable synthesizer: two oscillators that morph through 130 wavetables, with unison and warps, a ladder filter, a modulation matrix and effects. Its 32-step sequencer can move the wavetable and the filter on every step.",
+     "category": "Synth",
+     "author": "BARNIR"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/golf-6ba6ea34.w640.webp",
+     "file": "images/golf.webp",
+     "sha256": "2f3871ac97f7d6ece15c908414eef8af1bf65b23767c44a795d33606c2cda664"
+    }
+   }
   },
   "grimm": {
    "image": "images/grimm.png",
@@ -584,6 +728,27 @@
    "port": "Felucca",
    "beta": false
   },
+  "loafbreaker": {
+   "what": "A hardcore kick synthesizer powerhouse (gabber, terror, speedcore) and a breakbeat chopper (Based on CHOPPAH) : twenty kicks with distortion, sliced breaks, effects, drums, songs with drops, a BEGINNER mode, a DAW-like Studio on PC. The editor adds up to 8 breaks: yours or from a library of 90+.",
+   "category": "Drums",
+   "editor": "https://flexor-r.github.io/loaf-breaker/breaks/",
+   "author": "FLEXOR",
+   "image": "images/loafbreaker.webp",
+   "hub_meta": {
+    "sha": "1d0bcef8",
+    "fields": {
+     "what": "A hardcore kick synthesizer powerhouse (gabber, terror, speedcore) and a breakbeat chopper (Based on CHOPPAH) : twenty kicks with distortion, sliced breaks, effects, drums, songs with drops, a BEGINNER mode, a DAW-like Studio on PC. The editor adds up to 8 breaks: yours or from a library of 90+.",
+     "category": "Drums",
+     "editor": "https://flexor-r.github.io/loaf-breaker/breaks/",
+     "author": "FLEXOR"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/loafbreaker-02fdfb29.w640.webp",
+     "file": "images/loafbreaker.webp",
+     "sha256": "94eb18c1cfb5df72e267614af1c820d95aaefd1bd7b6cbfe32cfcc83c33c5e07"
+    }
+   }
+  },
   "loom": {
    "author": "Charles Vestal",
    "category": "Groovebox",
@@ -682,6 +847,27 @@
    "port": "Mope FM-1",
    "beta": true
   },
+  "morse": {
+   "what": "Learn and use Morse code. Key on the piano keys (straight key or iambic paddles) and see what you sent, drill short and long presses, learn by sound with flash cards, listen to endless practice, type letters and CW phrases on the keys. Keying goes out over USB-MIDI or Bluetooth MIDI in the Vail…",
+   "category": "Other",
+   "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
+   "author": "Da-Wei Lee",
+   "image": "images/morse.webp",
+   "hub_meta": {
+    "sha": "20a9fc17",
+    "fields": {
+     "what": "Learn and use Morse code. Key on the piano keys (straight key or iambic paddles) and see what you sent, drill short and long presses, learn by sound with flash cards, listen to endless practice, type letters and CW phrases on the keys. Keying goes out over USB-MIDI or Bluetooth MIDI in the Vail…",
+     "category": "Other",
+     "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
+     "author": "Da-Wei Lee"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/morse-c6d90d90.w640.webp",
+     "file": "images/morse.webp",
+     "sha256": "c98380511c95788a8cdfc0c48e3fe4676b8e80bbea9b8f693e734a135367aec6"
+    }
+   }
+  },
   "mpyre": {
    "what": "A riffbox for rock and metal: real guitar, bass and drum samples, an amp engine with cabinet IRs, pedals and guitar effects, plus all of SLOOP's synth engines. Bend strings, play whammy, wah and palm mutes live, record on the 4-track and turn riffs into songs.",
    "category": "Groovebox",
@@ -689,7 +875,7 @@
    "author": "History Of Sky",
    "image": "images/mpyre.webp",
    "hub_meta": {
-    "sha": "88786ab7",
+    "sha": "0e8634bf",
     "fields": {
      "what": "A riffbox for rock and metal: real guitar, bass and drum samples, an amp engine with cabinet IRs, pedals and guitar effects, plus all of SLOOP's synth engines. Bend strings, play whammy, wah and palm mutes live, record on the 4-track and turn riffs into songs.",
      "category": "Groovebox",
@@ -697,9 +883,9 @@
      "author": "History Of Sky"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/mpyre-b7ba5861.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/mpyre-14a55649.w640.webp",
      "file": "images/mpyre.webp",
-     "sha256": "bb714d22d0237e2547188895337afaa9a0e2a2a59cb1a45224ab8307f8a8284d"
+     "sha256": "75ef8b74eb3cb81b2c8eda4122761cac1443972df417fd40ac483410948d113e"
     }
    }
   },
@@ -712,6 +898,27 @@
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
    "port": "Mutable Dreams FM-1"
+  },
+  "mvsynth2": {
+   "what": "Synth2, the open-source recreation of Synth1, on eight voices across both cores: two oscillators and a sub, five filters (LPDL among them), two LFOs, distortions and phasers, EQ, delay, chorus and Synth1's arpeggiator. It plays Synth1's .sy1 patches, with the Synth2 Factory bank built in and 1024…",
+   "category": "Synth",
+   "editor": "https://bk40-home.github.io/M-Vsynth2/library.html",
+   "author": "Kris (bk40-home)",
+   "image": "images/mvsynth2.webp",
+   "hub_meta": {
+    "sha": "085c3fdc",
+    "fields": {
+     "what": "Synth2, the open-source recreation of Synth1, on eight voices across both cores: two oscillators and a sub, five filters (LPDL among them), two LFOs, distortions and phasers, EQ, delay, chorus and Synth1's arpeggiator. It plays Synth1's .sy1 patches, with the Synth2 Factory bank built in and 1024…",
+     "category": "Synth",
+     "editor": "https://bk40-home.github.io/M-Vsynth2/library.html",
+     "author": "Kris (bk40-home)"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/mvsynth2-10b602b9.w640.webp",
+     "file": "images/mvsynth2.webp",
+     "sha256": "285465c4dd848d059549e64a0165d82d7bf0744e6d75486348455a70fcd43d1e"
+    }
+   }
   },
   "nachtfahrt": {
    "author": "Cranky Man",
@@ -766,6 +973,44 @@
    "beta": false,
    "image": "images/obervave.png",
    "port": "Felucca"
+  },
+  "obssynth": {
+   "what": "A four-voice synthesizer: two oscillators per voice, each STD (8 waves), SUPER (7 detuned saws, squares, triangles or sines), WT or GRAIN; a 12/24 dB multimode filter, two ADSRs, two LFOs, unison, delay, reverb and chorus. 16 factory presets, 16 of yours. Play it in the browser first.",
+   "category": "Synth",
+   "author": "Orian Beltrame",
+   "image": "images/obssynth.webp",
+   "hub_meta": {
+    "sha": "c44c8cbd",
+    "fields": {
+     "what": "A four-voice synthesizer: two oscillators per voice, each STD (8 waves), SUPER (7 detuned saws, squares, triangles or sines), WT or GRAIN; a 12/24 dB multimode filter, two ADSRs, two LFOs, unison, delay, reverb and chorus. 16 factory presets, 16 of yours. Play it in the browser first.",
+     "category": "Synth",
+     "author": "Orian Beltrame"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/obssynthfm1-95aa9018.w640.webp",
+     "file": "images/obssynth.webp",
+     "sha256": "ee3981ac009f7e28788854c6f410cbf648cc6c31cdcf474640320c2951aeae22"
+    }
+   }
+  },
+  "orgigs": {
+   "what": "It's an organ. Three manuals with 84 free-running tone generators and no voice stealing, eight models from tonewheel and combo organs to pipe organs and free reeds, drawbars, percussion, rotary, drive, delay and reverb, 16 performance setups, three MIDI zones and Yamaha SEQTRAK control.",
+   "category": "Other",
+   "author": "Bobo",
+   "image": "images/orgigs.webp",
+   "hub_meta": {
+    "sha": "21fb22c9",
+    "fields": {
+     "what": "It's an organ. Three manuals with 84 free-running tone generators and no voice stealing, eight models from tonewheel and combo organs to pipe organs and free reeds, drawbars, percussion, rotary, drive, delay and reverb, 16 performance setups, three MIDI zones and Yamaha SEQTRAK control.",
+     "category": "Other",
+     "author": "Bobo"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/orgigs-dfdabff0.w640.webp",
+     "file": "images/orgigs.webp",
+     "sha256": "3a48100b4431378e2c0b8ace89cb35a6e621d4b23c477e6a489d61cf57856142"
+    }
+   }
   },
   "patchwerk": {
    "what": "A modular synth for the FM-1. With over 80 modules, including synth engines, samplers, filters, effects, sequencers, and generative tools, you can build, patch, and perform directly on the hardware.",
@@ -836,6 +1081,46 @@
     "warnings": []
    }
   },
+  "quantumgammawave": {
+   "what": "A six-track groovebox for the M-VAVE FM-1: nine engines and 273 sounds (analog, six-operator FM, wavetable, digital drums), a 64-step sequencer with probability and ratchets, song mode, scales and chords, a mod matrix and three FX buses, plus a browser emulator and a web editor.",
+   "category": "Groovebox",
+   "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/",
+   "author": "Guille Lauría",
+   "image": "images/quantumgammawave.webp",
+   "hub_meta": {
+    "sha": "f081c836",
+    "fields": {
+     "what": "A six-track groovebox for the M-VAVE FM-1: nine engines and 273 sounds (analog, six-operator FM, wavetable, digital drums), a 64-step sequencer with probability and ratchets, song mode, scales and chords, a mod matrix and three FX buses, plus a browser emulator and a web editor.",
+     "category": "Groovebox",
+     "editor": "https://guillel51.github.io/Quantum-GammaWave/webapp/editor/",
+     "author": "Guille Lauría"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/quantumgammawave-5e14f111.w640.webp",
+     "file": "images/quantumgammawave.webp",
+     "sha256": "257818e90dfdfc6eabb878e0a64625620dd96b578cbbede2170a5c952e9e0805"
+    }
+   }
+  },
+  "quartz": {
+   "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, eight generative sources (Game of Life, chord progressions, Tonnetz walks, orbits, an improviser that learns from you...), punch-in effects and an animated scene on every page.",
+   "category": "Groovebox",
+   "author": "f0nski",
+   "image": "images/quartz.webp",
+   "hub_meta": {
+    "sha": "1c9a4502",
+    "fields": {
+     "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, eight generative sources (Game of Life, chord progressions, Tonnetz walks, orbits, an improviser that learns from you...), punch-in effects and an animated scene on every page.",
+     "category": "Groovebox",
+     "author": "f0nski"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/quartz-13265095.w640.webp",
+     "file": "images/quartz.webp",
+     "sha256": "17795fb702f653b77b7a1ceda3268170f4d7320c12a0289a0ca51e4a122b1402"
+    }
+   }
+  },
   "rainbow": {
    "tag": "Music toy",
    "what": "A music toy for little children: 63 cartoon friends, every key in tune, chords, strumming, songs to follow and an ear game, notes on a staff, a volume cap for small ears.",
@@ -880,7 +1165,17 @@
    "what": "A JIANT-based six-track groovebox with synthesized drums, nine synth models, 303-style acid and playable breakbeats. Generate and mutate patterns, sequence chops and repeats, switch two sample banks, and keep four projects with a browser editor.",
    "site": "https://github.com/JazzyRhythmer/Rhythmer",
    "editor": "https://jazzyrhythmer.github.io/Rhythmer/editor/",
-   "beta": true
+   "beta": true,
+   "image": "images/rhythmer.webp",
+   "hub_meta": {
+    "sha": "3f58d711",
+    "fields": {},
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/rhythmer-867bee78.w640.webp",
+     "file": "images/rhythmer.webp",
+     "sha256": "f75e9d6ea996f9389ee0eed3d19bde77244528ed70b5ac390638ea0faad8617e"
+    }
+   }
   },
   "ripple": {
    "author": "Charles Vestal",
@@ -892,6 +1187,25 @@
    "virtual": true,
    "image": "images/ripple.png",
    "port": "Ripple FM-1"
+  },
+  "ruido": {
+   "what": "Ruido is a 4-oscillator drone and noise synthesizer firmware for the M-VAVE FM-1 with coupled voices, dual resonant filters, scene morphing, and pressure-sensitive performance effects. It is created as a dry stereo sound source for external pedals and modular setups.",
+   "category": "Synth",
+   "author": "Miguel Hernández Domenech",
+   "image": "images/ruido.webp",
+   "hub_meta": {
+    "sha": "59f3c981",
+    "fields": {
+     "what": "Ruido is a 4-oscillator drone and noise synthesizer firmware for the M-VAVE FM-1 with coupled voices, dual resonant filters, scene morphing, and pressure-sensitive performance effects. It is created as a dry stereo sound source for external pedals and modular setups.",
+     "category": "Synth",
+     "author": "Miguel Hernández Domenech"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/ruido-c53c33cf.w640.webp",
+     "file": "images/ruido.webp",
+     "sha256": "3c47e3f54eb6c958adedc35ae1c7a93f27afc42408a38d29336852ebd0c9cab1"
+    }
+   }
   },
   "rupture": {
    "image": "images/rupture.png",
@@ -1020,6 +1334,46 @@
    "port": "Felucca",
    "beta": true
   },
+  "stallion": {
+   "what": "A synthesizer with 26 engines and 819 level-matched factory sounds: three-oscillator HYBRID, six-operator FM, wavetables, early-1980s polysynths, a semi-modular two-filter voice, physical models and more. One instrument with a modulation matrix, arpeggiator and step sequencer, edited in the browser.",
+   "category": "Synth",
+   "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/",
+   "author": "Eberon Limited (John Gorman)",
+   "image": "images/stallion.webp",
+   "hub_meta": {
+    "sha": "74c4943d",
+    "fields": {
+     "what": "A synthesizer with 26 engines and 819 level-matched factory sounds: three-oscillator HYBRID, six-operator FM, wavetables, early-1980s polysynths, a semi-modular two-filter voice, physical models and more. One instrument with a modulation matrix, arpeggiator and step sequencer, edited in the browser.",
+     "category": "Synth",
+     "editor": "https://eberonltd.github.io/stallion-fm1/webapp/editor/",
+     "author": "Eberon Limited (John Gorman)"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/stallion-a47d51e2.w640.webp",
+     "file": "images/stallion.webp",
+     "sha256": "903970666824fe4fb81b8a93cbba6b19ab2af7fac54a9bf9fb62ac5517c9da6a"
+    }
+   }
+  },
+  "tekstuur": {
+   "what": "An instrument for slow, evolving sound. Four layers play recorded sources as drifting loops, grains, time-stretch or resonating strings, mixed by a vector point that moves by itself, with shimmer reverb and freeze.",
+   "category": "Synth",
+   "author": "BARNIR",
+   "image": "images/tekstuur.webp",
+   "hub_meta": {
+    "sha": "d35d487e",
+    "fields": {
+     "what": "An instrument for slow, evolving sound. Four layers play recorded sources as drifting loops, grains, time-stretch or resonating strings, mixed by a vector point that moves by itself, with shimmer reverb and freeze.",
+     "category": "Synth",
+     "author": "BARNIR"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/tekstuur-6a29689a.w640.webp",
+     "file": "images/tekstuur.webp",
+     "sha256": "39fdbf88be6f20dd3d80b769f5ba19ee17ffbacba2c32bb23ce7168790ad289f"
+    }
+   }
+  },
   "tessera": {
    "image": "images/tessera.png",
    "author": "Theo Dainis",
@@ -1040,6 +1394,25 @@
    "site": "https://nzimas.github.io/tonitor/",
    "beta": false,
    "port": "FM-1 Tonitor"
+  },
+  "trapstationos": {
+   "what": "A trap and phonk groovebox: six tracks with 808s, FM keys, bells and pads, generators for drums, hats, chords and bass, a sampler with slices, a piano roll, a live performance page with mutes, effect throws and bar jumps, and tape, VHS and vinyl colour on the master.",
+   "category": "Groovebox",
+   "author": "Schlensog Audio Lab",
+   "image": "images/trapstationos.webp",
+   "hub_meta": {
+    "sha": "fac5a1da",
+    "fields": {
+     "what": "A trap and phonk groovebox: six tracks with 808s, FM keys, bells and pads, generators for drums, hats, chords and bass, a sampler with slices, a piano roll, a live performance page with mutes, effect throws and bar jumps, and tape, VHS and vinyl colour on the master.",
+     "category": "Groovebox",
+     "author": "Schlensog Audio Lab"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/trapstationos-f392b66e.w640.webp",
+     "file": "images/trapstationos.webp",
+     "sha256": "69918df90be05d4e5c73b05fac3b4060bafb83dadb8d5aec717a7e9237f6ff0b"
+    }
+   }
   },
   "trax": {
    "image": "images/trax.png",
@@ -1087,6 +1460,25 @@
    "beta": false,
    "image": "images/x0x.png",
    "port": "X0X FM-1"
+  },
+  "yehnah": {
+   "what": "Six-track groovebox firmware with 25 synthesis engines, 800+ presets and no samples. Chord layouts you play with one thumb, a 64-step sequencer, idea generators, songs with arrangement, SWARM, TRACE and XYZ sound-morphing pads, a browser editor and emulator.",
+   "category": "Groovebox",
+   "author": "Mello-D",
+   "image": "images/yehnah.webp",
+   "hub_meta": {
+    "sha": "76f342af",
+    "fields": {
+     "what": "Six-track groovebox firmware with 25 synthesis engines, 800+ presets and no samples. Chord layouts you play with one thumb, a 64-step sequencer, idea generators, songs with arrangement, SWARM, TRACE and XYZ sound-morphing pads, a browser editor and emulator.",
+     "category": "Groovebox",
+     "author": "Mello-D"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/yehnah-bed3fb65.w640.webp",
+     "file": "images/yehnah.webp",
+     "sha256": "2b9d51a6fb4dfdad3764064c0531f31fa5e4812643140e44d21de3d71eda8976"
+    }
+   }
   },
   "zen1": {
    "image": "images/zen1.png",
