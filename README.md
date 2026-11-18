@@ -36,6 +36,7 @@ shows them under About), and the exact source it was built from.
 | `csfm1-0.18.5.rfm1` | cursed os 0.18.5 | cursedsound, juanjiant-bit (JIANT), Leo Kuroshita (Hügelton Instruments) (Felucca) | GPL-3.0-only | [cursedsound-music/CS_FM1](https://github.com/cursedsound-music/CS_FM1/tree/93dec8ecda3a04c111e8faec33cd561182b695c9) |
 | `ctl-1.0.3.rfm1` | CTL-1 1.0.3 | Charles Vestal | MPL-2.0 | [charlesvestal/fm1-ctl](https://github.com/charlesvestal/fm1-ctl/tree/9bb5abcc6ef6e0af803a868ecda166e76e90d8d6) |
 | `cultbox-1.2.rfm1` | CULTBOX 1.2 † | beatcult | GPL-3.0-only | [beatcult/CULTBOX](https://github.com/beatcult/CULTBOX/tree/c35e403955b166b62b3ea09831087ec8595c5795) |
+| `dabke-0.18.rfm1` | DABKE 0.18 | STUDIOMORPHIK (wissamsader) | MPL-2.0 | [wissamsader/dabke](https://github.com/wissamsader/dabke/tree/b7ba61ba425cd42bd0dd20bed3d9e81f5390563a) |
 | `drift-0.9.6.rfm1` | DRIFT 0.9.6 | Fabian Freitag (FBNFRTG) | GPL-3.0-only | [FBNFRTG/drift-fm1](https://github.com/FBNFRTG/drift-fm1/tree/08b65e1233fea6b542f9f22629ad6c1d761c7667) |
 | `drumlab-0.1.3-beta.rfm1` | Drumlab 0.1.3-beta | Pasquale Barilla | GPL-3.0-only | [pbarilla/drumlab](https://github.com/pbarilla/drumlab/tree/011bde0d24a38abebfa57e089134f8f8fd2bb732) |
 | `dub-1.4.3.rfm1` | DUB-1 1.4.3 | Santiago Beguería | GPL-3.0-only | [sbegueria/fm1-dub](https://github.com/sbegueria/fm1-dub/tree/e89138a3de7d11f97c941ef467d166eb0763d160) |
@@ -162,6 +163,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`5c5b66f`](https://github.com/Quixotic7/FM1VST/tree/5c5b66fb7a84d1c21325411c44b0817ddcea25a7), Emscripten 6.0.13: `coralflower-0.7.1.rfm1`
 - FM1VST 0.6.2, commit [`e9e149a`](https://github.com/Quixotic7/FM1VST/tree/e9e149adef43080bb36c9a6fe34e3680320d1f94), Emscripten 6.0.13: `csfm1-0.18.5.rfm1`, `fmav1-0.5.1.rfm1`, `modularkoi-0.0.rfm1`, `mvsynth2-1.3.rfm1`, `obssynth-0.2.0.rfm1`, `quantumgammawave-4.1.0.rfm1`, `trapstationos-1.1.0.2.rfm1`
 - FM1VST 0.6.2, commit [`0ded05a`](https://github.com/Quixotic7/FM1VST/tree/0ded05a742b5663ee44959ad159ac61315e1e56a), Emscripten 6.0.13: `cultbox-1.2.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`daae1a7`](https://github.com/Quixotic7/FM1VST/tree/daae1a76b6771e084c1db1cfee36152e5f557f7f), Emscripten 6.0.13: `dabke-0.18.rfm1`
 - FM1VST 0.6.2, commit [`daadfe2`](https://github.com/Quixotic7/FM1VST/tree/daadfe2f0a74cd4c3a46c8a9973410afc9d78b03), Emscripten 6.0.13: `drift-0.9.6.rfm1`
 - FM1VST 0.6.2, commit [`360e5ea`](https://github.com/Quixotic7/FM1VST/tree/360e5ea4019b7a9bc0bc420adbb5cc10d4cf185a), Emscripten 6.0.13: `drumlab-0.1.3-beta.rfm1`
 - FM1VST 0.6.2, branch `rfm1-add-dub`, commit [`30911af`](https://github.com/Quixotic7/FM1VST/tree/30911af816e1e632469af77bda62e24382ed517a), Emscripten 6.0.13: `dub-1.4.3.rfm1`
@@ -216,7 +218,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`5e94e2a`](https://github.com/Quixotic7/FM1VST/tree/5e94e2a92dd485fcde882feed7591ccaa3bdec69), Emscripten 6.0.13: `sidj-1.5.1.rfm1`
 - FM1VST 0.6.2, commit [`2458bc8`](https://github.com/Quixotic7/FM1VST/tree/2458bc8ae25bee48e9ffa9a76f2a04bc19465705), Emscripten 6.0.13: `sidou-1.20.0.rfm1`
 - FM1VST 0.6.2, commit [`2d66f0c`](https://github.com/Quixotic7/FM1VST/tree/2d66f0cff01c34e1337de0f4c5f4bba2b6884598), Emscripten 6.0.13: `skiff-2.7.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`39946cd`](https://github.com/Quixotic7/FM1VST/tree/39946cd73eb640866819aeafe3a304d48e4bd62f), Emscripten 6.0.13: `sloop3-3.4.0.rfm1`
+- FM1VST 0.6.2, branch `port-sloop3`, commit [`39946cd`](https://github.com/Quixotic7/FM1VST/tree/39946cd73eb640866819aeafe3a304d48e4bd62f), Emscripten 6.0.13: `sloop3-3.4.0.rfm1`
 - FM1VST 0.6.2, commit [`ff00b5c`](https://github.com/Quixotic7/FM1VST/tree/ff00b5ca592f87ed1a09e2c3e529e74fa93b5010), Emscripten 6.0.13: `smileyface-1.1.5.rfm1`
 - FM1VST 0.6.2, commit [`0da0448`](https://github.com/Quixotic7/FM1VST/tree/0da04482a3af4f5054fdf0171ed43c05573ca0f3), Emscripten 6.0.13: `speak37-1.0.rfm1`
 - FM1VST 0.6.2, commit [`8b2a7f3`](https://github.com/Quixotic7/FM1VST/tree/8b2a7f32468f9067ae1ae2c85baec9d3ef578ab8), Emscripten 6.0.13: `sy1-0.4.0.rfm1`

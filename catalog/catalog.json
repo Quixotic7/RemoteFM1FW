@@ -235,6 +235,25 @@
    "what": "A three-channel groovebox: a Polivoks-style duophonic synth (PLVKS), an Elka-style sample drum machine with a step sequencer, and a dub siren, with BBD echoes, per-channel character effects, arp, scales and a mixer with panning.",
    "site": "https://github.com/beatcult/CULTBOX"
   },
+  "dabke": {
+   "what": "An Arabic wedding keyboard. Maqam scales with quarter tones on any note, dabke and shaabi rhythms, mijwiz, zurna, oud and qanun voices, a drone, eight tracks with loops and steps. Lean on a key and the note bends. An Akai MIDImix works as its mixer.",
+   "category": "Groovebox",
+   "author": "STUDIOMORPHIK",
+   "image": "images/dabke.webp",
+   "hub_meta": {
+    "sha": "38d26403",
+    "fields": {
+     "what": "An Arabic wedding keyboard. Maqam scales with quarter tones on any note, dabke and shaabi rhythms, mijwiz, zurna, oud and qanun voices, a drone, eight tracks with loops and steps. Lean on a key and the note bends. An Akai MIDImix works as its mixer.",
+     "category": "Groovebox",
+     "author": "STUDIOMORPHIK"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/dabke-d1060a95.w640.webp",
+     "file": "images/dabke.webp",
+     "sha256": "8923dc5c6a3d6cc87bddabe78ebeb10ecc8a9551e821c34da3c91c5fb49369e9"
+    }
+   }
+  },
   "drift": {
    "author": "FBNFRTG",
    "category": "Synth",
