@@ -69,6 +69,7 @@ shows them under About), and the exact source it was built from.
 | `hawkchua-2.1.7.rfm1` | HAWK CHUA 2.1.7 | plieuwski, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [Plieuw/hawk-chua](https://github.com/Plieuw/hawk-chua/tree/73d0c80517e028cce6e02d200a8f8fbfbfd8af76) |
 | `hortator-1.0.1.rfm1` | Hortator 1.0.1 | DEADACTIVE, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [deadactive/hortator](https://github.com/deadactive/hortator/tree/c8cca2ce9a6a1ba5a055ef3bd4aadc9ef5237bb4) |
 | `hyp1-1.5.54.rfm1` | HYP-1 1.5.54 | RedtailWorks | GPL-3.0-only | [RustyPawz/fm1-HYP1](https://github.com/RustyPawz/fm1-HYP1/tree/57c456db61826331d356458c9c1a136517da7cbf) |
+| `jamesos-1.0b.rfm1` | JamesOS 1.0b | Aaron Grando | GPL-3.0-only | [aarongrando/JamesOS](https://github.com/aarongrando/JamesOS/tree/c630fe1012ece956c7f3d7b8f18908916d9f48ec) |
 | `jiant-10.26.rfm1` | JIANT FM 10.26 | juanjiant-bit | GPL-3.0-only | [juanjiant-bit/JIANT](https://github.com/juanjiant-bit/JIANT/tree/5db7ffcd2185030ca776404c990c58f2ed54f822) |
 | `karma-3.1.4.rfm1` | KARMA 3.1.4 † | Ariel Muchnik | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [eatyourgreensstudio-dotcom/karma-fm1](https://github.com/eatyourgreensstudio-dotcom/karma-fm1/tree/878596e1afd551049313bb9182114d085f151812) |
 | `kris_jangle-0.14.rfm1` | KRIS JANGLE 0.14 | w33tSnx | MPL-2.0 | [doohinkus/kris-jangle](https://github.com/doohinkus/kris-jangle/tree/aa6b78141150e5d07dbae7b5f51d5462e02417dd) |
@@ -171,7 +172,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`bc14147`](https://github.com/Quixotic7/FM1VST/tree/bc14147e26956b96a2278e88b3033c1d1006e1b7), Emscripten 6.0.13: `dungeontracker-1.5.rfm1`
 - FM1VST 0.6.2, commit [`6abdbf5`](https://github.com/Quixotic7/FM1VST/tree/6abdbf5e6994fa0b56bbbea5354320ded88b99da), Emscripten 6.0.13: `dx747-0.1.rfm1`
 - FM1VST 0.6.2, commit [`dbd6872`](https://github.com/Quixotic7/FM1VST/tree/dbd687277aa298308c8349a21802af2c80c4db88), Emscripten 6.0.13: `echofield-0.2.13.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`e2e89e3`](https://github.com/Quixotic7/FM1VST/tree/e2e89e30c06cfd3a63dd6e6556cf8decb045e3ff), Emscripten 6.0.13: `elasticat-0.6.96.rfm1`
+- FM1VST 0.6.2, commit [`e2e89e3`](https://github.com/Quixotic7/FM1VST/tree/e2e89e30c06cfd3a63dd6e6556cf8decb045e3ff), Emscripten 6.0.13: `elasticat-0.6.96.rfm1`
 - FM1VST 0.6.2, commit [`040ab6d`](https://github.com/Quixotic7/FM1VST/tree/040ab6d04b2360dcb0b9d4fccb6a0035983e6c00), Emscripten 6.0.13: `evilgenius-0.1.3.rfm1`
 - FM1VST 0.6.2, commit [`b00269d`](https://github.com/Quixotic7/FM1VST/tree/b00269d31e4d87d250d32517db79d99ebe3cf295), Emscripten 6.0.13: `fartmachine-1.1.0.rfm1`
 - FM1VST 0.6.2, commit [`f2c6159`](https://github.com/Quixotic7/FM1VST/tree/f2c61596a08c41bd4f67bf75cbcd23a19e035ded), Emscripten 6.0.13: `felucca-1.8.2.rfm1`, `niagaradrift-0.3.rfm1`, `obervave-3.5.2.rfm1`
@@ -191,6 +192,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`c1e3b8d`](https://github.com/Quixotic7/FM1VST/tree/c1e3b8dc70fd976eb0069150415220b794648330), Emscripten 6.0.13: `hawkchua-2.1.7.rfm1`
 - FM1VST 0.6.2, commit [`584fa0c`](https://github.com/Quixotic7/FM1VST/tree/584fa0cd38a4d804f4d927d9e99c03439d0bee80), Emscripten 6.0.13: `hortator-1.0.1.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`e032c3e`](https://github.com/Quixotic7/FM1VST/tree/e032c3e9bcf4a75170a33e8918336eb942fabc99), Emscripten 6.0.13: `jamesos-1.0b.rfm1`
 - FM1VST 0.6.2, commit [`dfa1e9b`](https://github.com/Quixotic7/FM1VST/tree/dfa1e9b5db60363cb4d12891c2f849a4ef666ed6), Emscripten 6.0.13: `karma-3.1.4.rfm1`
 - FM1VST 0.6.2, commit [`3602685`](https://github.com/Quixotic7/FM1VST/tree/3602685c5d3d9d222d9058b88fae633cb3d9191f), Emscripten 6.0.13: `kwasub-1.1.03.rfm1`
 - FM1VST 0.6.2, commit [`efa3560`](https://github.com/Quixotic7/FM1VST/tree/efa356069262ea678bedec399f3532a0f3ef237b), Emscripten 6.0.13: `loafbreaker-0.9.68.rfm1`, `tekstuur-2.0.rfm1`
