@@ -29,7 +29,7 @@ shows them under About), and the exact source it was built from.
 | `carnacos-0.9.6.rfm1` | Carnac OS 0.9.6 | OrbVorgis | GPL-3.0-only | [OwenKirby/carnac-os](https://github.com/OwenKirby/carnac-os/tree/55cf5b5391951c3393972c83b937e8af344c1ddd) |
 | `chimeravocal-0.8.0.rfm1` | FM-1 Chimera Vocal 0.8.0 | Shan-Sherif | MPL-2.0 AND MIT | [shan-sherif/fm-1-chimera-vocal](https://github.com/shan-sherif/fm-1-chimera-vocal/tree/5a9e5f7af4ae8ce954ff39735274afe5593b7796) |
 | `chipbox-1.5.5.rfm1` | Chipbox 1.5.5 | pbarilla | GPL-3.0-only | [pbarilla/chipbox](https://github.com/pbarilla/chipbox/tree/a51c318a22bf30965322fa095d247eb90179ffaa) |
-| `choralroot-0.41.rfm1` | ChoralRoot 0.41 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/1890b160d0176af33b34bb92b8f5148264e545d4) |
+| `choralroot-0.42.rfm1` | ChoralRoot 0.42 | Quixotic7 | GPL-3.0-only | [Quixotic7/ChoralRootFM1](https://github.com/Quixotic7/ChoralRootFM1/tree/fd30c70b7a4cfb5d23d64f403bd7acb2ecfb4c2a) |
 | `clipper-1.3.1.rfm1` | Clipper 1.3.1 † | isod89 | GPL-3.0-only (+ the Hügelton icons, all rights reserved) | [isod89/clipper-fm1](https://github.com/isod89/clipper-fm1/tree/7bc15a950a8b3fd51aec280514905448e4faaf1b) |
 | `conductor-1.0.rfm1` | CONDUCTOR 1.0 | MammothCheese | GPL-3.0-only | [MammothCheese/conductor](https://github.com/MammothCheese/conductor/tree/a74fb5ac43fc9f7ce4fac21c7066492396ad3636) |
 | `coralflower-0.7.1.rfm1` | CoralFlower 0.7.1 | FicusFicusov | GPL-3.0-only | [FicusFicusov/CoralFlower](https://github.com/FicusFicusov/CoralFlower/tree/46790b943bdb5e4143212d83dc495c832eefdbb8) |
@@ -158,7 +158,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`1e82015`](https://github.com/Quixotic7/FM1VST/tree/1e82015f26639a391f7e0c7ecf34ba69e4cca44f), Emscripten 6.0.13: `caravel-0.13.0.rfm1`
 - FM1VST 0.6.2, commit [`35ce62c`](https://github.com/Quixotic7/FM1VST/tree/35ce62c587f58a58c4c47849372422622d522f5c), Emscripten 6.0.13: `chimeravocal-0.8.0.rfm1`, `quartz-0.6.rfm1`
 - FM1VST 0.6.2, commit [`91b36d9`](https://github.com/Quixotic7/FM1VST/tree/91b36d9935aaeed5043a59fbfe0b1a27c392cebb), Emscripten 6.0.13: `chipbox-1.5.5.rfm1`
-- FM1VST 0.6.2, commit [`49ec9c4`](https://github.com/Quixotic7/FM1VST/tree/49ec9c467bfb9154d5018d2a3c92fb16cc011972), Emscripten 6.0.13: `choralroot-0.41.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`aba5b2f`](https://github.com/Quixotic7/FM1VST/tree/aba5b2fd48ffaa539c8a4a67844c434502abb845), Emscripten 6.0.13: `choralroot-0.42.rfm1`
 - FM1VST 0.6.2, commit [`b4a99ab`](https://github.com/Quixotic7/FM1VST/tree/b4a99abfff5cb76380825cba8b9041954cd34af1), Emscripten 6.0.13: `clipper-1.3.1.rfm1`, `nomansky-0.9.rfm1`, `sloop-2.8.5.rfm1`
 - FM1VST 0.6.2, commit [`1e0d65b`](https://github.com/Quixotic7/FM1VST/tree/1e0d65b5a5a18751a607f50aae0806abac267acc), Emscripten 6.0.13: `conductor-1.0.rfm1`, `orgigs-1.0.2.rfm1`, `stallion-1.1.rfm1`
 - FM1VST 0.6.2, commit [`5c5b66f`](https://github.com/Quixotic7/FM1VST/tree/5c5b66fb7a84d1c21325411c44b0817ddcea25a7), Emscripten 6.0.13: `coralflower-0.7.1.rfm1`
@@ -192,7 +192,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`c1e3b8d`](https://github.com/Quixotic7/FM1VST/tree/c1e3b8dc70fd976eb0069150415220b794648330), Emscripten 6.0.13: `hawkchua-2.1.7.rfm1`
 - FM1VST 0.6.2, commit [`584fa0c`](https://github.com/Quixotic7/FM1VST/tree/584fa0cd38a4d804f4d927d9e99c03439d0bee80), Emscripten 6.0.13: `hortator-1.0.1.rfm1`
 - FM1VST 0.6.2, commit [`88ff968`](https://github.com/Quixotic7/FM1VST/tree/88ff9685bf950b8e7122b5ad56a1858ecb7de653), Emscripten 6.0.13: `hyp1-1.5.54.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`e032c3e`](https://github.com/Quixotic7/FM1VST/tree/e032c3e9bcf4a75170a33e8918336eb942fabc99), Emscripten 6.0.13: `jamesos-1.0b.rfm1`
+- FM1VST 0.6.2, commit [`e032c3e`](https://github.com/Quixotic7/FM1VST/tree/e032c3e9bcf4a75170a33e8918336eb942fabc99), Emscripten 6.0.13: `jamesos-1.0b.rfm1`
 - FM1VST 0.6.2, commit [`dfa1e9b`](https://github.com/Quixotic7/FM1VST/tree/dfa1e9b5db60363cb4d12891c2f849a4ef666ed6), Emscripten 6.0.13: `karma-3.1.4.rfm1`
 - FM1VST 0.6.2, commit [`3602685`](https://github.com/Quixotic7/FM1VST/tree/3602685c5d3d9d222d9058b88fae633cb3d9191f), Emscripten 6.0.13: `kwasub-1.1.03.rfm1`
 - FM1VST 0.6.2, commit [`efa3560`](https://github.com/Quixotic7/FM1VST/tree/efa356069262ea678bedec399f3532a0f3ef237b), Emscripten 6.0.13: `loafbreaker-0.9.68.rfm1`, `tekstuur-2.0.rfm1`
