@@ -65,6 +65,7 @@ shows them under About), and the exact source it was built from.
 | `golf-1.0.rfm1` | Golf 1.0 | BARNIR | MPL-2.0 | [barnierg76/golf-fm1](https://github.com/barnierg76/golf-fm1/tree/8396679b35176da55a3012ff6c7cea75223525ba) |
 | `grimm-2.0.2.rfm1` | GR!MM 2.0.2 | GRiMMBIENT | GPL-3.0-only | [GRiMMBIENT/grimm](https://github.com/GRiMMBIENT/grimm/tree/b519acbee7dbdb3e0fb82b15b86a913898c6f8f5) |
 | `guitchordi-0.1.0-beta.1.rfm1` | GuitChordi 0.1.0-beta.1 | Stoogs | GPL-3.0-only | [stoogs/guitchordi](https://github.com/stoogs/guitchordi/tree/09a4f170d76e7e6b1fad6cb3f3609553eabaf498) |
+| `h1-0.2.1.rfm1` | h1 0.2.1 | Jake Handy | MIT | [jakehandy/h1](https://github.com/jakehandy/h1/tree/5b697e5c230a5fae45a914d86545e03929c4d032) |
 | `hadal1-1.0.1.rfm1` | HADAL-1 1.0.1 | Polystellarflow | MPL-2.0 | [sparky480v/hadal-1](https://github.com/sparky480v/hadal-1/tree/7909c72d5dfe78f1cc67defc86b5c44cc950466b) |
 | `hawkchua-2.1.7.rfm1` | HAWK CHUA 2.1.7 | plieuwski, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [Plieuw/hawk-chua](https://github.com/Plieuw/hawk-chua/tree/73d0c80517e028cce6e02d200a8f8fbfbfd8af76) |
 | `hortator-1.0.1.rfm1` | Hortator 1.0.1 | DEADACTIVE, Leo Kuroshita (Hügelton Instruments) | GPL-3.0-only | [deadactive/hortator](https://github.com/deadactive/hortator/tree/c8cca2ce9a6a1ba5a055ef3bd4aadc9ef5237bb4) |
@@ -158,7 +159,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`1e82015`](https://github.com/Quixotic7/FM1VST/tree/1e82015f26639a391f7e0c7ecf34ba69e4cca44f), Emscripten 6.0.13: `caravel-0.13.0.rfm1`
 - FM1VST 0.6.2, commit [`35ce62c`](https://github.com/Quixotic7/FM1VST/tree/35ce62c587f58a58c4c47849372422622d522f5c), Emscripten 6.0.13: `chimeravocal-0.8.0.rfm1`, `quartz-0.6.rfm1`
 - FM1VST 0.6.2, commit [`91b36d9`](https://github.com/Quixotic7/FM1VST/tree/91b36d9935aaeed5043a59fbfe0b1a27c392cebb), Emscripten 6.0.13: `chipbox-1.5.5.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`aba5b2f`](https://github.com/Quixotic7/FM1VST/tree/aba5b2fd48ffaa539c8a4a67844c434502abb845), Emscripten 6.0.13: `choralroot-0.42.rfm1`
+- FM1VST 0.6.2, commit [`aba5b2f`](https://github.com/Quixotic7/FM1VST/tree/aba5b2fd48ffaa539c8a4a67844c434502abb845), Emscripten 6.0.13: `choralroot-0.42.rfm1`
 - FM1VST 0.6.2, commit [`b4a99ab`](https://github.com/Quixotic7/FM1VST/tree/b4a99abfff5cb76380825cba8b9041954cd34af1), Emscripten 6.0.13: `clipper-1.3.1.rfm1`, `nomansky-0.9.rfm1`, `sloop-2.8.5.rfm1`
 - FM1VST 0.6.2, commit [`1e0d65b`](https://github.com/Quixotic7/FM1VST/tree/1e0d65b5a5a18751a607f50aae0806abac267acc), Emscripten 6.0.13: `conductor-1.0.rfm1`, `orgigs-1.0.2.rfm1`, `stallion-1.1.rfm1`
 - FM1VST 0.6.2, commit [`5c5b66f`](https://github.com/Quixotic7/FM1VST/tree/5c5b66fb7a84d1c21325411c44b0817ddcea25a7), Emscripten 6.0.13: `coralflower-0.7.1.rfm1`
@@ -188,6 +189,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`8bad554`](https://github.com/Quixotic7/FM1VST/tree/8bad5546aea695efe1d543f994756d94f65b18f9), Emscripten 6.0.13: `golf-1.0.rfm1`
 - FM1VST 0.6.2, commit [`0efc8a7`](https://github.com/Quixotic7/FM1VST/tree/0efc8a78a7c0ccc74e734afe01703cb23f7fdf7d), Emscripten 6.0.13: `grimm-2.0.2.rfm1`
 - FM1VST 0.6.2, commit [`5c81d03`](https://github.com/Quixotic7/FM1VST/tree/5c81d03977773f28a857e3cd19693fd5ddf071c4), Emscripten 6.0.13: `guitchordi-0.1.0-beta.1.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`1e0f508`](https://github.com/Quixotic7/FM1VST/tree/1e0f50899d4ed85741c9da96df8bd01c63ddcfa5), Emscripten 6.0.13: `h1-0.2.1.rfm1`
 - FM1VST 0.6.2, commit [`3e34404`](https://github.com/Quixotic7/FM1VST/tree/3e344044eb51a79744be71f6a6628ad09b82fab0), Emscripten 6.0.13: `hadal1-1.0.1.rfm1`
 - FM1VST 0.6.2, commit [`c1e3b8d`](https://github.com/Quixotic7/FM1VST/tree/c1e3b8dc70fd976eb0069150415220b794648330), Emscripten 6.0.13: `hawkchua-2.1.7.rfm1`
 - FM1VST 0.6.2, commit [`584fa0c`](https://github.com/Quixotic7/FM1VST/tree/584fa0cd38a4d804f4d927d9e99c03439d0bee80), Emscripten 6.0.13: `hortator-1.0.1.rfm1`

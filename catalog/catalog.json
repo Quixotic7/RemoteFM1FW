@@ -645,6 +645,27 @@
    "port": "GuitChordi FM-1",
    "beta": true
   },
+  "h1": {
+   "what": "Fourteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
+   "category": "Synth",
+   "editor": "https://jakehandy.com/h1",
+   "author": "Jake Handy",
+   "image": "images/h1.webp",
+   "hub_meta": {
+    "sha": "b1e4b851",
+    "fields": {
+     "what": "Fourteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
+     "category": "Synth",
+     "editor": "https://jakehandy.com/h1",
+     "author": "Jake Handy"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/h1-11819eef.w640.webp",
+     "file": "images/h1.webp",
+     "sha256": "9f07440166ffc9cad90d6c008558dae9ec59a2c8644fc6119d1e45087260de9f"
+    }
+   }
+  },
   "hadal1": {
    "what": "Generative dark ambient: drones, demonic and angelic choirs, bells and 135 sound effects that keep changing by themselves across 15 worlds, with 40 melting pictures. Play bells or latch choir voices on the keys, or play and hold effects. Works on older and newer FM-1s (both flash chips).",
    "category": "Other",
