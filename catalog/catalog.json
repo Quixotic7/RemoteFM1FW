@@ -31,7 +31,10 @@
      "file": "images/amenity.webp",
      "sha256": "34eae10e7622f5dcb90618c4ef538d9468294d461c0733dd8c2d1a974aadf2ad"
     }
-   }
+   },
+   "tag": "Live jungle tool built…",
+   "site": "https://github.com/ejtb76/amenity",
+   "beta": false
   },
   "arcticscream": {
    "image": "images/arcticscream.png",
@@ -120,7 +123,9 @@
      "file": "images/chimeravocal.webp",
      "sha256": "d5b628a6c4af7b8e908372634610ff90edb85667358fe8c40d216792f3be51c2"
     }
-   }
+   },
+   "tag": "Singing human voice for the…",
+   "beta": false
   },
   "chipbox": {
    "image": "images/chipbox.png",
@@ -178,7 +183,10 @@
      "file": "images/conductor.webp",
      "sha256": "92cb915e8cb8e08bb0ea9ead83a92e47798ce8bea79301ecaadb32eedff84753"
     }
-   }
+   },
+   "tag": "Pocket symphony orchestra…",
+   "site": "https://github.com/MammothCheese/conductor",
+   "beta": false
   },
   "coralflower": {
    "tag": "Chords, a flower grows",
@@ -207,7 +215,9 @@
      "file": "images/csfm1.webp",
      "sha256": "5e52b49d156c735199cc247ee92e5fdcafb1501bb0cc32d75a130adce414bc68"
     }
-   }
+   },
+   "tag": "Elektron-style six-track…",
+   "beta": false
   },
   "ctl": {
    "author": "Charles Vestal",
@@ -233,7 +243,19 @@
    "author": "beatcult",
    "category": "Groovebox",
    "what": "A three-channel groovebox: a Polivoks-style duophonic synth (PLVKS), an Elka-style sample drum machine with a step sequencer, and a dub siren, with BBD echoes, per-channel character effects, arp, scales and a mixer with panning.",
-   "site": "https://github.com/beatcult/CULTBOX"
+   "site": "https://github.com/beatcult/CULTBOX",
+   "tag": "Three-channel groovebox",
+   "beta": false,
+   "image": "images/cultbox.webp",
+   "hub_meta": {
+    "sha": "880545fb",
+    "fields": {},
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/cultbox-0ed2ec01.w640.webp",
+     "file": "images/cultbox.webp",
+     "sha256": "91c1ae89c69111926bc224bf0178dddd91cdadd943666d65387f057b1650b3e8"
+    }
+   }
   },
   "dabke": {
    "what": "An Arabic wedding keyboard. Maqam scales with quarter tones on any note, dabke and shaabi rhythms, mijwiz, zurna, oud and qanun voices, a drone, eight tracks with loops and steps. Lean on a key and the note bends. An Akai MIDImix works as its mixer.",
@@ -252,7 +274,10 @@
      "file": "images/dabke.webp",
      "sha256": "8923dc5c6a3d6cc87bddabe78ebeb10ecc8a9551e821c34da3c91c5fb49369e9"
     }
-   }
+   },
+   "tag": "Arabic wedding keyboard",
+   "site": "https://github.com/wissamsader/dabke",
+   "beta": true
   },
   "drift": {
    "author": "FBNFRTG",
@@ -284,12 +309,19 @@
      "file": "images/drumlab.png",
      "sha256": "99daafedb5877978ea56b1e59063d52be43b6e14c7bfd1b3fd61b4f54797486a"
     }
-   }
+   },
+   "tag": "Microtonic, for the FM-1!…",
+   "site": "https://ihavenocluewhatimdoing.com/drumlab/guide/",
+   "beta": false
   },
   "dub": {
    "author": "sbegueria",
    "category": "Groovebox",
-   "what": "A generative dub techno machine that plays itself from the moment it is on: chord stabs into a tape echo, FM pings, a sub bass on five grooves, a ducking kick, crackle, and an eight-bar arrangement with breaks and fills."
+   "what": "A generative dub techno machine that plays itself from the moment it is on: chord stabs into a tape echo, FM pings, a sub bass on five grooves, a ducking kick, crackle, and an eight-bar arrangement with breaks and fills.",
+   "tag": "Generative dub techno…",
+   "site": "https://sbegueria.github.io/fm1-dub/",
+   "beta": false,
+   "image": "images/dub.png"
   },
   "dubwise": {
    "tag": "A dub mixing desk you play live",
@@ -369,7 +401,10 @@
      "file": "images/dx747.png",
      "sha256": "5e499d7b296938859c71a62dfbeecbf507e652458bdd2c54cab56fd20743d620"
     }
-   }
+   },
+   "tag": "Eight-part multitimbral DX7…",
+   "site": "https://github.com/esbenvb/fm1-dx747",
+   "beta": true
   },
   "echofield": {
    "author": "Philip Bos",
@@ -482,7 +517,8 @@
    },
    "tag": "FM TONE step sequencer",
    "site": "https://quixotic7.github.io/FIZZ/",
-   "beta": true
+   "beta": true,
+   "image": "images/fizz.png"
   },
   "fmav1": {
    "what": "A semi-modular mono synth calibrated knob by knob on a real one: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks, MIDI clock sync, chorus, delay and reverb, 90 sounds.",
@@ -501,7 +537,10 @@
      "file": "images/fmav1.webp",
      "sha256": "803ab2ada126f2b3cc19855a4c5be98f6a5f4f2cd97a5d3a22c35ce4e9791a55"
     }
-   }
+   },
+   "tag": "Semi-modular mono synth",
+   "site": "https://github.com/wootr0p/fmav1",
+   "beta": true
   },
   "fmel1": {
    "image": "images/fmel1.png",
@@ -542,7 +581,19 @@
      "file": "images/fmkick.webp",
      "sha256": "8ec408bf9d4e0f63e89f7eefbfc8fc155772b6775fe4bf6ba489888be3ad42e0"
     }
-   }
+   },
+   "tag": "Kick drum synthesizer with a…",
+   "site": "https://github.com/davidamomusic/fm-kick",
+   "beta": true
+  },
+  "fmlarynx": {
+   "tag": "Throaty talking formant…",
+   "what": "A throaty talking formant synth with a 303-style sequencer: a saw wave through a three-formant vowel filter, resonant low-pass, drive and ping-pong delay. 16 steps with vowels, accent and slide, a pattern randomizer, 16 stored patterns, Bluetooth MIDI and tight clock sync.",
+   "category": "Synth",
+   "author": "Presethead",
+   "site": "https://github.com/ejtb76/FMLarynx",
+   "beta": true,
+   "image": "images/fmlarynx.png"
   },
   "fomni": {
    "tag": "Chord harp",
@@ -593,7 +644,10 @@
      "file": "images/glitch.webp",
      "sha256": "8d185ce3986d4d9e4f108114b6b68a0f793e10e1317492fb23826c0478708c0e"
     }
-   }
+   },
+   "tag": "Neon-noir groovebox firmware…",
+   "site": "https://github.com/saulofilho/glitch",
+   "beta": false
   },
   "golana": {
    "image": "images/golana.png",
@@ -622,7 +676,10 @@
      "file": "images/golf.webp",
      "sha256": "2f3871ac97f7d6ece15c908414eef8af1bf65b23767c44a795d33606c2cda664"
     }
-   }
+   },
+   "tag": "Wavetable synthesizer",
+   "site": "https://github.com/barnierg76/golf-fm1",
+   "beta": false
   },
   "grimm": {
    "image": "images/grimm.png",
@@ -664,7 +721,10 @@
      "file": "images/h1.webp",
      "sha256": "9f07440166ffc9cad90d6c008558dae9ec59a2c8644fc6119d1e45087260de9f"
     }
-   }
+   },
+   "tag": "Fourteen instruments",
+   "site": "https://github.com/jakehandy/h1",
+   "beta": true
   },
   "hadal1": {
    "what": "Generative dark ambient: drones, demonic and angelic choirs, bells and 135 sound effects that keep changing by themselves across 15 worlds, with 40 melting pictures. Play bells or latch choir voices on the keys, or play and hold effects. Works on older and newer FM-1s (both flash chips).",
@@ -683,7 +743,10 @@
      "file": "images/hadal1.webp",
      "sha256": "b911899596024923cb2d2430d1502a6b8217f96fc83f2139ecc2e7b902084f1b"
     }
-   }
+   },
+   "tag": "Generative dark ambient",
+   "site": "https://github.com/sparky480v/hadal-1",
+   "beta": false
   },
   "hawkchua": {
    "image": "images/hawkchua.png",
@@ -715,6 +778,15 @@
    "beta": false,
    "image": "images/hyp1.png",
    "port": "HYP-1 FM-1"
+  },
+  "jamesos": {
+   "tag": "Plaits groovebox",
+   "what": "A groovebox for the FM-1 with three synth tracks, four drum lanes, 24 Plaits engines, 128 starting sounds, a pattern arranger and a 64-step sequencer. Shape your mix with track effects, shared reverb and master controls.",
+   "category": "Groovebox",
+   "author": "Aaron Grando",
+   "beta": false,
+   "image": "images/jamesos.png",
+   "site": "https://github.com/aarongrando/JamesOS"
   },
   "jiant": {
    "tag": "Bio-synthetic OS",
@@ -755,7 +827,8 @@
      "file": "images/kris_jangle.webp",
      "sha256": "c7f6cef22ae792d05e6a56b98e1cd74c92e99017d5629f9777a5d4b834fadf22"
     }
-   }
+   },
+   "tag": "Christmas carol game"
   },
   "kwasub": {
    "image": "images/kwasub.png",
@@ -787,13 +860,19 @@
      "file": "images/loafbreaker.webp",
      "sha256": "94eb18c1cfb5df72e267614af1c820d95aaefd1bd7b6cbfe32cfcc83c33c5e07"
     }
-   }
+   },
+   "tag": "Hardcore kick synthesizer…",
+   "site": "https://github.com/FLEXOR-R/loaf-breaker",
+   "beta": true
   },
   "loom": {
    "author": "Charles Vestal",
    "category": "Groovebox",
    "what": "A groovebox inspired by the OP-XY: eight tracks on nine engines, step tricks and locks, weave, a conductor and throws.",
-   "site": "https://github.com/charlesvestal/fm1-loom"
+   "site": "https://github.com/charlesvestal/fm1-loom",
+   "tag": "Pocket groovebox",
+   "beta": true,
+   "image": "images/loom.png"
   },
   "matryoshka": {
    "image": "images/matryoshka.png",
@@ -834,7 +913,10 @@
      "file": "images/mightyarp.webp",
      "sha256": "dd0f26e93ab734f0f5720778763ff9274d6b18b1ba621a5eef8ad060d28d35ed"
     }
-   }
+   },
+   "tag": "Mighty Arp, from the creator…",
+   "site": "https://github.com/NickCulbertson/FM1-Mighty-Arp",
+   "beta": false
   },
   "minitone": {
    "tag": "Six-track multi-engine",
@@ -865,6 +947,15 @@
    "site": "https://github.com/hirakos999/MODELAR",
    "port": "MODELAR FM-1",
    "beta": true
+  },
+  "modularkoi": {
+   "tag": "Steel tongue drum",
+   "what": "Turns the FM-1 into a steel tongue drum: hold it in both hands, play with your thumbs, and every note falls like a drop into a pond where koi swim.",
+   "category": "Synth",
+   "author": "bunglesociety",
+   "beta": false,
+   "image": "images/modularkoi.png",
+   "site": "https://bunglesociety.github.io/modular-koi/install/"
   },
   "mono2k": {
    "image": "images/mono2k.png",
@@ -906,7 +997,10 @@
      "file": "images/morse.webp",
      "sha256": "c98380511c95788a8cdfc0c48e3fe4676b8e80bbea9b8f693e734a135367aec6"
     }
-   }
+   },
+   "tag": "Learn and use Morse code",
+   "site": "https://github.com/daviddwlee84/fm1-morse",
+   "beta": true
   },
   "mpyre": {
    "what": "A riffbox for rock and metal: real guitar, bass and drum samples, an amp engine with cabinet IRs, pedals and guitar effects, plus all of SLOOP's synth engines. Bend strings, play whammy, wah and palm mutes live, record on the 4-track and turn riffs into songs.",
@@ -927,7 +1021,10 @@
      "file": "images/mpyre.webp",
      "sha256": "75ef8b74eb3cb81b2c8eda4122761cac1443972df417fd40ac483410948d113e"
     }
-   }
+   },
+   "tag": "Riffbox for rock and metal",
+   "site": "https://github.com/HistoryOfSky/m-pyre",
+   "beta": false
   },
   "mutabledreams": {
    "author": "Kid Bunka",
@@ -937,7 +1034,8 @@
    "beta": false,
    "image": "images/mutabledreams.png",
    "editor": "https://mutable-dreams.kidbee85.chatgpt.site/#device-editor",
-   "port": "Mutable Dreams FM-1"
+   "port": "Mutable Dreams FM-1",
+   "what": "Six generative tracks, 279 musical Biomes plus Blank, 652 Tones, music-linked Itinera dreams and six USB audio stems. Each track takes any sound while keeping its notes and rhythm."
   },
   "mvsynth2": {
    "what": "Synth2, the open-source recreation of Synth1, on eight voices across both cores: two oscillators and a sub, five filters (LPDL among them), two LFOs, distortions and phasers, EQ, delay, chorus and Synth1's arpeggiator. It plays Synth1's .sy1 patches, with the Synth2 Factory bank built in and 1024…",
@@ -958,12 +1056,19 @@
      "file": "images/mvsynth2.webp",
      "sha256": "285465c4dd848d059549e64a0165d82d7bf0744e6d75486348455a70fcd43d1e"
     }
-   }
+   },
+   "tag": "Synth2, the open-source…",
+   "site": "https://github.com/bk40-home/M-Vsynth2",
+   "beta": false
   },
   "nachtfahrt": {
    "author": "Cranky Man",
    "category": "Synth",
-   "what": "Generative 1970s Berlin School: two sequencers drift against each other over a drone, in eight endless pieces. Play a melody on the white keys and the lead answers it, takes it as its theme and grows new ideas from it."
+   "what": "Generative 1970s Berlin School: two sequencers drift against each other over a drone, in eight endless pieces. Play a melody on the white keys and the lead answers it, takes it as its theme and grows new ideas from it.",
+   "tag": "Generative 1970s Berlin School",
+   "site": "https://fartypants.github.io/fm1-nachtfahrt/",
+   "beta": false,
+   "image": "images/nachtfahrt.png"
   },
   "niagaradrift": {
    "author": "E. Yerburgh",
@@ -1031,7 +1136,18 @@
      "file": "images/obssynth.webp",
      "sha256": "ee3981ac009f7e28788854c6f410cbf648cc6c31cdcf474640320c2951aeae22"
     }
-   }
+   },
+   "tag": "Four-voice synthesizer",
+   "beta": false
+  },
+  "orbit": {
+   "tag": "Live groovebox",
+   "what": "A four-track groovebox: three synths and a drum machine in a colour-coded Synth, Drum, Event Tape and Mixer workflow, loops turned into songs, user macros, screens after the OP-1. Based on SLOOP.",
+   "category": "Groovebox",
+   "author": "dspaudio",
+   "site": "https://github.com/dspaudio/orbit",
+   "beta": false,
+   "image": "images/orbit.png"
   },
   "orgigs": {
    "what": "It's an organ. Three manuals with 84 free-running tone generators and no voice stealing, eight models from tonewheel and combo organs to pipe organs and free reeds, drawbars, percussion, rotary, drive, delay and reverb, 16 performance setups, three MIDI zones and Yamaha SEQTRAK control.",
@@ -1050,7 +1166,10 @@
      "file": "images/orgigs.webp",
      "sha256": "3a48100b4431378e2c0b8ace89cb35a6e621d4b23c477e6a489d61cf57856142"
     }
-   }
+   },
+   "tag": "It's an organ",
+   "site": "https://github.com/orgelbobo/orgigs",
+   "beta": false
   },
   "patchwerk": {
    "what": "A modular synth for the FM-1. With over 80 modules, including synth engines, samplers, filters, effects, sequencers, and generative tools, you can build, patch, and perform directly on the hardware.",
@@ -1071,7 +1190,10 @@
      "file": "images/patchwerk.webp",
      "sha256": "2b4f6ca31a61f82c8937c37a832b86f8508553d7031fb6a246eaf231782e55e6"
     }
-   }
+   },
+   "tag": "Modular synth for the FM-1",
+   "site": "https://github.com/MattKuebrich/patchwerk",
+   "beta": false
   },
   "penumbra": {
    "image": "images/penumbra.png",
@@ -1103,6 +1225,15 @@
    "beta": true,
    "image": "images/pigeon.png",
    "port": "PIGEON"
+  },
+  "pond": {
+   "tag": "Generative garden pond",
+   "what": "A generative garden pond. Switch it on and it plays itself: breathing voices, water drops, a gliding bass and quiet drips, with echo and reverb. Nine pieces, from a quiet pond to rain and thunder. Pick a piece and a scale, take notes out or put them back, and let it grow.",
+   "category": "Synth",
+   "author": "superxor",
+   "beta": false,
+   "image": "images/pond.png",
+   "site": "https://github.com/superxor/amb-pond"
   },
   "purplemonkey": {
    "tag": "For a small child",
@@ -1140,7 +1271,10 @@
      "file": "images/quantumgammawave.webp",
      "sha256": "257818e90dfdfc6eabb878e0a64625620dd96b578cbbede2170a5c952e9e0805"
     }
-   }
+   },
+   "tag": "Six-track groovebox for the…",
+   "site": "https://github.com/Guillel51/Quantum-GammaWave",
+   "beta": false
   },
   "quartz": {
    "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, eight generative sources (Game of Life, chord progressions, Tonnetz walks, orbits, an improviser that learns from you...), punch-in effects and an animated scene on every page.",
@@ -1159,7 +1293,10 @@
      "file": "images/quartz.webp",
      "sha256": "17795fb702f653b77b7a1ceda3268170f4d7320c12a0289a0ca51e4a122b1402"
     }
-   }
+   },
+   "tag": "Four-track groovebox",
+   "site": "https://github.com/F0nski/quartz",
+   "beta": true
   },
   "rainbow": {
    "tag": "Music toy",
@@ -1215,7 +1352,8 @@
      "file": "images/rhythmer.webp",
      "sha256": "f75e9d6ea996f9389ee0eed3d19bde77244528ed70b5ac390638ea0faad8617e"
     }
-   }
+   },
+   "tag": "Hands-on groovebox firmware…"
   },
   "ripple": {
    "author": "Charles Vestal",
@@ -1245,7 +1383,10 @@
      "file": "images/ruido.webp",
      "sha256": "3c47e3f54eb6c958adedc35ae1c7a93f27afc42408a38d29336852ebd0c9cab1"
     }
-   }
+   },
+   "tag": "Ruido is a 4-oscillator…",
+   "site": "https://github.com/miguelhd/ruido",
+   "beta": true
   },
   "rupture": {
    "image": "images/rupture.png",
@@ -1267,6 +1408,15 @@
    "image": "images/s1vave.png",
    "editor": "https://andrewgg.one/s1vave/editor/",
    "port": "Felucca"
+  },
+  "samsara": {
+   "tag": "Slow generative ambient…",
+   "what": "A slow generative ambient piece that plays itself for hours and never repeats: a choir pad, soft bells, a gliding bass and a rare low ground drift through harmonies and colours like weather. Four pieces, four knobs to tend it (Mood, Density, Drift, Space). A fork of AMB-1.",
+   "category": "Synth",
+   "author": "Tomorrow's Man",
+   "site": "https://github.com/tomorrowsman/fm1-samsara",
+   "beta": false,
+   "image": "images/samsara.png"
   },
   "sid": {
    "image": "images/sid.png",
@@ -1345,6 +1495,15 @@
    "editor": "https://isod89.github.io/sloop-fm1/webapp/editor/",
    "port": "Felucca"
   },
+  "sloop3": {
+   "tag": "Groovebox, rewritten",
+   "what": "SLOOP rewritten from scratch: five tracks, 13 sound engines, 153 sounds, 46 drum kits, a step sequencer with a piano roll, 27 punch-in effects, six visualisers and a web editor. A public beta.",
+   "category": "Groovebox",
+   "author": "isod89",
+   "beta": false,
+   "image": "images/sloop3.png",
+   "site": "https://isod89.github.io/sloop3-fm1/"
+  },
   "smileyface": {
    "image": "images/smileyface.png",
    "author": "pbarilla",
@@ -1393,6 +1552,30 @@
      "file": "images/stallion.webp",
      "sha256": "903970666824fe4fb81b8a93cbba6b19ab2af7fac54a9bf9fb62ac5517c9da6a"
     }
+   },
+   "tag": "Synthesizer with 26 engines…",
+   "site": "https://github.com/EberonLtd/stallion-fm1",
+   "beta": false
+  },
+  "sy1": {
+   "tag": "Synth1-inspired polysynth…",
+   "what": "A Synth1-inspired polysynth that plays two sounds at once in bitimbral mode: layered, split or on two MIDI channels. 256 presets in 13 categories, 1,024 user slots. Two oscillators plus sub, FM, ring mod, sync, four filters, arp, drone and effects. 3,174 more sounds in the Patch Manager.",
+   "category": "Synth",
+   "author": "Fenderberg",
+   "site": "https://github.com/fenderberg/fm1-sy1",
+   "beta": true,
+   "editor": "https://fenderberg.github.io/fm1-sy1/manager/",
+   "image": "images/sy1.png",
+   "hub_meta": {
+    "sha": "545317a4",
+    "fields": {
+     "editor": "https://fenderberg.github.io/fm1-sy1/manager/"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/sy1-d2288403.png",
+     "file": "images/sy1.png",
+     "sha256": "d2288403f3ea1b44cf297f1aee0e12b3c63484e7ffdb08c4625dee1ddb248f75"
+    }
    }
   },
   "tekstuur": {
@@ -1412,7 +1595,10 @@
      "file": "images/tekstuur.webp",
      "sha256": "39fdbf88be6f20dd3d80b769f5ba19ee17ffbacba2c32bb23ce7168790ad289f"
     }
-   }
+   },
+   "tag": "Instrument for slow",
+   "site": "https://github.com/barnierg76/tekstuur-fm1",
+   "beta": false
   },
   "tessera": {
    "image": "images/tessera.png",
@@ -1452,7 +1638,10 @@
      "file": "images/trapstationos.webp",
      "sha256": "69918df90be05d4e5c73b05fac3b4060bafb83dadb8d5aec717a7e9237f6ff0b"
     }
-   }
+   },
+   "tag": "Trap and phonk groovebox",
+   "site": "https://github.com/sog-maker/trapstation-os",
+   "beta": false
   },
   "trax": {
    "image": "images/trax.png",
@@ -1491,6 +1680,15 @@
    "port": "VESPER FM-1",
    "beta": false
   },
+  "viscera": {
+   "tag": "Four-track tape looper",
+   "what": "A four-track tape looper in the spirit of a cassette Portastudio. Record from Bluetooth or USB audio, overdub and punch in, set each track's speed, pitch and pan, bounce through a resonant filterbank, record knob motion, slice loops, and route two LFOs to any knob.",
+   "category": "Other",
+   "author": "De-Pattern",
+   "beta": false,
+   "image": "images/viscera.png",
+   "site": "https://de-pattern.github.io/viscera/manual.html"
+  },
   "x0x": {
    "tag": "909, 808 and 303s",
    "what": "A groovebox: 909 and 808 drums, two 303s with TB-3PO, a breakbeat generator and song mode.",
@@ -1518,7 +1716,10 @@
      "file": "images/yehnah.webp",
      "sha256": "2b9d51a6fb4dfdad3764064c0531f31fa5e4812643140e44d21de3d71eda8976"
     }
-   }
+   },
+   "tag": "Six-track groovebox firmware…",
+   "site": "https://github.com/Mello-D/yehnah",
+   "beta": true
   },
   "zen1": {
    "image": "images/zen1.png",
