@@ -83,7 +83,7 @@ shows them under About), and the exact source it was built from.
 | `minitone-1.0.5.rfm1` | Mini-Tone 1.0.5 | eldontyrellcorp | GPL-3.0-only | [eldontyrellcorp/Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone/tree/6803c6c29e3402fcc0c4af7c2050df987d9b66b5) |
 | `mnm1-1.0.1.rfm1` | MNM-1 1.0.1 | galfaroth, DEADACTIVE, Leo Kuroshita (Hügelton Instruments), Inigo Hernandez | GPL-3.0-only | [galfaroth/mnm1](https://github.com/galfaroth/mnm1/tree/2c7aee4c277bb642404c4638dbc77a360d36cf55) |
 | `modelar-0.3.rfm1` | MODELAR 0.3 | Hirakos | MPL-2.0 | [hirakos999/MODELAR](https://github.com/hirakos999/MODELAR/tree/89475ca2586d6861cc35cd62ea2e1f23a574d9cc) |
-| `modularkoi-0.0.rfm1` | Dungeon Tracker 0.0 | bunglesociety | GPL-3.0-only | [bunglesociety/modular-koi](https://github.com/bunglesociety/modular-koi/tree/d27a62e9850344468be8a767a1cbc9930051b579) |
+| `modularkoi-0.1.rfm1` | Modular Koi 0.1 | Bungle Society | GPL-3.0-only | [bunglesociety/modular-koi](https://github.com/bunglesociety/modular-koi/tree/d27a62e9850344468be8a767a1cbc9930051b579) |
 | `mono2k-1.11.rfm1` | MONO2K 1.11 | Iñigo Hernandez (Sequencist) | GPL-3.0-only | [InigoHernandez/mono2k](https://github.com/InigoHernandez/mono2k/tree/6787721088f2edf93f43f0e4cc7a79cccf31c3fc) |
 | `mope1-0.4.1.rfm1` | MOPE-1 0.4.1 | slothpallas | GPL-3.0-only | [slothpallas/mope-1](https://github.com/slothpallas/mope-1/tree/a584c5702de6258892ed05e8ada070fbfaa9f73c) |
 | `morse-0.6.rfm1` | MORSE 0.6 | Da-Wei Lee (daviddwlee84) | GPL-3.0-or-later | [daviddwlee84/fm1-morse](https://github.com/daviddwlee84/fm1-morse/tree/60f76cf488b2b405b507d31b6adf3a61c2f36a67) |
@@ -159,11 +159,11 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`1e82015`](https://github.com/Quixotic7/FM1VST/tree/1e82015f26639a391f7e0c7ecf34ba69e4cca44f), Emscripten 6.0.13: `caravel-0.13.0.rfm1`
 - FM1VST 0.6.2, commit [`35ce62c`](https://github.com/Quixotic7/FM1VST/tree/35ce62c587f58a58c4c47849372422622d522f5c), Emscripten 6.0.13: `chimeravocal-0.8.0.rfm1`, `quartz-0.6.rfm1`
 - FM1VST 0.6.2, commit [`91b36d9`](https://github.com/Quixotic7/FM1VST/tree/91b36d9935aaeed5043a59fbfe0b1a27c392cebb), Emscripten 6.0.13: `chipbox-1.5.5.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`6f16a01`](https://github.com/Quixotic7/FM1VST/tree/6f16a013e527a5b864d10601a6870b479d5a375d), Emscripten 6.0.13: `choralroot-0.42.rfm1`
+- FM1VST 0.6.2, branch `rfm1-cpu2`, commit [`6f16a01`](https://github.com/Quixotic7/FM1VST/tree/6f16a013e527a5b864d10601a6870b479d5a375d), Emscripten 6.0.13: `choralroot-0.42.rfm1`
 - FM1VST 0.6.2, commit [`b4a99ab`](https://github.com/Quixotic7/FM1VST/tree/b4a99abfff5cb76380825cba8b9041954cd34af1), Emscripten 6.0.13: `clipper-1.3.1.rfm1`, `nomansky-0.9.rfm1`, `sloop-2.8.5.rfm1`
 - FM1VST 0.6.2, commit [`1e0d65b`](https://github.com/Quixotic7/FM1VST/tree/1e0d65b5a5a18751a607f50aae0806abac267acc), Emscripten 6.0.13: `conductor-1.0.rfm1`, `orgigs-1.0.2.rfm1`, `stallion-1.1.rfm1`
 - FM1VST 0.6.2, commit [`5c5b66f`](https://github.com/Quixotic7/FM1VST/tree/5c5b66fb7a84d1c21325411c44b0817ddcea25a7), Emscripten 6.0.13: `coralflower-0.7.1.rfm1`
-- FM1VST 0.6.2, commit [`e9e149a`](https://github.com/Quixotic7/FM1VST/tree/e9e149adef43080bb36c9a6fe34e3680320d1f94), Emscripten 6.0.13: `csfm1-0.18.5.rfm1`, `fmav1-0.5.1.rfm1`, `modularkoi-0.0.rfm1`, `mvsynth2-1.3.rfm1`, `obssynth-0.2.0.rfm1`, `quantumgammawave-4.1.0.rfm1`, `trapstationos-1.1.0.2.rfm1`
+- FM1VST 0.6.2, commit [`e9e149a`](https://github.com/Quixotic7/FM1VST/tree/e9e149adef43080bb36c9a6fe34e3680320d1f94), Emscripten 6.0.13: `csfm1-0.18.5.rfm1`, `fmav1-0.5.1.rfm1`, `mvsynth2-1.3.rfm1`, `obssynth-0.2.0.rfm1`, `quantumgammawave-4.1.0.rfm1`, `trapstationos-1.1.0.2.rfm1`
 - FM1VST 0.6.2, commit [`0ded05a`](https://github.com/Quixotic7/FM1VST/tree/0ded05a742b5663ee44959ad159ac61315e1e56a), Emscripten 6.0.13: `cultbox-1.2.rfm1`
 - FM1VST 0.6.2, branch `port-dabke`, commit [`daae1a7`](https://github.com/Quixotic7/FM1VST/tree/daae1a76b6771e084c1db1cfee36152e5f557f7f), Emscripten 6.0.13: `dabke-0.18.rfm1`
 - FM1VST 0.6.2, commit [`daadfe2`](https://github.com/Quixotic7/FM1VST/tree/daadfe2f0a74cd4c3a46c8a9973410afc9d78b03), Emscripten 6.0.13: `drift-0.9.6.rfm1`
@@ -201,6 +201,7 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`319ccf2`](https://github.com/Quixotic7/FM1VST/tree/319ccf2b2d923688e864598a62cc66d285d65c88), Emscripten 6.0.13: `matryoshka-1.18.1.rfm1`
 - FM1VST 0.6.2, commit [`a6a13be`](https://github.com/Quixotic7/FM1VST/tree/a6a13bec1fb0eb93474e7e616aaa1b1aef9c4489), Emscripten 6.0.13: `melodee-1.6.1.rfm1`
 - FM1VST 0.6.2, commit [`a0024bd`](https://github.com/Quixotic7/FM1VST/tree/a0024bd8454cd1a377d975bf4f9f68dea0fa5de5), Emscripten 6.0.13: `mightyarp-1.5.rfm1`
+- FM1VST 0.6.2, branch `rfm1-manager`, commit [`ef49a55`](https://github.com/Quixotic7/FM1VST/tree/ef49a55f58a9d465f4304d58ad0e326b22dc7ddc), Emscripten 6.0.13: `modularkoi-0.1.rfm1`
 - FM1VST 0.6.2, commit [`b563721`](https://github.com/Quixotic7/FM1VST/tree/b563721f79b84c993783eb5a3b0c31901c663551), Emscripten 6.0.13: `mono2k-1.11.rfm1`
 - FM1VST 0.6.2, commit [`bc36dc2`](https://github.com/Quixotic7/FM1VST/tree/bc36dc2a1e709c59bca93aa3f7430c59b595511f), Emscripten 6.0.13: `mope1-0.4.1.rfm1`
 - FM1VST 0.6.2, commit [`624bbd2`](https://github.com/Quixotic7/FM1VST/tree/624bbd23004251e92e91ffb8b4dbb9734a58edb4), Emscripten 6.0.13: `morse-0.6.rfm1`
