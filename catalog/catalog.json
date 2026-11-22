@@ -149,7 +149,7 @@
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
    "port": "ChoralRoot FM-1",
    "author_meta": {
-    "commit": "faa0af9e743bfba006937f32bf3e9707e1c7d799",
+    "commit": "4e6bc90a4342657008b704e6f7e004634b8c5207",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -446,7 +446,7 @@
   },
   "evilgenius": {
    "author_meta": {
-    "commit": "4441c86417db88ae6eb3d601fe149457157b0d6f",
+    "commit": "28995448d136b4949c6325a59bff09f96f07a72c",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -521,14 +521,14 @@
    "image": "images/fizz.png"
   },
   "fmav1": {
-   "what": "A semi-modular mono synth calibrated knob by knob on a real one: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks, MIDI clock sync, chorus, delay and reverb, 90 sounds.",
+   "what": "A semi-modular mono synth: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks on their own MIDI channels, MIDI clock sync, arpeggiator, chorus, delay and reverb, 90 sounds. Made for blind players too.",
    "category": "Synth",
    "author": "wootrop & gpix",
    "image": "images/fmav1.webp",
    "hub_meta": {
-    "sha": "e26fa772",
+    "sha": "cc83350e",
     "fields": {
-     "what": "A semi-modular mono synth calibrated knob by knob on a real one: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks, MIDI clock sync, chorus, delay and reverb, 90 sounds.",
+     "what": "A semi-modular mono synth: VCO, self-oscillating 4-pole ladder filter, LFO, ADSR, VCA, wave folder, S+H, mixer and a patchbay with normals and dummy plugs. Four tracks on their own MIDI channels, MIDI clock sync, arpeggiator, chorus, delay and reverb, 90 sounds. Made for blind players too.",
      "category": "Synth",
      "author": "wootrop & gpix"
     },
@@ -703,23 +703,23 @@
    "beta": true
   },
   "h1": {
-   "what": "Fourteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
+   "what": "handy-1 (h1): sixteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
    "category": "Synth",
    "editor": "https://jakehandy.com/h1",
    "author": "Jake Handy",
    "image": "images/h1.webp",
    "hub_meta": {
-    "sha": "b1e4b851",
+    "sha": "b46076bd",
     "fields": {
-     "what": "Fourteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
+     "what": "handy-1 (h1): sixteen instruments, each a full-screen animated picture you play. PRESETS changes the instrument, ALGORITHM changes its character, and the four knobs always shape the sound and the picture together. Loop recorder, step sequencer, arpeggiator and metronome built in.",
      "category": "Synth",
      "editor": "https://jakehandy.com/h1",
      "author": "Jake Handy"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/h1-11819eef.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/h1-7cfb63d9.w640.webp",
      "file": "images/h1.webp",
-     "sha256": "9f07440166ffc9cad90d6c008558dae9ec59a2c8644fc6119d1e45087260de9f"
+     "sha256": "6466434d4955198e52d4df6edaae736665506e64f2ae21c84789e90a67619f39"
     }
    },
    "tag": "Fourteen instruments",
@@ -979,15 +979,15 @@
    "beta": true
   },
   "morse": {
-   "what": "Learn and use Morse code. Key on the piano keys (straight key or iambic paddles) and see what you sent, drill short and long presses, learn by sound with flash cards, listen to endless practice, type letters and CW phrases on the keys. Keying goes out over USB-MIDI or Bluetooth MIDI in the Vail…",
+   "what": "Learn and use Morse code: key on the piano keys (straight key or iambic paddles) and read what you sent, drill short and long presses, learn by sound with flash cards, hear endless practice, type letters and CW phrases. Keying goes out over USB or Bluetooth MIDI in the Vail format.",
    "category": "Other",
    "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
    "author": "Da-Wei Lee",
    "image": "images/morse.webp",
    "hub_meta": {
-    "sha": "20a9fc17",
+    "sha": "3a2a7984",
     "fields": {
-     "what": "Learn and use Morse code. Key on the piano keys (straight key or iambic paddles) and see what you sent, drill short and long presses, learn by sound with flash cards, listen to endless practice, type letters and CW phrases on the keys. Keying goes out over USB-MIDI or Bluetooth MIDI in the Vail…",
+     "what": "Learn and use Morse code: key on the piano keys (straight key or iambic paddles) and read what you sent, drill short and long presses, learn by sound with flash cards, hear endless practice, type letters and CW phrases. Keying goes out over USB or Bluetooth MIDI in the Vail format.",
      "category": "Other",
      "editor": "https://daviddwlee84.github.io/fm1-morse/web/",
      "author": "Da-Wei Lee"
@@ -1037,6 +1037,27 @@
    "port": "Mutable Dreams FM-1",
    "what": "Six generative tracks, 279 musical Biomes plus Blank, 652 Tones, music-linked Itinera dreams and six USB audio stems. Each track takes any sound while keeping its notes and rhythm."
   },
+  "mvance": {
+   "what": "A JP-8000/8080-style virtual analog on eight voices: the JT-8000 engine ported to the FM-1, with Super Saw, the JP filter, multi-effects, delay, a plate reverb, an arpeggiator and 64 programs, every knob on the JP-8080's own MIDI CCs.",
+   "category": "Synth",
+   "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html",
+   "author": "Kris (bk40-home)",
+   "image": "images/mvance.webp",
+   "hub_meta": {
+    "sha": "e568986e",
+    "fields": {
+     "what": "A JP-8000/8080-style virtual analog on eight voices: the JT-8000 engine ported to the FM-1, with Super Saw, the JP filter, multi-effects, delay, a plate reverb, an arpeggiator and 64 programs, every knob on the JP-8080's own MIDI CCs.",
+     "category": "Synth",
+     "editor": "https://bk40-home.github.io/M-vance/sim/bank/editor.html",
+     "author": "Kris (bk40-home)"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/mvance-512f4997.w640.webp",
+     "file": "images/mvance.webp",
+     "sha256": "333b97bdd0850812fa0756a85f43aae6d675d281b0fc0224e5cf17e47fccf614"
+    }
+   }
+  },
   "mvsynth2": {
    "what": "Synth2, the open-source recreation of Synth1, on eight voices across both cores: two oscillators and a sub, five filters (LPDL among them), two LFOs, distortions and phasers, EQ, delay, chorus and Synth1's arpeggiator. It plays Synth1's .sy1 patches, with the Synth2 Factory bank built in and 1024…",
    "category": "Synth",
@@ -1080,7 +1101,7 @@
    "image": "images/niagaradrift.png",
    "port": "Niagara Drift FM-1",
    "author_meta": {
-    "commit": "1635475af6bf36c7b3657ffe612a966e5bf4aa84",
+    "commit": "c714b154c4086f8718cb13c7f4f6e95c16cd5c37",
     "fields": {
      "tag": "Drone synth",
      "what": "Two drones that breathe and drift on their own, shaped by hand: from hypnotic and blissful to harsh, beating and self-oscillating. Presets and macros for instant ambient textures, and deep controls to pilot them into outer space.",
@@ -1162,9 +1183,9 @@
      "author": "Bobo"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/orgigs-dfdabff0.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/orgigs-05ee8318.w640.webp",
      "file": "images/orgigs.webp",
-     "sha256": "3a48100b4431378e2c0b8ace89cb35a6e621d4b23c477e6a489d61cf57856142"
+     "sha256": "58e1d6b435ec0c613b298a0c66e8e5822acb087857d389670d061127885bcb4e"
     }
    },
    "tag": "It's an organ",
@@ -1226,6 +1247,27 @@
    "image": "images/pigeon.png",
    "port": "PIGEON"
   },
+  "pingos1": {
+   "what": "A rhythm synthesis groovebox: 69 synthesized drum and synth models (59 original), a deep sequencer with locks, ties, probability, cycles and ratchets, plus 23 chainable effects. A line generator writes in key; Autopilot evolves your tracks endlessly. Stutter, macros, snap-back controls, sampler…",
+   "category": "Groovebox",
+   "editor": "https://pingaudio.github.io/PING-OS-1/#transfer",
+   "author": "PING AUDIO",
+   "image": "images/pingos1.webp",
+   "hub_meta": {
+    "sha": "584ed871",
+    "fields": {
+     "what": "A rhythm synthesis groovebox: 69 synthesized drum and synth models (59 original), a deep sequencer with locks, ties, probability, cycles and ratchets, plus 23 chainable effects. A line generator writes in key; Autopilot evolves your tracks endlessly. Stutter, macros, snap-back controls, sampler…",
+     "category": "Groovebox",
+     "editor": "https://pingaudio.github.io/PING-OS-1/#transfer",
+     "author": "PING AUDIO"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/pingos1-477e0aa0.w640.webp",
+     "file": "images/pingos1.webp",
+     "sha256": "eab9c958c242dd7cc1d2afe70f0f4caab64cb13d314d6432e747f6b7acc02cf4"
+    }
+   }
+  },
   "pond": {
    "tag": "Generative garden pond",
    "what": "A generative garden pond. Switch it on and it plays itself: breathing voices, water drops, a gliding bass and quiet drips, with echo and reverb. Nine pieces, from a quiet pond to rain and thunder. Pick a piece and a scale, take notes out or put them back, and let it grow.",
@@ -1277,14 +1319,14 @@
    "beta": false
   },
   "quartz": {
-   "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, eight generative sources (Game of Life, chord progressions, Tonnetz walks, orbits, an improviser that learns from you...), punch-in effects and an animated scene on every page.",
+   "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, nine generative sources you can PRINT into steps (Game of Life, chords, Tonnetz, orbits, bytebeat, an improviser...), live transposition, punch-in effects, four projects and a scene per page.",
    "category": "Groovebox",
    "author": "f0nski",
    "image": "images/quartz.webp",
    "hub_meta": {
-    "sha": "1c9a4502",
+    "sha": "8cbe9dc4",
     "fields": {
-     "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, eight generative sources (Game of Life, chord progressions, Tonnetz walks, orbits, an improviser that learns from you...), punch-in effects and an animated scene on every page.",
+     "what": "A four-track groovebox: Plaits' 24 models, a 16-pad kit, a step sequencer with p-locks and trig conditions, nine generative sources you can PRINT into steps (Game of Life, chords, Tonnetz, orbits, bytebeat, an improviser...), live transposition, punch-in effects, four projects and a scene per page.",
      "category": "Groovebox",
      "author": "f0nski"
     },
@@ -1372,16 +1414,16 @@
    "author": "Miguel Hernández Domenech",
    "image": "images/ruido.webp",
    "hub_meta": {
-    "sha": "59f3c981",
+    "sha": "04480751",
     "fields": {
      "what": "Ruido is a 4-oscillator drone and noise synthesizer firmware for the M-VAVE FM-1 with coupled voices, dual resonant filters, scene morphing, and pressure-sensitive performance effects. It is created as a dry stereo sound source for external pedals and modular setups.",
      "category": "Synth",
      "author": "Miguel Hernández Domenech"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/ruido-c53c33cf.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/ruido-16fde3ed.w640.webp",
      "file": "images/ruido.webp",
-     "sha256": "3c47e3f54eb6c958adedc35ae1c7a93f27afc42408a38d29336852ebd0c9cab1"
+     "sha256": "4aa34b7fca3d02b81a589674253b6caa7364dd83195f30ee3f8bc190f13c1d50"
     }
    },
    "tag": "Ruido is a 4-oscillator…",
@@ -1465,11 +1507,11 @@
    "editor": "https://dsablic.github.io/sidou/",
    "port": "SIDOU FM-1",
    "beta": false,
-   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for sounds with tables and LFOs, AI-made songs and sounds, SidStation banks, Bluetooth MIDI and keyboards, Live Link and scene art you draw.",
+   "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and sequencer with swing, Euclid, ratchets and punch pads, .sid playback, .sid to song and sounds, LAB, MIDI parts and chords for a DAW, AI-made songs and sounds, Bluetooth MIDI and keyboards, Live Link.",
    "hub_meta": {
-    "sha": "86fa8f63",
+    "sha": "b3460677",
     "fields": {
-     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and step sequencer with slide and accent, .sid playback, LAB for sounds with tables and LFOs, AI-made songs and sounds, SidStation banks, Bluetooth MIDI and keyboards, Live Link and scene art you draw."
+     "what": "Turns the FM-1 into a C64 SID machine: two SIDs measured on real chips, a GoatTracker 2 tracker and sequencer with swing, Euclid, ratchets and punch pads, .sid playback, .sid to song and sounds, LAB, MIDI parts and chords for a DAW, AI-made songs and sounds, Bluetooth MIDI and keyboards, Live Link."
     }
    }
   },
@@ -1567,7 +1609,7 @@
    "editor": "https://fenderberg.github.io/fm1-sy1/manager/",
    "image": "images/sy1.png",
    "hub_meta": {
-    "sha": "545317a4",
+    "sha": "e00db969",
     "fields": {
      "editor": "https://fenderberg.github.io/fm1-sy1/manager/"
     },
