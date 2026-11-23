@@ -158,7 +158,7 @@ shows them under About), and the exact source it was built from.
 - `pond-0.1.2.rfm1`: built by the author (fm1-base c8e0599 tools/build.py --rfm1, emcc 6.0.10), their release [v0.1.2](https://github.com/superxor/amb-pond/releases/tag/v0.1.2), unchanged
 - `samsara-1.0.0.rfm1`: built by the author (fm1-base f88dab1 tools/build.py --rfm1, emcc 6.0.10), their release [v1.0.0](https://github.com/tomorrowsman/fm1-samsara/releases/tag/v1.0.0), unchanged
 - FM1VST 0.6.2, commit [`8c9ca6a`](https://github.com/Quixotic7/FM1VST/tree/8c9ca6a76f98847e2197891bf4ef893d81451e42), Emscripten 6.0.13: `a22-0.1.0.rfm1`, `mvance-2.7.1.rfm1`
-- FM1VST 0.6.2, branch `rfm1-manager`, commit [`bb6677c`](https://github.com/Quixotic7/FM1VST/tree/bb6677c16525094eea42e00394782c0fec171507), Emscripten 6.0.13: `arcticscream-2.1.4.rfm1`, `fmav1-0.6.4.rfm1`, `mvsynth2-1.5.2.rfm1`, `penumbra-1.9.rfm1`
+- FM1VST 0.6.2, commit [`bb6677c`](https://github.com/Quixotic7/FM1VST/tree/bb6677c16525094eea42e00394782c0fec171507), Emscripten 6.0.13: `arcticscream-2.1.4.rfm1`, `fmav1-0.6.4.rfm1`, `modularkoi-0.1.rfm1`, `mvsynth2-1.5.2.rfm1`, `penumbra-1.9.rfm1`
 - FM1VST 0.6.2, commit [`d792e5f`](https://github.com/Quixotic7/FM1VST/tree/d792e5fc3443d268bfc4f8e2e6dc1eb9aaddae3c), Emscripten 6.0.13: `aurora-0.8.0.rfm1`
 - FM1VST 0.6.2, commit [`7b08318`](https://github.com/Quixotic7/FM1VST/tree/7b08318f3947f61bb71df5c87835eb9f151a3afd), Emscripten 6.0.13: `berlinan-0.5.1.rfm1`, `carnacos-0.9.6.rfm1`, `etch-1.88.rfm1`, `mnm1-1.0.1.rfm1`, `modelar-0.3.rfm1`, `sid-0.3.rfm1`, `spellbox-0.3.rfm1`, `vector37-0.3.2.rfm1`
 - FM1VST 0.6.2, commit [`a500b1e`](https://github.com/Quixotic7/FM1VST/tree/a500b1e9804ae0ece9a0560b7e104e4764fde41b), Emscripten 6.0.13: `bytemania-1.3.2.rfm1`
@@ -206,7 +206,6 @@ shows them under About), and the exact source it was built from.
 - FM1VST 0.6.2, commit [`eeeb4c4`](https://github.com/Quixotic7/FM1VST/tree/eeeb4c4520068e38e2d49d615a7e5b4c50a85be8), Emscripten 6.0.13: `matryoshka-1.24.1.rfm1`
 - FM1VST 0.6.2, commit [`a6a13be`](https://github.com/Quixotic7/FM1VST/tree/a6a13bec1fb0eb93474e7e616aaa1b1aef9c4489), Emscripten 6.0.13: `melodee-1.6.1.rfm1`
 - FM1VST 0.6.2, commit [`a0024bd`](https://github.com/Quixotic7/FM1VST/tree/a0024bd8454cd1a377d975bf4f9f68dea0fa5de5), Emscripten 6.0.13: `mightyarp-1.5.rfm1`
-- FM1VST 0.6.2, commit [`ef49a55`](https://github.com/Quixotic7/FM1VST/tree/ef49a55f58a9d465f4304d58ad0e326b22dc7ddc), Emscripten 6.0.13: `modularkoi-0.1.rfm1`
 - FM1VST 0.6.2, commit [`819514f`](https://github.com/Quixotic7/FM1VST/tree/819514f19846b6d72157d9156f3dcda1049886fe), Emscripten 6.0.13: `mono2k-1.13.rfm1`
 - FM1VST 0.6.2, commit [`63b37c3`](https://github.com/Quixotic7/FM1VST/tree/63b37c3dd650f04caea785783aada7e9f24f51ba), Emscripten 6.0.13: `mope1-0.5.0.rfm1`
 - FM1VST 0.6.2, commit [`3395a0f`](https://github.com/Quixotic7/FM1VST/tree/3395a0f55e45e6443521ad4ffd89dbb46e10b012), Emscripten 6.0.13: `mpyre-1.0.3.rfm1`, `patchwerk-1.0.3.rfm1`
