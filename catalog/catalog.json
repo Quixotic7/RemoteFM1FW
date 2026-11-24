@@ -2,6 +2,25 @@
  "schema": 1,
  "about": "Card text and thumbnails for the .rfm1 files of Quixotic7/RemoteFM1FW, by manifest id (catalog/SCHEMA.md).",
  "firmwares": {
+  "a22": {
+   "what": "An FM workstation: fourteen engines (FM, electric piano, analog, wavetable, drums, 8-bit chip and more) with eight algorithms each, eight effects, a four-track tape with knob automation, a mixer, sequencers and colour vector graphics. Derived from h1 by Jake Handy.",
+   "category": "Synth",
+   "author": "A22",
+   "image": "images/a22.webp",
+   "hub_meta": {
+    "sha": "122ded34",
+    "fields": {
+     "what": "An FM workstation: fourteen engines (FM, electric piano, analog, wavetable, drums, 8-bit chip and more) with eight algorithms each, eight effects, a four-track tape with knob automation, a mixer, sequencers and colour vector graphics. Derived from h1 by Jake Handy.",
+     "category": "Synth",
+     "author": "A22"
+    },
+    "image": {
+     "url": "https://thefirmwarehub.com/fw/cards/a22-d9f0bd59.w640.webp",
+     "file": "images/a22.webp",
+     "sha256": "e189ab1866cc5d250152d3e77f11978e5a87f2cbc9ff05c7d0b8296127204b67"
+    }
+   }
+  },
   "amb": {
    "tag": "Generative ambient",
    "what": "A generative ambient machine after Music for Airports: it plays itself from the start, breathing voices, bells on tape loops of unequal length, a gliding bass. You do not perform it, you tend it.",
@@ -149,7 +168,7 @@
    "editor": "https://quixotic7.github.io/ChoralRootFM1/webapp/installer/manager.html",
    "port": "ChoralRoot FM-1",
    "author_meta": {
-    "commit": "4e6bc90a4342657008b704e6f7e004634b8c5207",
+    "commit": "47a2d8048fb43b35a667135836bce46da7310ad9",
     "fields": {},
     "skin": true,
     "warnings": []
@@ -577,9 +596,9 @@
      "author": "David Amo"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/fmkick-bcde2a06.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/fmkick-e174130c.w640.webp",
      "file": "images/fmkick.webp",
-     "sha256": "8ec408bf9d4e0f63e89f7eefbfc8fc155772b6775fe4bf6ba489888be3ad42e0"
+     "sha256": "17272471580637bac80f69a2c652c6e819e9823017f9d33569f2b35b7fcd38db"
     }
    },
    "tag": "Kick drum synthesizer with a…",
@@ -1052,9 +1071,9 @@
      "author": "Kris (bk40-home)"
     },
     "image": {
-     "url": "https://thefirmwarehub.com/fw/cards/mvance-512f4997.w640.webp",
+     "url": "https://thefirmwarehub.com/fw/cards/mvance-3d0d41fc.w640.webp",
      "file": "images/mvance.webp",
-     "sha256": "333b97bdd0850812fa0756a85f43aae6d675d281b0fc0224e5cf17e47fccf614"
+     "sha256": "64289f1a8353e3ce5a21d9ac1d891b3b0e3b5f87f0168cd8faffe7b59a065d3e"
     }
    }
   },
@@ -1582,7 +1601,7 @@
    "author": "Eberon Limited (John Gorman)",
    "image": "images/stallion.webp",
    "hub_meta": {
-    "sha": "74c4943d",
+    "sha": "e0197997",
     "fields": {
      "what": "A synthesizer with 26 engines and 819 level-matched factory sounds: three-oscillator HYBRID, six-operator FM, wavetables, early-1980s polysynths, a semi-modular two-filter voice, physical models and more. One instrument with a modulation matrix, arpeggiator and step sequencer, edited in the browser.",
      "category": "Synth",
