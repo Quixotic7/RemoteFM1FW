@@ -1,0 +1,48 @@
+name: Change or remove a catalog listing
+description: Update a listed firmware's card, ask for a different release, or ask for a firmware to be removed.
+title: "[catalog] <change or remove>: <firmware name>"
+labels: ["catalog-change"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New versions of a listed firmware don't need an issue: see "Updates" in the [catalog policy](https://github.com/Quixotic7/remotefm1format/blob/main/docs/CATALOG-POLICY.md#updates).
+
+  - type: input
+    id: name
+    attributes:
+      label: Firmware (name or id)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you want?
+      options:
+        - Change the card (text, category, picture, links, port name)
+        - Build a different release
+        - Turn the skin or labels on or off
+        - Remove the firmware from the catalog
+        - A licence or rights concern
+        - Something else
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Who are you?
+      options:
+        - The firmware's author or a maintainer
+        - Someone else
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should change, and why. For a rights concern, name the material and its owner.
+    validations:
+      required: true
