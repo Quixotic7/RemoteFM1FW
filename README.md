@@ -256,11 +256,11 @@ hosts (the site, the apps): they use more memory than an FM-1 has and read files
 droplets: `code/ripple/droplets`, `code/ripple/lib`; Elasticat's samples: `audio/`, its projects and takes: `data/elasticat`). They have no device package, and a host that can't give them
 the folder says it needs a newer RemoteFM1.
 
-**Firmware authors:** to have your firmware listed, open an issue with the
+**Asking for a firmware to be listed** (its author or a fan): open an issue with the
 [Add a firmware](https://github.com/Quixotic7/RemoteFM1FW/issues/new?template=add-firmware.yml) form; to change or
 remove a listing, use [Change or remove a catalog listing](https://github.com/Quixotic7/RemoteFM1FW/issues/new?template=change-listing.yml).
-The [catalog policy](https://github.com/Quixotic7/remotefm1format/blob/main/docs/CATALOG-POLICY.md) says what is
-checked, and [remotefm1format](https://github.com/Quixotic7/remotefm1format) documents the `.rfm1` format and how to
-build one. To publish `.rfm1` files yourself, see [docs/AUTHOR-RFM1.md](docs/AUTHOR-RFM1.md). To set your firmware's description, screenshot, skin, panel labels
+See the [catalog policy](https://github.com/Quixotic7/remotefm1format/blob/main/docs/CATALOG-POLICY.md).
+**Firmware authors:** [remotefm1format](https://github.com/Quixotic7/remotefm1format) documents the `.rfm1` format
+and how to add `.rfm1` and `.rfm1m` (Ableton Move) files to your own releases. To publish `.rfm1` files yourself, see [docs/AUTHOR-RFM1.md](docs/AUTHOR-RFM1.md). To set your firmware's description, screenshot, skin, panel labels
 or the release we build, add a `RemoteFM1Metadata.json` to your repository: see
 [docs/REMOTEFM1-METADATA.md](docs/REMOTEFM1-METADATA.md).

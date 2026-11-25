@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for asking. Please read the [catalog policy](https://github.com/Quixotic7/remotefm1format/blob/main/docs/CATALOG-POLICY.md) first: it says what is accepted and what we check.
+        Thanks for asking. Authors and fans are both welcome. The [catalog policy](https://github.com/Quixotic7/remotefm1format/blob/main/docs/CATALOG-POLICY.md) has the details.
 
-        **You do not need to build an `.rfm1` yourself.** If your firmware has a public repository with a stable release, we can usually build it for you. If you already attach an `.rfm1` to your releases, we use your file unchanged.
+        **The firmware's releases have `.rfm1` files:** a link is all we need. (Authors: put the Ableton Move version, `.rfm1m`, in the same release: [how](https://github.com/Quixotic7/remotefm1format/blob/main/docs/RFM1M.md#building-the-move-version-yourself).)
 
-        Fields marked * are required. Everything else helps but can be filled in later.
+        **It only has FM-1 releases (`.fwsc`):** give its repository and release, and we may build the `.rfm1` ourselves. The questions marked *(only if we build it)* are for that case. Authors who want to add `.rfm1` files to their own releases: see [remotefm1format](https://github.com/Quixotic7/remotefm1format).
 
   - type: dropdown
     id: role
@@ -18,7 +18,7 @@ body:
       label: Who are you?
       options:
         - I am the firmware's author or a maintainer
-        - I am not the author (a suggestion; the author will be asked)
+        - I am a fan (not the author; the author will be told)
     validations:
       required: true
 
@@ -30,65 +30,70 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: repo
-    attributes:
-      label: Source repository (public GitHub URL)
-      description: The repository we read the source, licence and releases from.
-      placeholder: https://github.com/you/your-firmware
-    validations:
-      required: true
-
-  - type: input
-    id: authors
-    attributes:
-      label: Author name(s), as they should be credited
-      description: The credit inside the .rfm1 file comes from its manifest; this is for the card and for checking.
-      placeholder: Jane Example
-    validations:
-      required: true
-
-  - type: input
-    id: license
-    attributes:
-      label: Licence (SPDX)
-      description: As in your repository's LICENSE file. A firmware without a licence cannot be redistributed.
-      placeholder: GPL-3.0-only
-    validations:
-      required: true
-
-  - type: input
-    id: release
-    attributes:
-      label: Stable release to list
-      description: Preferably a stable GitHub release (not a draft, not a pre-release, a plain version tag like v1.2.3). If you only have a beta and want it listed, give it here and say so under "Anything else".
-      placeholder: https://github.com/you/your-firmware/releases/tag/v1.2.3
-    validations:
-      required: true
-
   - type: dropdown
     id: build
     attributes:
-      label: How is the .rfm1 made?
+      label: What do its releases have?
       options:
-        - My release already has an .rfm1 attached (use it unchanged)
-        - I build it with fm1-base's tools/build.py --rfm1, but it is not attached yet
-        - I build it with FM1VST's fm1_add_rfm1, but it is not attached yet
-        - Please build it for me from my release
+        - .rfm1 files (link below)
+        - Only FM-1 .fwsc files (please build the .rfm1)
     validations:
       required: true
 
   - type: input
     id: rfm1_url
     attributes:
-      label: Download URL of the .rfm1 (if your release has one)
+      label: Link to the .rfm1
+      description: Best a GitHub release asset, so newer releases are picked up automatically every night.
       placeholder: https://github.com/you/your-firmware/releases/download/v1.2.3/yourfw-1.2.3.rfm1
+
+  - type: input
+    id: rfm1m_url
+    attributes:
+      label: Link to the Ableton Move version (.rfm1m), if there is one
+      description: Built from the same .rfm1, in the same release.
+      placeholder: https://github.com/you/your-firmware/releases/download/v1.2.3/yourfw-1.2.3.rfm1m
+
+  - type: input
+    id: repo
+    attributes:
+      label: Source repository
+      description: Where people can find the firmware. Required if we build it (a public GitHub repository).
+      placeholder: https://github.com/you/your-firmware
+
+  - type: input
+    id: authors
+    attributes:
+      label: Author name(s), as they should be credited
+      placeholder: Jane Example
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: Release to build from (only if we build it)
+      description: Preferably a stable GitHub release (not a draft, not a pre-release, a tag like v1.2.3). For a beta, give it here and say so under "Anything else".
+      placeholder: https://github.com/you/your-firmware/releases/tag/v1.2.3
+
+  - type: input
+    id: license
+    attributes:
+      label: Licence, SPDX id (only if we build it)
+      description: As in the repository's LICENSE file. We can only build and distribute a firmware whose licence allows it.
+      placeholder: GPL-3.0-only
+
+  - type: textarea
+    id: third_party
+    attributes:
+      label: Third-party material (only if we build it)
+      description: Samples, wavetables, fonts, images, presets or code that are not the author's. Name each and its licence, or write "none". Third-party preset dumps or raw .syx / .mid / .wav files can't be in a build we make.
 
   - type: input
     id: id
     attributes:
       label: Firmware id (if you know it)
-      description: The manifest id, lower case a-z, 0-9 and _ only, at most 31 characters. Leave empty and we pick one.
+      description: The manifest id, lower case a-z, 0-9 and _ only, at most 31 characters.
       placeholder: yourfw
 
   - type: dropdown
@@ -114,14 +119,13 @@ body:
     id: what
     attributes:
       label: Description (one paragraph, up to 600 characters)
-      description: Shown when a user selects your firmware. Plain words, what it does and how it feels.
+      description: Shown when a user selects the firmware. Plain words, what it does and how it feels.
 
   - type: input
     id: image
     attributes:
       label: Card picture
-      description: A square PNG, JPEG or WebP, up to 1 MiB, 512 x 512 recommended (a screenshot works well). Give its path in your repository, or drop it in the description box above. Leave empty and we capture the firmware's screen.
-      placeholder: docs/remotefm1-card.png
+      description: A square PNG, JPEG or WebP, up to 1 MiB, 512 x 512 recommended (a screenshot works well). A link, or drop it in the description box above. Leave empty and we capture the firmware's screen.
 
   - type: input
     id: site
@@ -146,7 +150,7 @@ body:
   - type: checkboxes
     id: extras
     attributes:
-      label: Optional extras your build uses (tick what applies; none is fine)
+      label: Optional extras the .rfm1 uses (tick what applies; none is fine)
       options:
         - label: RemoteFM1Metadata.json at the repository root (card, skin, labels, target)
         - label: A skin (background image and colours)
@@ -160,27 +164,12 @@ body:
         - label: Fantasy CFW (runs in RemoteFM1 only, uses the shared folder)
         - label: Spoken words through the FM-1 screen reader protocol
 
-  - type: textarea
-    id: third_party
-    attributes:
-      label: Third-party material
-      description: Samples, wavetables, fonts, images, presets or code that are not yours. Name each and its licence, or write "none".
-      placeholder: none
-    validations:
-      required: true
-
   - type: checkboxes
     id: confirm
     attributes:
-      label: Confirmations
+      label: Confirmation
       options:
-        - label: The firmware's licence allows anyone to redistribute it in binary form, and its source is public at the release's commit.
-          required: true
-        - label: I have the right to have it distributed (I am the author, or the licence allows it and I have said above that I am not the author).
-          required: true
-        - label: No third-party preset dumps or raw .syx / .mid / .wav files are bundled; presets compiled into the firmware are fine if their licence allows it.
-          required: true
-        - label: I understand that listing, hosting and removal are the catalog maintainer's decision, and that the file is shipped unchanged once it passes the checks.
+        - label: I understand that listing, hosting and removal are the catalog maintainer's decision.
           required: true
 
   - type: textarea
